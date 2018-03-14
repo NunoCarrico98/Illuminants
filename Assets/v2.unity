@@ -12351,17 +12351,17 @@ Prefab:
     - target: {fileID: 61864207934686022, guid: 76d6c7b71fea37542a8535d8a2cb6bf8,
         type: 2}
       propertyPath: m_EdgeRadius
-      value: 0
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 61864207934686022, guid: 76d6c7b71fea37542a8535d8a2cb6bf8,
         type: 2}
       propertyPath: m_Size.y
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 61864207934686022, guid: 76d6c7b71fea37542a8535d8a2cb6bf8,
         type: 2}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 1818009599025634, guid: 76d6c7b71fea37542a8535d8a2cb6bf8, type: 2}
       propertyPath: m_TagString
@@ -17259,7 +17259,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -28379383
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: b39889d2968651f41964a9360da1c1f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18029,7 +18029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd6bed18566cc04aab2fc0049b8d4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 3
   myRigidBody: {fileID: 1130081996}
   forward: {x: 0, y: 1}
   left: {x: -1, y: 0}
@@ -18046,9 +18046,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_Mass: 5
+  m_LinearDrag: 10
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
