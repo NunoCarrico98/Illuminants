@@ -6,24 +6,31 @@ public class Movement : MonoBehaviour
 {
 
     public float speed = 1f;
-    public Rigidbody2D myRigidBody;
+    public Rigidbody myRigidBody;
     public GameObject portalDestination;
-    public Vector2 forward = new Vector2(0, 1);
-    public Vector2 left = new Vector2(-1, 0);
-    public Vector2 backward = new Vector2(0, -1);
-    public Vector2 right = new Vector2(1, 0);
+    private Vector3 forward = new Vector3(0, 0, 32);
+    private Vector3 left = new Vector3(-32, 0, 0);
+    private Vector3 backward = new Vector3(0,0, -32);
+    private Vector3 right = new Vector3(32, 0, 0);
+    private float xPos;
+    private float zPos;
 
-  
 
     // Use this for initialization
     private void Start()
     {
-
+        xPos = myRigidBody.transform.position.x;
+        zPos = myRigidBody.transform.position.z;
     }
 
     // Update is called once per frame
     private void Update()
     {
+        forward = new Vector3(0, 0, 32);
+        left = new Vector3(-32, 0, 0);
+        backward = new Vector3(0, 0, -32);
+        right = new Vector3(32, 0, 0);
+
         if (Input.GetKey(KeyCode.W))
         {
             myRigidBody.velocity = forward * speed;
@@ -40,13 +47,14 @@ public class Movement : MonoBehaviour
         {
             myRigidBody.velocity = right * speed;
         }
-        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 0.1
-            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 0.1
-            && myRigidBody.transform.position.y <= portalDestination.transform.position.y + 0.1
-            && myRigidBody.transform.position.y >= portalDestination.transform.position.y - 0.1)
+        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 10
+            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 10
+            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 10
+            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 10)
         {
             speed = 0;
-            myRigidBody.transform.position = portalDestination.transform.position;
+            xPos = portalDestination.transform.position.x;
+            zPos = portalDestination.transform.position.z;
             myRigidBody.GetComponent<NextLevel>().OnTriggerEnter();
         }
 
