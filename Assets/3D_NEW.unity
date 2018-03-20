@@ -231,7 +231,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1104,7 +1104,6 @@ GameObject:
   - component: {fileID: 254520151}
   - component: {fileID: 254520150}
   - component: {fileID: 254520152}
-  - component: {fileID: 254520153}
   m_Layer: 8
   m_Name: Green
   m_TagString: Player
@@ -1208,26 +1207,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9, z: 0}
+  m_Size: {x: 0.9, y: 0.9, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &254520153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 254520147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1c30ca301e1764590bddc9fc0def4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myRigidBody_Red: {fileID: 1202841215}
-  myRigidBody_Green: {fileID: 254520151}
-  myRigidBody_Blue: {fileID: 2021855196}
-  portal_Red: {fileID: 1692583859}
-  portal_Green: {fileID: 1913781601}
-  portal_Blue: {fileID: 1079941290}
-  loadLevel: Level2
 --- !u!4 &256151407 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf,
@@ -4266,7 +4247,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5422,7 +5403,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9, z: 0}
+  m_Size: {x: 0.9, y: 0.9, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1202841217
 MonoBehaviour:
@@ -5441,7 +5422,7 @@ MonoBehaviour:
   portal_Red: {fileID: 1692583859}
   portal_Green: {fileID: 1913781601}
   portal_Blue: {fileID: 1079941290}
-  loadLevel: Level2
+  loadLevel: 3D_NEW
 --- !u!1001 &1208764838
 Prefab:
   m_ObjectHideFlags: 0
@@ -5998,7 +5979,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6738,7 +6719,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4982487356284418, guid: 8c21389e6c805594d8153ea137eef9cf, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9909,7 +9890,6 @@ GameObject:
   - component: {fileID: 2021855196}
   - component: {fileID: 2021855195}
   - component: {fileID: 2021855197}
-  - component: {fileID: 2021855198}
   m_Layer: 8
   m_Name: Blue
   m_TagString: Player
@@ -10013,26 +9993,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9, z: 0}
+  m_Size: {x: 0.9, y: 0.9, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2021855198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2021855192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1c30ca301e1764590bddc9fc0def4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myRigidBody_Red: {fileID: 1202841215}
-  myRigidBody_Green: {fileID: 254520151}
-  myRigidBody_Blue: {fileID: 2021855196}
-  portal_Red: {fileID: 1692583859}
-  portal_Green: {fileID: 1913781601}
-  portal_Blue: {fileID: 1079941290}
-  loadLevel: Level2
 --- !u!1 &2025765138 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1280826390714054, guid: 8c21389e6c805594d8153ea137eef9cf,

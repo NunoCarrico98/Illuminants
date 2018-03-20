@@ -12,16 +12,6 @@ public class Movement : MonoBehaviour
     private Vector3 left = new Vector3(-32, 0, 0);
     private Vector3 backward = new Vector3(0,0, -32);
     private Vector3 right = new Vector3(32, 0, 0);
-    private float xPos;
-    private float zPos;
-
-
-    // Use this for initialization
-    private void Start()
-    {
-        xPos = myRigidBody.transform.position.x;
-        zPos = myRigidBody.transform.position.z;
-    }
 
     // Update is called once per frame
     private void Update()
@@ -31,6 +21,7 @@ public class Movement : MonoBehaviour
         backward = new Vector3(0, 0, -32);
         right = new Vector3(32, 0, 0);
 
+        
         if (Input.GetKey(KeyCode.W))
         {
             myRigidBody.velocity = forward * speed;
@@ -47,14 +38,17 @@ public class Movement : MonoBehaviour
         {
             myRigidBody.velocity = right * speed;
         }
+
+
         if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 10
             && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 10
             && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 10
             && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 10)
         {
             speed = 0;
-            xPos = portalDestination.transform.position.x;
-            zPos = portalDestination.transform.position.z;
+            myRigidBody.transform.position = new Vector3(portalDestination.transform.position.x,
+                myRigidBody.transform.position.y, 
+                portalDestination.transform.position.z);
             myRigidBody.GetComponent<NextLevel>().OnTriggerEnter();
         }
 
