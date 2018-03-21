@@ -477,8 +477,10 @@ MonoBehaviour:
   lookPos: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   keyCount: 0
-  speed: 5
+  speed: 8
   angleY: 0
+  timer: 1
+  angle: 90
 --- !u!1 &817065020
 GameObject:
   m_ObjectHideFlags: 0
