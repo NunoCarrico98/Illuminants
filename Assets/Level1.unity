@@ -754,6 +754,7 @@ GameObject:
   - component: {fileID: 801646019}
   - component: {fileID: 801646021}
   - component: {fileID: 801646022}
+  - component: {fileID: 801646023}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -801,7 +802,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 801646018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8faf8141dac049c48a134123887d5632, type: 3}
   m_Name: 
@@ -843,6 +844,30 @@ MonoBehaviour:
   timer: 0.8
   angleQ: 90
   angleE: -90
+--- !u!114 &801646023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 801646018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25cac30e0456a44d85065d0358ffcf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGO: {fileID: 801646018}
+  myTransform: {fileID: 0}
+  lookPos: {x: 0, y: 0, z: 0}
+  rotationQ: {x: 0, y: 0, z: 0, w: 0}
+  rotationE: {x: 0, y: 0, z: 0, w: 0}
+  qKeyCount: 0
+  qKeyCount2: 2
+  eKeyCount: 0
+  speed: 15
+  angleY: 0
+  timer: 0.5
+  angleQ: -90
+  angleE: 90
 --- !u!1 &817065020
 GameObject:
   m_ObjectHideFlags: 0
