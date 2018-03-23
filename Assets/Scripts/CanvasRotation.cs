@@ -5,128 +5,90 @@ using UnityEngine;
 public class CanvasRotation : MonoBehaviour
 {
 
-    public GameObject canvas;
-    public int keyCount;
-    private Transform canvasRotation;
-    private Transform rotationAngle;
-    public float speed = -3;
-    private Quaternion startRot;
-    private Quaternion endRot;
-    public float angleX, angleY, angleZ;
+    public GameObject myGO;
+    public Transform myTransform;
+    public Vector3 lookPos;
+    public Quaternion rotationQ;
+    public Quaternion rotationE;
+    public int qKeyCount;
+    public int qKeyCount2 = 2;
+    public int eKeyCount;
+    public float speed = 3f;
+    public float angleY;
+    public float timer;
+    private float resetTimer;
+    public float angleQ = -90;
+    public float angleE = 90;
     // Use this for initialization
     void Start()
     {
-        //rotationAngle = Quaternion.AngleAxis(-90, Vector3.up);
-        keyCount = 0;
-        canvasRotation = canvas.transform;
-        //startRot = Quaternion.LookRotation(transform.forward);
-        //endRot = Quaternion.LookRotation(transform.right);
-        //angleX = canvasRotation.rotation.eulerAngles.x;
-        angleY = canvasRotation.rotation.eulerAngles.y;
-        //angleZ = canvasRotation.rotation.eulerAngles.z;
+        myTransform = myGO.transform;
+        lookPos = myTransform.position - transform.position;
+        lookPos.y = 0;
+        rotationQ = Quaternion.LookRotation(lookPos);
+        rotationQ *= Quaternion.Euler(0, -90, 0); // this adds a -90 degrees Y rotation
+        rotationE = Quaternion.LookRotation(lookPos);
+        rotationE *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
+        angleY = myTransform.rotation.eulerAngles.y;
+        resetTimer = timer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //rotationAngle = Quaternion.AngleAxis(-90, Vector3.up * Time.deltaTime * speed);
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyUp(KeyCode.Q) && timer == resetTimer)
         {
-            keyCount = 1;
-            if (keyCount == 1 && angleY <= 0 && angleY > -90)
-            {
-
-                //canvasRotation.Rotate(0, -speed, 0);
-                canvasRotation.Rotate(Vector3.up * -speed);
-                //canvasRotation.Rotate(Vector3.up * speeed * Time.deltaTime , Space.World);
-                //canvasRotation = Quaternion.Slerp(canvasRotation, rotationAngle, Time.time * speed);
-                //transform.rotation = Quaternion.Slerp(startRot, endRot, Time.time * speed);
-                //canvasRotation = rotationAngle;
-
-                Debug.Log("Está tudo bem 1");
-                if (angleY <= -90)
-                {
-                    keyCount = 0;
-                }
-            }
-            if (keyCount == 1 && angleY <= -90 && angleY > -180)
-            {
-                canvasRotation.Rotate(Vector3.up * -speed);
-                if (canvasRotation.rotation.y == -180)
-                {
-                    keyCount = 0;
-                }
-
-            }
-            if (keyCount == 1 && angleY == -180 && angleY > -270)
-            {
-                canvasRotation.Rotate(Vector3.up * -speed);
-                if (canvasRotation.rotation.y == -270)
-                {
-                    keyCount = 0;
-                }
-
-            }
-            if (keyCount == 1 && angleY == -270 && angleY > -360)
-            {
-                canvasRotation.Rotate(Vector3.up * -speed);
-                if (angleY == -360)
-                {
-                    keyCount = 0;
-                    canvasRotation.Rotate(0, 360, 0);       //Reset canvas rotation to 0
-                }
-                keyCount = 0;
-
-            }
+            lookPos = myTransform.position - transform.position;
+            lookPos.y = 0;
+            rotationQ = Quaternion.LookRotation(lookPos);
+            rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
+            qKeyCount = 1;
         }
-        if (Input.GetKey(KeyCode.E))
+        if (qKeyCount == 1)
         {
-            keyCount = 1;
-            if (keyCount == 1 && angleY <= 0 && angleY > -90)
+            timer -= Time.deltaTime;
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+            if (timer <= 0)
             {
-
-                //canvasRotation.Rotate(0, -speed, 0);
-                canvasRotation.Rotate(Vector3.up * speed);
-                //canvasRotation.Rotate(Vector3.up * speeed * Time.deltaTime , Space.World);
-                //canvasRotation = Quaternion.Slerp(canvasRotation, rotationAngle, Time.time * speed);
-                //transform.rotation = Quaternion.Slerp(startRot, endRot, Time.time * speed);
-                //canvasRotation = rotationAngle;
-
-                Debug.Log("Está tudo bem 1");
-                if (angleY <= -90)
-                {
-                    keyCount = 0;
-                }
+                timer = resetTimer;
+                angleY = myTransform.rotation.eulerAngles.y;
+                lookPos = myTransform.position - transform.position;
+                lookPos.y = 0;
+                rotationQ = Quaternion.LookRotation(lookPos);
+                Debug.Log("STEP1");
+                rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
+                Debug.Log("STEP2");
+                qKeyCount = 0;
             }
-            if (keyCount == 1 && angleY <= -90 && angleY > -180)
+
+        }
+        if (Input.GetKeyUp(KeyCode.E) && timer == resetTimer)
+        {
+            lookPos = myTransform.position - transform.position;
+            lookPos.y = 0;
+            rotationE = Quaternion.LookRotation(lookPos);
+            rotationE *= Quaternion.Euler(0, angleY + 90, 0);
+            eKeyCount = 1;
+        }
+        if (eKeyCount == 1)
+        {
+            timer -= Time.deltaTime;
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+            if (timer <= 0)
             {
-                canvasRotation.Rotate(Vector3.up * speed);
-                if (canvasRotation.rotation.y == -180)
-                {
-                    keyCount = 0;
-                }
-
+                timer = resetTimer;
+                angleY = myTransform.rotation.eulerAngles.y;
+                lookPos = myTransform.position - transform.position;
+                lookPos.y = 0;
+                rotationE = Quaternion.LookRotation(lookPos);
+                Debug.Log("STEP1");
+                rotationE *= Quaternion.Euler(0, angleY + 90, 0);
+                Debug.Log("STEP2");
+                eKeyCount = 0;
             }
-            if (keyCount == 1 && angleY == -180 && angleY > -270)
-            {
-                canvasRotation.Rotate(Vector3.up * speed);
-                if (canvasRotation.rotation.y == -270)
-                {
-                    keyCount = 0;
-                }
 
-            }
-            if (keyCount == 1 && angleY == -270 && angleY > -360)
-            {
-                canvasRotation.Rotate(Vector3.up * speed);
-                if (angleY == -360)
-                {
-                    keyCount = 0;
-                    canvasRotation.Rotate(0, 360, 0);       //Reset canvas rotation to 0
-                }
-                keyCount = 0;
-
-            }
         }
     }
 }
+
+
