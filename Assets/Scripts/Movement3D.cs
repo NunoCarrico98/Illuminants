@@ -51,7 +51,7 @@ public class Movement3D : MonoBehaviour
         {
             speed = 0;
             myRigidBody.transform.position = portalDestination.transform.position;
-            myRigidBody.GetComponent<NextLevel>().OnTriggerEnter();
+            //myRigidBody.GetComponent<NextLevel>().OnTriggerEnter();
         }
 
 

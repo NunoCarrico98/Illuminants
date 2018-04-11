@@ -18,6 +18,15 @@ public class ChangeCam : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (keyCount == 0)
+        {
+            cam1.enabled = true;
+            cam2.enabled = false;
+            cam3.enabled = false;
+            cam4.enabled = false;
+        }
+
 		if (Input.GetKeyUp(KeyCode.Tab))
         {
             keyCount += 1;

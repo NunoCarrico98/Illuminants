@@ -857,7 +857,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4747411100445472}
   - component: {fileID: 114944448171896636}
-  - component: {fileID: 114726469777366470}
   m_Layer: 0
   m_Name: Line (8)
   m_TagString: Untagged
@@ -1649,7 +1648,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4209342839212860}
   - component: {fileID: 114067338294035986}
-  - component: {fileID: 114154419818628372}
   m_Layer: 0
   m_Name: Line (4)
   m_TagString: Untagged
@@ -2811,7 +2809,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4238046705442246}
   - component: {fileID: 114248788950143134}
-  - component: {fileID: 114120228317512456}
   m_Layer: 0
   m_Name: Line (9)
   m_TagString: Untagged
@@ -6833,7 +6830,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4409513041601238}
   - component: {fileID: 114146179504636320}
-  - component: {fileID: 114063615119819496}
   m_Layer: 0
   m_Name: Line (3)
   m_TagString: Untagged
@@ -8286,7 +8282,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4421163209504694}
   - component: {fileID: 114186444122829624}
-  - component: {fileID: 114034475904754458}
   m_Layer: 0
   m_Name: Line (7)
   m_TagString: Untagged
@@ -8481,7 +8476,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4172578427420144}
   - component: {fileID: 114868412511686240}
-  - component: {fileID: 114846353796545104}
   m_Layer: 0
   m_Name: Line (5)
   m_TagString: Untagged
@@ -8579,7 +8573,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4863307531030256}
   - component: {fileID: 114016521565240904}
-  - component: {fileID: 114436486253772846}
   m_Layer: 0
   m_Name: Line (6)
   m_TagString: Untagged
@@ -8887,7 +8880,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4989704541384494}
   - component: {fileID: 114368051859035626}
-  - component: {fileID: 114407206671019558}
   m_Layer: 0
   m_Name: Line (2)
   m_TagString: Untagged
@@ -9130,7 +9122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4688647375230018}
   - component: {fileID: 114719801820044806}
-  - component: {fileID: 114487445187142438}
   m_Layer: 0
   m_Name: Line (1)
   m_TagString: Untagged
@@ -18486,24 +18477,6 @@ MonoBehaviour:
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114034475904754458
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1870612317599272}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1870612317599272}
-  spriteR: []
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
 --- !u!114 &114038316140606346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18612,24 +18585,6 @@ MonoBehaviour:
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114063615119819496
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1719920251183118}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1719920251183118}
-  spriteR: []
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
 --- !u!114 &114067338294035986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18658,24 +18613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1550344345777824}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114120228317512456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1302702400382960}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1302702400382960}
-  spriteR: []
   sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
@@ -18781,24 +18718,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1065704175219414}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114154419818628372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1189239441227064}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1189239441227064}
-  spriteR: []
   sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
@@ -19137,24 +19056,6 @@ MonoBehaviour:
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114407206671019558
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1940308760697842}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1940308760697842}
-  spriteR: []
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
 --- !u!114 &114407695840774126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19204,24 +19105,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1523768801913802}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114436486253772846
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1910336650023022}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1910336650023022}
-  spriteR: []
   sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
@@ -19294,24 +19177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1720184202198256}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114487445187142438
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1974629460532920}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1974629460532920}
-  spriteR: []
   sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
@@ -19566,24 +19431,6 @@ MonoBehaviour:
   wallsSortingOrderUp: 2
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
---- !u!114 &114726469777366470
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1107332946353360}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1107332946353360}
-  spriteR: []
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
 --- !u!114 &114736754542807662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19831,24 +19678,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1553590029771974}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114846353796545104
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1894272543874070}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03295867edc1e04d9f34a750638f3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myGO: {fileID: 1894272543874070}
-  spriteR: []
   sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite1: {fileID: 21300008, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
