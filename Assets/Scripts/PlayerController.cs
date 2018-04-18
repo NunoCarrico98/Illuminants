@@ -14,6 +14,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myPlayer.transform.rotation = Camera.main.transform.rotation;
+        myPlayer.transform.rotation = Quaternion.AngleAxis(Camera.main.transform.rotation.y, Vector3.up);
     }
 }

@@ -14420,6 +14420,21 @@ Prefab:
       propertyPath: characterStopsOnPortal
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}

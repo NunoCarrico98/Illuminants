@@ -10765,18 +10765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myGO: {fileID: 468805938}
-  myTransform: {fileID: 0}
-  lookPos: {x: 0, y: 0, z: 0}
-  rotationQ: {x: 0, y: 0, z: 0, w: 0}
-  rotationE: {x: 0, y: 0, z: 0, w: 0}
-  qKeyCount: 0
-  qKeyCount2: 2
-  eKeyCount: 0
   speed: 15
-  angleY: 0
   timer: 0.5
-  angleQ: -90
-  angleE: 90
 --- !u!4 &468805943
 Transform:
   m_ObjectHideFlags: 0
@@ -14463,6 +14453,31 @@ Prefab:
       propertyPath: myRigidBody_Blue
       value: 
       objectReference: {fileID: 650162845}
+    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
   m_IsPrefabParent: 0

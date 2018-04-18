@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class CanvasRotation : MonoBehaviour
 {
+    public GameObject[] character = new GameObject[3];
 
     public GameObject myGO;
-    public Transform myTransform;
-    public Vector3 lookPos;
-    public Quaternion rotationQ;
-    public Quaternion rotationE;
-    public int qKeyCount;
-    public int qKeyCount2 = 2;
-    public int eKeyCount;
     public float speed = 3f;
-    public float angleY;
     public float timer;
+    public bool isCanvasRotating;
+
+    private Transform myTransform;
+    private Vector3 lookPos;
+    private Quaternion rotationQ;
+    private Quaternion rotationE;
+    private int qKeyCount;
+    private int qKeyCount2 = 2;
+    private int eKeyCount;
+    private float angleY;
     private float resetTimer;
-    public float angleQ = -90;
-    public float angleE = 90;
+    private float resetSpeed;
+    private float angleQ = -90;
+    private float angleE = 90;
     // Use this for initialization
     void Start()
     {
@@ -31,6 +35,7 @@ public class CanvasRotation : MonoBehaviour
         rotationE *= Quaternion.Euler(0, 90, 0); // this adds a 90 degrees Y rotation
         angleY = myTransform.rotation.eulerAngles.y;
         resetTimer = timer;
+        resetSpeed = speed;
     }
 
     // Update is called once per frame
@@ -47,10 +52,17 @@ public class CanvasRotation : MonoBehaviour
         if (qKeyCount == 1)
         {
             timer -= Time.deltaTime;
+            //FreezeCharacter();
             transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+            if(timer/2 < resetTimer/3 ) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
+            character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+            character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+            character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
             if (timer <= 0)
             {
+                isCanvasRotating = true;
                 timer = resetTimer;
+                //UnfreezeCharacter();
                 angleY = myTransform.rotation.eulerAngles.y;
                 lookPos = myTransform.position - transform.position;
                 lookPos.y = 0;
@@ -59,6 +71,8 @@ public class CanvasRotation : MonoBehaviour
                 rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
                 Debug.Log("STEP2");
                 qKeyCount = 0;
+                isCanvasRotating = false;
+                speed = resetSpeed;
             }
 
         }
@@ -73,10 +87,18 @@ public class CanvasRotation : MonoBehaviour
         if (eKeyCount == 1)
         {
             timer -= Time.deltaTime;
+            //FreezeCharacter();
             transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+            if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
+            character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+            character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+            character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+
             if (timer <= 0)
             {
+                isCanvasRotating = true;
                 timer = resetTimer;
+                //UnfreezeCharacter();
                 angleY = myTransform.rotation.eulerAngles.y;
                 lookPos = myTransform.position - transform.position;
                 lookPos.y = 0;
@@ -85,9 +107,26 @@ public class CanvasRotation : MonoBehaviour
                 rotationE *= Quaternion.Euler(0, angleY + 90, 0);
                 Debug.Log("STEP2");
                 eKeyCount = 0;
+                isCanvasRotating = false;
+                speed = resetSpeed;
             }
 
         }
+    }
+
+
+    void FreezeCharacter()
+    {
+        character[0].GetComponent<Rigidbody>().isKinematic = true;
+        character[1].GetComponent<Rigidbody>().isKinematic = true;
+        character[2].GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+    void UnfreezeCharacter()
+    {
+        character[0].GetComponent<Rigidbody>().isKinematic = false;
+        character[1].GetComponent<Rigidbody>().isKinematic = false;
+        character[2].GetComponent<Rigidbody>().isKinematic = false;
     }
 }
 
