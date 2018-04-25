@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4307189471650208}
   - component: {fileID: 65636164895048676}
   - component: {fileID: 114308853981951290}
-  - component: {fileID: 114971074810643224}
+  - component: {fileID: 114074009784396718}
   m_Layer: 0
   m_Name: MyCube (1) 1
   m_TagString: Untagged
@@ -266,6 +266,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 32, y: 32, z: 32}
   m_Center: {x: 0, y: 16, z: 0}
+--- !u!114 &114074009784396718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230162760489416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ccf8629d4718f418c9f3f2d5fa657e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  stopSpeed: 100
+  canvas: {fileID: 0}
+  rb: {fileID: 0}
+  ray1: 0
+  ray2: 0
+  ray3: 0
+  ray4: 0
+  isStepped: 0
+  activeVertical: 0
+  activeHorizontal: 0
 --- !u!114 &114308853981951290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,29 +339,6 @@ MonoBehaviour:
   sprite2: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite3: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   sprite4: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
---- !u!114 &114971074810643224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1230162760489416}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95ccf8629d4718f418c9f3f2d5fa657e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  stopSpeed: 100
-  canvas: {fileID: 0}
-  ray1: 0
-  ray2: 0
-  ray3: 0
-  ray4: 0
-  isStepped: 0
-  activeVertical: 0
-  activeHorizontal: 0
 --- !u!212 &212063665857198258
 SpriteRenderer:
   m_ObjectHideFlags: 1

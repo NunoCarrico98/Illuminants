@@ -156,10 +156,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -167,15 +166,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -228,10 +244,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -239,15 +254,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -300,10 +332,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -311,15 +342,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -367,10 +415,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -378,15 +425,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -434,10 +498,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -445,15 +508,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -565,10 +645,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -576,15 +655,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -632,10 +728,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -643,15 +738,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -704,10 +816,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -715,15 +826,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -781,10 +909,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -792,15 +919,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1005,10 +1149,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1016,15 +1159,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1194,10 +1354,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1205,15 +1364,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1261,10 +1437,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1272,15 +1447,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1333,10 +1525,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1344,15 +1535,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1504,10 +1712,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1515,15 +1722,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1632,10 +1856,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1643,15 +1866,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1927,10 +2167,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1938,15 +2177,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1994,10 +2250,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2005,15 +2260,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2147,10 +2419,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2158,15 +2429,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2214,10 +2502,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2225,15 +2512,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2281,10 +2585,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2292,15 +2595,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2568,10 +2888,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2579,15 +2898,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2635,10 +2971,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2646,15 +2981,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2712,10 +3064,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2723,15 +3074,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2779,10 +3147,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2790,15 +3157,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2846,10 +3230,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2857,15 +3240,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2913,10 +3313,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2924,15 +3323,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2980,10 +3396,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2991,15 +3406,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3047,10 +3479,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3058,15 +3489,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3114,10 +3562,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3125,15 +3572,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3181,10 +3645,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3192,15 +3655,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3248,10 +3728,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3259,15 +3738,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3315,10 +3811,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3326,15 +3821,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3387,10 +3899,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3398,15 +3909,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3479,10 +4007,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3490,15 +4017,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3627,10 +4171,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3638,15 +4181,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3709,10 +4269,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3720,15 +4279,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3776,10 +4352,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3787,15 +4362,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3858,10 +4450,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3869,15 +4460,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3935,10 +4543,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3946,15 +4553,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4002,10 +4626,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4013,15 +4636,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4094,6 +4734,30 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64843208956754404, guid: b433b3541f967714eb500b4d87f33350,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
+        type: 2}
+    - target: {fileID: 64640996328093540, guid: b433b3541f967714eb500b4d87f33350,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
+        type: 2}
+    - target: {fileID: 64144605795142820, guid: b433b3541f967714eb500b4d87f33350,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
+        type: 2}
+    - target: {fileID: 64424793193087224, guid: b433b3541f967714eb500b4d87f33350,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b433b3541f967714eb500b4d87f33350, type: 2}
   m_IsPrefabParent: 0
@@ -4140,10 +4804,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4151,15 +4814,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4217,10 +4897,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4228,15 +4907,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4294,10 +4990,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4305,15 +5000,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4447,10 +5159,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4458,15 +5169,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4514,10 +5242,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4525,15 +5252,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4661,10 +5405,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4672,15 +5415,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4837,10 +5597,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4848,15 +5607,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4904,10 +5680,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4915,15 +5690,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4971,10 +5763,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4982,15 +5773,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5058,10 +5866,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5069,15 +5876,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5181,10 +6005,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5192,15 +6015,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5248,10 +6088,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5259,15 +6098,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5325,10 +6181,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5336,15 +6191,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5397,10 +6269,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5408,15 +6279,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5464,10 +6352,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5475,15 +6362,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5536,10 +6440,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5547,15 +6450,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5613,10 +6533,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5624,15 +6543,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5690,10 +6626,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5701,15 +6636,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5838,10 +6790,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5849,15 +6800,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5910,10 +6878,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5921,15 +6888,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5987,10 +6971,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5998,15 +6981,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6135,10 +7135,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6146,15 +7145,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6202,10 +7218,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6213,15 +7228,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6274,10 +7306,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6285,15 +7316,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6351,10 +7399,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6362,15 +7409,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6418,10 +7482,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6429,15 +7492,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6541,10 +7621,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6552,15 +7631,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6659,8 +7755,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   stopSpeed: 50
-  stopSpeedAcceleration: 200
-  slowingSpeed: 0.01
   myRigidBody: {fileID: 1863062063}
   portalDestination: {fileID: 1273554184}
   canvas: {fileID: 468805938}
@@ -6668,9 +7762,7 @@ MonoBehaviour:
   activeHorizontal: 0
   activeVertical: 0
   onPortal: 0
-  timer: 2
-  stoppedV: 0
-  stoppedH: 0
+  moving: 0
 --- !u!114 &1863062061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6719,7 +7811,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1863062058}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0292a022a48d94e498220148e5d61c7f, type: 3}
   m_Name: 
@@ -6870,10 +7962,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6881,15 +7972,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6998,10 +8106,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7009,15 +8116,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7070,10 +8194,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7081,15 +8204,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7137,10 +8277,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7148,15 +8287,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7204,10 +8360,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7215,15 +8370,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7278,8 +8450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   stopSpeed: 50
-  stopSpeedAcceleration: 200
-  slowingSpeed: 0.01
   myRigidBody: {fileID: 1964117012}
   portalDestination: {fileID: 415749164}
   canvas: {fileID: 468805938}
@@ -7287,9 +8457,7 @@ MonoBehaviour:
   activeHorizontal: 0
   activeVertical: 0
   onPortal: 0
-  timer: 2
-  stoppedV: 0
-  stoppedH: 0
+  moving: 0
 --- !u!114 &1964117010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7338,7 +8506,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1964117007}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0292a022a48d94e498220148e5d61c7f, type: 3}
   m_Name: 
@@ -7387,10 +8555,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7398,15 +8565,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7474,10 +8658,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7485,15 +8668,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7541,10 +8741,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7552,15 +8751,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7608,10 +8824,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7619,15 +8834,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7675,10 +8907,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7686,15 +8917,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7828,10 +9076,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7839,15 +9086,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7895,10 +9159,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7906,15 +9169,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7974,8 +9254,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   stopSpeed: 50
-  stopSpeedAcceleration: 200
-  slowingSpeed: 0.01
   myRigidBody: {fileID: 2088330783}
   portalDestination: {fileID: 1107359701}
   canvas: {fileID: 468805938}
@@ -7983,9 +9261,7 @@ MonoBehaviour:
   activeHorizontal: 0
   activeVertical: 0
   onPortal: 0
-  timer: 2
-  stoppedV: 0
-  stoppedH: 0
+  moving: 0
 --- !u!114 &2088330781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8034,7 +9310,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2088330778}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0292a022a48d94e498220148e5d61c7f, type: 3}
   m_Name: 
@@ -8088,10 +9364,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8099,15 +9374,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -8155,10 +9447,9 @@ Prefab:
       propertyPath: m_Name
       value: MyCube (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8166,15 +9457,32 @@ Prefab:
       value: 
       objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
         type: 2}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 468805938}
+    - target: {fileID: 0}
+      propertyPath: layerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1863062063}
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 468805938}
-    - target: {fileID: 114971074810643224, guid: 9971db486e803004ab8ec2362a60eef3,
+    - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: layerMask.m_Bits
-      value: 256
+      propertyPath: stopSpeed
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}

@@ -52,6 +52,10 @@ public class RewindTime : MonoBehaviour {
             myRigidBody.velocity = pointInTime.velocity;
             myRigidBody.angularVelocity = pointInTime.angularVelocity;
             pointsInTime.RemoveAt(0);
+            pointsInTime.RemoveAt(1);
+            pointsInTime.RemoveAt(2);
+            pointsInTime.RemoveAt(3);
+            pointsInTime.RemoveAt(4);
         }
         else
         {

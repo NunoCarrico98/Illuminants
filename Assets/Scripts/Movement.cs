@@ -7,8 +7,6 @@ public class Movement : MonoBehaviour
 
     public float speed = 6f;
     public float stopSpeed = 100f;
-    public float stopSpeedAcceleration = 200f;
-    public float slowingSpeed = 0.01f;
     public Rigidbody myRigidBody;
     public GameObject portalDestination;
     public GameObject canvas;
@@ -16,11 +14,10 @@ public class Movement : MonoBehaviour
     public bool activeHorizontal = false;
     public bool activeVertical = false;
     public bool onPortal;
-    public float timer;
+    public bool moving = false;
 
-    public bool stoppedV = false;
-    public bool stoppedH = false;
-
+    private Vector3 currentPos;
+    private Vector3 lastPos;
     private Vector3 forward;
     private Vector3 left;
     private Vector3 backward;
@@ -30,40 +27,45 @@ public class Movement : MonoBehaviour
     private bool isGoingDown;
     private bool isGoingSideways;
     private bool isCanvasRotating;
-    private bool stop = false;
-    private float resetTimer;
-    private float resetSpeed;
-    private bool activateTimer = false;
     private bool up;
     private bool down;
     private bool leftside;
     private bool rightside;
     private bool slowing;
+    private bool stop = false;
+    private float resetSpeed;
     private Animator myAnim;
 
     private void Start()
     {
+        currentPos = transform.position;
+
+        resetSpeed = speed;
+
+        myAnim = transform.Find("Face").GetComponent<Animator>();
+
         forward = new Vector3(0, 0, 32);
         left = new Vector3(-32, 0, 0);
         backward = new Vector3(0, 0, -32);
         right = new Vector3(32, 0, 0);
         v3 = new Vector3(0, 0, 0);
 
-        resetTimer = timer;
-        resetSpeed = speed;
-
-        myAnim = transform.Find("Face").GetComponent<Animator>();
-
     }
     // Update is called once per frame
     private void Update()
     {
+        currentPos = transform.position;
+
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
+
         v3 = new Vector3(0, 0, 0);
-        //Movemend with WASD or Arrows v2
+
+        //Movement with WASD or Arrows v2
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) && stop == false && isCanvasRotating == false)
         {
+            moving = true;
+
             down = false;
             leftside = false;
             rightside = false;
@@ -77,14 +79,15 @@ public class Movement : MonoBehaviour
             v3 += Vector3.forward * 32;
 
             if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)) slowing = true;
-            if(slowing == true)
+            if (slowing == true)
             {
-                speed -= 100 * Time.deltaTime;
+                speed -= stopSpeed * Time.deltaTime;
                 if (speed <= 0)
                 {
                     up = false;
                     slowing = false;
                     speed = resetSpeed;
+                    moving = false;
                 }
             }
         }
@@ -92,6 +95,8 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow) && stop == false && isCanvasRotating == false)
         {
+            moving = true;
+
             up = false;
             leftside = false;
             rightside = false;
@@ -106,18 +111,21 @@ public class Movement : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)) slowing = true;
             if (slowing == true)
             {
-                speed -= 100 * Time.deltaTime;
+                speed -= stopSpeed * Time.deltaTime;
                 if (speed <= 0)
                 {
                     down = false;
                     slowing = false;
                     speed = resetSpeed;
+                    moving = false;
                 }
             }
         }
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) && stop == false && isCanvasRotating == false)
         {
+            moving = true;
+
             up = false;
             down = false;
             rightside = false;
@@ -132,18 +140,21 @@ public class Movement : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)) slowing = true;
             if (slowing == true)
             {
-                speed -= 100 * Time.deltaTime;
+                speed -= stopSpeed * Time.deltaTime;
                 if (speed <= 0)
                 {
                     leftside = false;
                     slowing = false;
                     speed = resetSpeed;
+                    moving = false;
                 }
             }
         }
 
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) && stop == false && isCanvasRotating == false)
         {
+            moving = true;
+
             up = false;
             down = false;
             leftside = false;
@@ -158,28 +169,21 @@ public class Movement : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)) slowing = true;
             if (slowing == true)
             {
-                speed -= 100 * Time.deltaTime;
+                speed -= stopSpeed * Time.deltaTime;
                 if (speed <= 0)
                 {
                     rightside = false;
                     slowing = false;
                     speed = resetSpeed;
+                    moving = false;
                 }
             }
         }
 
         myRigidBody.velocity = speed * v3;
 
-        /*if (activateTimer == true)
-        {
-            timer -= Time.deltaTime;
-            if (timer >= 0)
-            {
-                myRigidBody.velocity = (speed / Time.deltaTime) * v3;
-            }
-        }*/
-
         //Movement with WASD or Arrows v1
+
         /*if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) 
             && !Input.anyKey && stop == false && isCanvasRotating == false)
         {
@@ -208,9 +212,8 @@ public class Movement : MonoBehaviour
             //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
             isGoingSideways = true;
         }*/
-        if (myRigidBody.velocity.z > 0) isGoingUp = true;
-        if (myRigidBody.velocity.z < 0) isGoingDown = true;
-        if (myRigidBody.velocity.x != 0) isGoingSideways = true;
+
+        CheckDirection();
 
         myAnim.SetBool("Up", isGoingUp);
         myAnim.SetBool("Down", isGoingDown);
@@ -236,13 +239,10 @@ public class Movement : MonoBehaviour
                 stop = true;
                 myRigidBody.transform.rotation = Quaternion.Euler(0, Camera.main.transform.rotation.y, 0);
                 speed = 0;
-                //myRigidBody.transform.position = new Vector3(portalDestination.transform.position.x,
-                //myRigidBody.transform.position.y + ((myRigidBody.transform.position.y - 16) - portalDestination.transform.position.y),
-                //portalDestination.transform.position.z);
                 myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
                     new Vector3(portalDestination.transform.position.x,
                     myRigidBody.transform.position.y,
-                    portalDestination.transform.position.z), 300 * Time.deltaTime);
+                    portalDestination.transform.position.z), 50 * Time.deltaTime);
                 if (myRigidBody.transform.position.x == portalDestination.transform.position.x
                     && myRigidBody.transform.position.z == portalDestination.transform.position.z)
                 {
@@ -253,190 +253,45 @@ public class Movement : MonoBehaviour
             if (characterStopsOnPortal == false) onPortal = true;
         }
 
-        //MovementRestrictions();
+        lastPos = transform.position;
     }
 
-    //This method stops the characters in the center of the squares in the grid
-    /*void MovementRestrictions()
+    //v1
+    void CheckDirection() 
     {
-        if (activeHorizontal == false && activeVertical == false)
+        //When player is controlling the character
+        if (Input.anyKey)
         {
-            timer = 0;                                                                                                              //CRIAR CONDIÇÃO NA ROTAÇÃO DO CENÁRIO, EM QUE ESTE SÓ É PERMITIDO QUANDO OS PPS ESTÃO CENTRADOS
-            stopSpeed = resetStopSpeed;
-        }
-        //Up or Down Movement
-        if (((((Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)) && !Input.anyKeyDown)
-            || ((Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)) && !Input.anyKeyDown))
-            && (myRigidBody.velocity.z < slowingSpeed || myRigidBody.velocity.z > -slowingSpeed)))
-        {
-            activeVertical = true;
-        }
 
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-            || (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)))
-        {
-            activeVertical = false;
+            if (Mathf.Abs(lastPos.z - currentPos.z) > Mathf.Abs(lastPos.x - currentPos.x)
+                && lastPos.z - currentPos.z < 0 && myRigidBody.velocity.z > 0) //up
+            {
+                isGoingUp = true;
+                isGoingDown = false;
+                isGoingSideways = false;
+            }
+            if (Mathf.Abs(lastPos.z - currentPos.z) > Mathf.Abs(lastPos.x - currentPos.x)
+                && lastPos.z - currentPos.z > 0 && myRigidBody.velocity.z < 0) //down
+            {
+                isGoingUp = false;
+                isGoingDown = true;
+                isGoingSideways = false;
+            }
+            if (Mathf.Abs(lastPos.z - currentPos.z) < Mathf.Abs(lastPos.x - currentPos.x)
+                && myRigidBody.velocity.x != 0) //sideways
+            {
+                isGoingUp = false;
+                isGoingDown = false;
+                isGoingSideways = true;
+            }
         }
-
-        if (activeVertical == true || isCanvasRotating == true)
+        //When character is moving by itself
+        else
         {
-            timer += Time.deltaTime;
-            ForceVerticalPosition();
-            if (timer > 0.01) stopSpeed += stopSpeedAcceleration * Time.deltaTime;
-        }
-
-        //Left or Right Movement
-        if (((((Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)) && !Input.anyKeyDown)
-            || ((Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)) && !Input.anyKeyDown))
-            && (myRigidBody.velocity.x < slowingSpeed || myRigidBody.velocity.x > -slowingSpeed)))
-        {
-            activeHorizontal = true;
-        }
-        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-            || (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)))
-        {
-            activeHorizontal = false;
-        }
-        if (activeHorizontal == true || isCanvasRotating == true)
-        {
-            timer += Time.deltaTime;
-            ForceHorizontalPosition();
-            if (timer > 0.1) stopSpeed += stopSpeedAcceleration * Time.deltaTime;
+            if (myRigidBody.velocity.z > 0) isGoingUp = true;
+            if (myRigidBody.velocity.z < 0) isGoingDown = true;
+            if (myRigidBody.velocity.x != 0) isGoingSideways = true;
         }
     }
 
-    void ForceVerticalPosition()
-    {
-        //if on block 9
-        if (myRigidBody.transform.position.z >= -256.5 && myRigidBody.transform.position.z <= -240)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -256), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -256 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 8
-        if (myRigidBody.transform.position.z > -240 && myRigidBody.transform.position.z <= -208)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -224), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -224 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 7
-        if (myRigidBody.transform.position.z > -208 && myRigidBody.transform.position.z <= -176)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -192), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -192 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 6
-        if (myRigidBody.transform.position.z > -176 && myRigidBody.transform.position.z <= -144)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -160), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -160 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 5
-        if (myRigidBody.transform.position.z > -144 && myRigidBody.transform.position.z <= -112)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -128), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -128 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 4
-        if (myRigidBody.transform.position.z > -112 && myRigidBody.transform.position.z <= -80)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -96), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -96 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 3
-        if (myRigidBody.transform.position.z > -80 && myRigidBody.transform.position.z <= 48)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -64), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -64 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 2
-        if (myRigidBody.transform.position.z > -48 && myRigidBody.transform.position.z <= -16)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, -32), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == -32 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if on block 1
-        if (myRigidBody.transform.position.z > -16 && myRigidBody.transform.position.z <= 1)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(myRigidBody.transform.position.x, myRigidBody.transform.position.y, 0), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.z == 0 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-        }
-        //if (myRigidBody.velocity == new Vector3(0, 0, 0)) activeVertical = false;
-    }
-
-    void ForceHorizontalPosition()
-    {
-        //if on block 9
-        if (myRigidBody.transform.position.x >= -128.5 && myRigidBody.transform.position.x <= -112)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(-128, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == -128) activeHorizontal = false;
-        }
-        //if on block 8
-        if (myRigidBody.transform.position.x > -112 && myRigidBody.transform.position.x <= -80)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(-96, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == -96 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 7
-        if (myRigidBody.transform.position.x > -80 && myRigidBody.transform.position.x <= -48)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(-64, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == -64 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 6
-        if (myRigidBody.transform.position.x > -48 && myRigidBody.transform.position.x <= -16)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(-32, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == -32 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 5
-        if (myRigidBody.transform.position.x > -16 && myRigidBody.transform.position.x <= 16)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(0, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == 0 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 4
-        if (myRigidBody.transform.position.x > 16 && myRigidBody.transform.position.x <= 48)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(32, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == 32 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 3
-        if (myRigidBody.transform.position.x > 48 && myRigidBody.transform.position.x <= 80)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(64, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == 64 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 2
-        if (myRigidBody.transform.position.x > 80 && myRigidBody.transform.position.x <= 112)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(96, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == 96 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-        //if on block 1
-        if (myRigidBody.transform.position.x > 112 && myRigidBody.transform.position.x <= 128.5)
-        {
-            myRigidBody.transform.position = Vector3.MoveTowards(myRigidBody.transform.position,
-                new Vector3(128, myRigidBody.transform.position.y, myRigidBody.transform.position.z), stopSpeed * Time.deltaTime);
-            if (myRigidBody.transform.position.x == 128 && myRigidBody.velocity == new Vector3(0, 0, 0)) activeHorizontal = false;
-        }
-    }*/
 }
