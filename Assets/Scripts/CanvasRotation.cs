@@ -41,7 +41,7 @@ public class CanvasRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Q) && timer == resetTimer)
+        if (Input.GetKeyUp(KeyCode.Q) && timer == resetTimer && !Input.anyKey)
         {
             lookPos = myTransform.position - transform.position;
             lookPos.y = 0;
@@ -51,6 +51,7 @@ public class CanvasRotation : MonoBehaviour
         }
         if (qKeyCount == 1)
         {
+            isCanvasRotating = true;
             timer -= Time.deltaTime;
             //FreezeCharacter();
             transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
@@ -60,7 +61,6 @@ public class CanvasRotation : MonoBehaviour
             character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
             if (timer <= 0)
             {
-                isCanvasRotating = true;
                 timer = resetTimer;
                 //UnfreezeCharacter();
                 angleY = myTransform.rotation.eulerAngles.y;
@@ -76,7 +76,7 @@ public class CanvasRotation : MonoBehaviour
             }
 
         }
-        if (Input.GetKeyUp(KeyCode.E) && timer == resetTimer)
+        if (Input.GetKeyUp(KeyCode.E) && timer == resetTimer && !Input.anyKey)
         {
             lookPos = myTransform.position - transform.position;
             lookPos.y = 0;
@@ -86,6 +86,7 @@ public class CanvasRotation : MonoBehaviour
         }
         if (eKeyCount == 1)
         {
+            isCanvasRotating = true;
             timer -= Time.deltaTime;
             //FreezeCharacter();
             transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
@@ -96,7 +97,6 @@ public class CanvasRotation : MonoBehaviour
 
             if (timer <= 0)
             {
-                isCanvasRotating = true;
                 timer = resetTimer;
                 //UnfreezeCharacter();
                 angleY = myTransform.rotation.eulerAngles.y;
