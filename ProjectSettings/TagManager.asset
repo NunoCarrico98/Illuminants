@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Camera
+  - Cube
+  - Characters
+  - Line
   layers:
   - Default
   - TransparentFX

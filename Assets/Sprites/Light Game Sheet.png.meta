@@ -8,10 +8,10 @@ TextureImporter:
     21300002: Green_Top
     21300004: Blue_Top
     21300006: Floor 0
-    21300008: Floor 1
-    21300010: Floor 2
-    21300012: Floor 3
-    21300014: Floor 4
+    21300008: Floor 0
+    21300010: Floor 1
+    21300012: Floor 2
+    21300014: Floor 3
     21300016: Red_Front
     21300018: Green_Front
     21300020: Blue_Front
@@ -29,6 +29,35 @@ TextureImporter:
     21300044: Red_Ass
     21300046: Green_Ass
     21300048: Blue_Ass
+    21300050: Light Game Sheet_0
+    21300052: Light Game Sheet_1
+    21300054: Light Game Sheet_2
+    21300056: Floor 0
+    21300058: Floor 1
+    21300060: Floor 2
+    21300062: Floor 3
+    21300064: Floor 4
+    21300066: Light Game Sheet_8
+    21300068: Light Game Sheet_9
+    21300070: Light Game Sheet_10
+    21300072: Light Game Sheet_11
+    21300074: Light Game Sheet_12
+    21300076: Light Game Sheet_13
+    21300078: Light Game Sheet_14
+    21300080: Light Game Sheet_15
+    21300082: Light Game Sheet_16
+    21300084: Light Game Sheet_17
+    21300086: Light Game Sheet_18
+    21300088: Light Game Sheet_19
+    21300090: Light Game Sheet_20
+    21300092: Light Game Sheet_21
+    21300094: Light Game Sheet_22
+    21300096: Light Game Sheet_23
+    21300098: Light Game Sheet_24
+    21300100: Light Game Sheet_25
+    21300102: Light Game Sheet_26
+    21300104: Light Game Sheet_27
+    21300106: Light Game Sheet_28
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -155,7 +184,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Red_Top
+      name: Light Game Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -169,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Top
+      name: Light Game Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -183,7 +212,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Top
+      name: Light Game Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -267,7 +296,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red_Front
+      name: Light Game Sheet_8
       rect:
         serializedVersion: 2
         x: 0
@@ -281,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Front
+      name: Light Game Sheet_9
       rect:
         serializedVersion: 2
         x: 32
@@ -295,7 +324,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Front
+      name: Light Game Sheet_10
       rect:
         serializedVersion: 2
         x: 64
@@ -309,7 +338,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall_Side
+      name: Light Game Sheet_11
       rect:
         serializedVersion: 2
         x: 96
@@ -323,7 +352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red_Portal
+      name: Light Game Sheet_12
       rect:
         serializedVersion: 2
         x: 128
@@ -337,7 +366,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Portal
+      name: Light Game Sheet_13
       rect:
         serializedVersion: 2
         x: 160
@@ -351,7 +380,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Portal
+      name: Light Game Sheet_14
       rect:
         serializedVersion: 2
         x: 192
@@ -365,7 +394,21 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red_Sides
+      name: Light Game Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Light Game Sheet_16
       rect:
         serializedVersion: 2
         x: 0
@@ -379,7 +422,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Sides
+      name: Light Game Sheet_17
       rect:
         serializedVersion: 2
         x: 32
@@ -393,7 +436,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Sides
+      name: Light Game Sheet_18
       rect:
         serializedVersion: 2
         x: 64
@@ -407,7 +450,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Lasers
+      name: Light Game Sheet_19
       rect:
         serializedVersion: 2
         x: 96
@@ -421,7 +464,49 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red_Bottom
+      name: Light Game Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Light Game Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Light Game Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Light Game Sheet_23
       rect:
         serializedVersion: 2
         x: 0
@@ -435,7 +520,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Bottom
+      name: Light Game Sheet_24
       rect:
         serializedVersion: 2
         x: 32
@@ -449,7 +534,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Bottom
+      name: Light Game Sheet_25
       rect:
         serializedVersion: 2
         x: 64
@@ -463,7 +548,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Red_Ass
+      name: Light Game Sheet_26
       rect:
         serializedVersion: 2
         x: 0
@@ -477,7 +562,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Green_Ass
+      name: Light Game Sheet_27
       rect:
         serializedVersion: 2
         x: 32
@@ -491,7 +576,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Blue_Ass
+      name: Light Game Sheet_28
       rect:
         serializedVersion: 2
         x: 64

@@ -15,20 +15,34 @@ public class LayerSortingScript : MonoBehaviour
     private Transform block_verify;     //child of child
     private Transform block;        //child of child
     private float yPos;     //y coordinates of the bottom of the cube
+    private GameObject characters;
+    private bool activeFinalAnims;
 
     // Use this for initialization
     void Start()
     {
+        characters = GameObject.FindGameObjectWithTag("Characters");
+    }
 
+    private void Update()
+    {
+        ChangeLayers();
+
+        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
+        if (activeFinalAnims == true) ResetLayers();
+    }
+
+    public void ChangeLayers()
+    {
         for (int j = 1; j < 10; j++)
         {
             cube = transform.Find("MyCube (" + j + ")").gameObject;
+            block_verify = cube.transform.Find("New Sprite (1)");
+            yPos = block_verify.transform.position.y;
+            sprite_verify = block_verify.GetComponent<SpriteRenderer>();
 
             for (int i = 0; i < 6; i++)
             {
-                block_verify = cube.transform.Find("New Sprite (1)");
-                yPos = block_verify.transform.position.y;
-                sprite_verify = block_verify.GetComponent<SpriteRenderer>();
                 if (yPos == 0)
                 {
                     block = cube.transform.Find("New Sprite (" + i + ")");
@@ -57,6 +71,22 @@ public class LayerSortingScript : MonoBehaviour
                         sprite.sortingOrder = wallsSortingOrderUp;
                     }
                 }
+            }
+        }
+    }
+
+    void ResetLayers()
+    {
+        for (int j = 1; j < 10; j++)
+        {
+            cube = transform.Find("MyCube (" + j + ")").gameObject;
+
+            for (int i = 0; i < 6; i++)
+            {
+                block = cube.transform.Find("New Sprite (" + i + ")");
+                sprite = block.GetComponent<SpriteRenderer>();
+                sprite_verify.sortingOrder = wallsSortingOrderDown;
+                sprite.sortingOrder = 0;
             }
         }
     }

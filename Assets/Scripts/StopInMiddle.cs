@@ -10,7 +10,6 @@ public class StopInMiddle : MonoBehaviour
     public float stopSpeed = 100f;
     public GameObject canvas;
     private bool isCanvasRotating;
-    public Rigidbody rb;
 
     public bool ray1;
     public bool ray2;
@@ -19,8 +18,13 @@ public class StopInMiddle : MonoBehaviour
     public bool isStepped;
     public bool activeVertical = false;
     public bool activeHorizontal = false;
+    public GameObject r;
+    public GameObject g;
+    public GameObject b;
 
-    private bool isMoving = false;
+    private bool isMovingR = false;
+    private bool isMovingG = false;
+    private bool isMovingB = false;
 
 
 
@@ -38,7 +42,11 @@ public class StopInMiddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isMoving = rb.GetComponent<Movement>().moving;
+
+        isMovingR = r.GetComponent<Movement>().moving;
+        isMovingG = g.GetComponent<Movement>().moving;
+        isMovingB = b.GetComponent<Movement>().moving;
+        //isMoving = hit.transform.GetComponent<Movement>().moving;
 
         ray1 = Physics.Raycast(new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z), Vector3.up, out hit, 64, layerMask);
         ray2 = Physics.Raycast(new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z), Vector3.up, out hit, 64, layerMask);
@@ -67,13 +75,15 @@ public class StopInMiddle : MonoBehaviour
 
             //Up or Down Movement
             if ((!(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-            || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && isMoving == false)
+            || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) 
+            && (isMovingR == false && isMovingG == false && isMovingB == false))
             {
                 activeVertical = true;
             }
 
             if (((!(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)))
-            || (!(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)))) && isMoving == false)
+            || (!(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))))
+            && (isMovingR == false && isMovingG == false && isMovingB == false))
             {
                 activeHorizontal = true;
             }
@@ -105,7 +115,7 @@ public class StopInMiddle : MonoBehaviour
 
             if (activeHorizontal == true || isCanvasRotating == true)
             {
-                hit.collider.transform.position = Vector3.MoveTowards(hit.collider.transform.position,
+                hit.transform.position = Vector3.MoveTowards(hit.transform.position,
                 new Vector3(transform.position.x, transform.position.y + 48, transform.position.z), stopSpeed * Time.deltaTime);
                 if (hit.collider.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
                     || hit.rigidbody.velocity == new Vector3(0, 0, 0))
@@ -115,7 +125,7 @@ public class StopInMiddle : MonoBehaviour
             }
 
             //Just a precaution in case the character doesn't get forced to the middle
-            if(!Input.anyKey && isMoving == false)
+            if(!Input.anyKey && (isMovingR == false && isMovingG == false && isMovingB == false))
             {
                 activeHorizontal = true;
                 activeVertical = true;

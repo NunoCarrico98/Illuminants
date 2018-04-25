@@ -16,13 +16,11 @@ public class CanvasRotation : MonoBehaviour
     private Quaternion rotationQ;
     private Quaternion rotationE;
     private int qKeyCount;
-    private int qKeyCount2 = 2;
     private int eKeyCount;
     private float angleY;
     private float resetTimer;
     private float resetSpeed;
     private float angleQ = -90;
-    private float angleE = 90;
     // Use this for initialization
     void Start()
     {
@@ -67,9 +65,7 @@ public class CanvasRotation : MonoBehaviour
                 lookPos = myTransform.position - transform.position;
                 lookPos.y = 0;
                 rotationQ = Quaternion.LookRotation(lookPos);
-                Debug.Log("STEP1");
                 rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
-                Debug.Log("STEP2");
                 qKeyCount = 0;
                 isCanvasRotating = false;
                 speed = resetSpeed;
@@ -103,9 +99,7 @@ public class CanvasRotation : MonoBehaviour
                 lookPos = myTransform.position - transform.position;
                 lookPos.y = 0;
                 rotationE = Quaternion.LookRotation(lookPos);
-                Debug.Log("STEP1");
                 rotationE *= Quaternion.Euler(0, angleY + 90, 0);
-                Debug.Log("STEP2");
                 eKeyCount = 0;
                 isCanvasRotating = false;
                 speed = resetSpeed;

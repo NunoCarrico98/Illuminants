@@ -43,11 +43,6 @@ public class Movement : MonoBehaviour
         resetSpeed = speed;
 
         myAnim = transform.Find("Face").GetComponent<Animator>();
-
-        forward = new Vector3(0, 0, 32);
-        left = new Vector3(-32, 0, 0);
-        backward = new Vector3(0, 0, -32);
-        right = new Vector3(32, 0, 0);
         v3 = new Vector3(0, 0, 0);
 
     }
@@ -60,6 +55,61 @@ public class Movement : MonoBehaviour
 
         v3 = new Vector3(0, 0, 0);
 
+        //Movement with WASD or Arrows v1
+
+        /*if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) 
+            && !Input.anyKey && stop == false && isCanvasRotating == false)
+        {
+            myRigidBody.velocity = forward * speed;
+            isGoingUp = true;
+            //myRigidBody.rotation = Quaternion.AngleAxis(180, Vector3.up);
+        }
+        if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow))
+            && !Input.anyKey && stop == false && isCanvasRotating == false)
+        {
+            myRigidBody.velocity = left * speed;
+            //myRigidBody.rotation = Quaternion.AngleAxis(90, Vector3.up);
+            isGoingSideways = true;
+        }
+        if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow))
+            && !Input.anyKey  && stop == false && isCanvasRotating == false)
+        {
+            myRigidBody.velocity = backward * speed;
+            //myRigidBody.rotation = Quaternion.AngleAxis(0, Vector3.up);
+            isGoingDown = true;
+        }
+        if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow))
+            && !Input.anyKey && stop == false && isCanvasRotating == false)
+        {
+            myRigidBody.velocity = right * speed;
+            //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
+            isGoingSideways = true;
+        }*/
+
+        if(myRigidBody.position.y == 48)
+        {
+            Move();
+        }
+        CheckDirection();
+
+        myAnim.SetBool("Up", isGoingUp);
+        myAnim.SetBool("Down", isGoingDown);
+        myAnim.SetBool("Vertical", isGoingSideways);
+
+        if (!Input.anyKey || (myRigidBody.velocity.x == 0 && myRigidBody.velocity.z == 0))
+        {
+            isGoingUp = false;
+            isGoingDown = false;
+            isGoingSideways = false;
+        }
+
+        LockOnPortal();
+
+        lastPos = transform.position;
+    }
+
+    void Move()
+    {
         //Movement with WASD or Arrows v2
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) && stop == false && isCanvasRotating == false)
@@ -181,57 +231,16 @@ public class Movement : MonoBehaviour
         }
 
         myRigidBody.velocity = speed * v3;
-
-        //Movement with WASD or Arrows v1
-
-        /*if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) 
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = forward * speed;
-            isGoingUp = true;
-            //myRigidBody.rotation = Quaternion.AngleAxis(180, Vector3.up);
-        }
-        if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow))
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = left * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(90, Vector3.up);
-            isGoingSideways = true;
-        }
-        if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow))
-            && !Input.anyKey  && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = backward * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(0, Vector3.up);
-            isGoingDown = true;
-        }
-        if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow))
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = right * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
-            isGoingSideways = true;
-        }*/
-
-        CheckDirection();
-
-        myAnim.SetBool("Up", isGoingUp);
-        myAnim.SetBool("Down", isGoingDown);
-        myAnim.SetBool("Vertical", isGoingSideways);
-
-        if (!Input.anyKey || (myRigidBody.velocity.x == 0 && myRigidBody.velocity.z == 0))
-        {
-            isGoingUp = false;
-            isGoingDown = false;
-            isGoingSideways = false;
-        }
-
+    }
+    void LockOnPortal()
+    {
         onPortal = false;
+
         //Check if characters are inside the portals
-        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 16
-            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 16
-            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 16
-            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 16)
+        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 1
+            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 1
+            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 1
+            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 1)
         {
             //Stops the character when it enters the portal
             if (characterStopsOnPortal == true)
@@ -252,11 +261,8 @@ public class Movement : MonoBehaviour
 
             if (characterStopsOnPortal == false) onPortal = true;
         }
-
-        lastPos = transform.position;
     }
 
-    //v1
     void CheckDirection() 
     {
         //When player is controlling the character

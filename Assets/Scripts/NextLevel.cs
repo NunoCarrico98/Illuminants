@@ -10,9 +10,7 @@ public class NextLevel : MonoBehaviour
     public Rigidbody myRigidBody_Red;
     public Rigidbody myRigidBody_Green;
     public Rigidbody myRigidBody_Blue;
-    /*public GameObject portal_Red;
-    public GameObject portal_Green;
-    public GameObject portal_Blue;*/
+    public bool activeFinalAnims = false;
     public string loadLevel;
 
     private void Update()
@@ -37,9 +35,8 @@ public class NextLevel : MonoBehaviour
             && myRigidBody_Green.GetComponent<Movement>().onPortal == true
             && myRigidBody_Blue.GetComponent<Movement>().onPortal == true)
         {
-            SceneManager.LoadScene(loadLevel);
+            activeFinalAnims = true;
+            //SceneManager.LoadScene(loadLevel);
         }
-
-
     }
 }
