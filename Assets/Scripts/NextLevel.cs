@@ -10,6 +10,7 @@ public class NextLevel : MonoBehaviour
     public Rigidbody myRigidBody_Red;
     public Rigidbody myRigidBody_Green;
     public Rigidbody myRigidBody_Blue;
+    public float timer = 10f;
     public bool activeFinalAnims = false;
     public string loadLevel;
 
@@ -36,7 +37,12 @@ public class NextLevel : MonoBehaviour
             && myRigidBody_Blue.GetComponent<Movement>().onPortal == true)
         {
             activeFinalAnims = true;
-            //SceneManager.LoadScene(loadLevel);
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                activeFinalAnims = false;
+                SceneManager.LoadScene(loadLevel);
+            }
         }
     }
 }
