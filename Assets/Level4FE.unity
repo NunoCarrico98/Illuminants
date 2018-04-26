@@ -7075,7 +7075,7 @@ MonoBehaviour:
   myRigidBody_Blue: {fileID: 1964117012}
   timer: 8
   activeFinalAnims: 0
-  loadLevel: Level8FE
+  loadLevel: Level6FE
 --- !u!114 &1300330053
 MonoBehaviour:
   m_ObjectHideFlags: 0

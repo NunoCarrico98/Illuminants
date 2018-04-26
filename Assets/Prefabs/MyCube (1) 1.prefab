@@ -303,8 +303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dca06b241f76184db4d2834109cab70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objects: {fileID: 0}
   speed: 20
+  animSpeed: 50
   timer: 0.2
+  animTimer: 2
   cubesInPlace: 0
 --- !u!114 &114479215192114390
 MonoBehaviour:
@@ -337,11 +340,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1282309834943404}
   spriteR: {fileID: 0}
-  sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite1: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite2: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite3: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  sprite4: {fileID: 21300064, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  sprite0: {fileID: 21300114, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  sprite1: {fileID: 21300116, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  sprite2: {fileID: 21300118, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  sprite3: {fileID: 21300120, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  sprite4: {fileID: 21300122, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
 --- !u!212 &212063665857198258
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -376,7 +379,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300064, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  m_Sprite: {fileID: 21300122, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -22,18 +22,6 @@ public class LayerSortingScript : MonoBehaviour
     void Start()
     {
         characters = GameObject.FindGameObjectWithTag("Characters");
-    }
-
-    private void Update()
-    {
-        ChangeLayers();
-
-        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
-        if (activeFinalAnims == true) ResetLayers();
-    }
-
-    public void ChangeLayers()
-    {
         for (int j = 1; j < 10; j++)
         {
             cube = transform.Find("MyCube (" + j + ")").gameObject;
@@ -56,6 +44,46 @@ public class LayerSortingScript : MonoBehaviour
                     {
                         sprite.sortingOrder = wallsSortingOrderDown;
                     }
+                }
+                if (yPos == 32)
+                {
+                    block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite = block.GetComponent<SpriteRenderer>();
+                    sprite_verify.sortingOrder = wallsSortingOrderUp;
+                    if (i == 0)
+                    {
+                        sprite.sortingOrder = floorSortingOrderUp;
+                    }
+                }
+            }
+        }
+    }
+
+    private void Update()
+    {
+        ChangeLayers();
+
+        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
+        if (activeFinalAnims == true) ResetLayers();
+    }
+
+    public void ChangeLayers()
+    {
+        for (int j = 1; j < 10; j++)
+        {
+            cube = transform.Find("MyCube (" + j + ")").gameObject;
+            block_verify = cube.transform.Find("New Sprite (1)");
+            yPos = block_verify.transform.position.y;
+            sprite_verify = block_verify.GetComponent<SpriteRenderer>();
+
+            for (int i = 1; i < 6; i++)
+            {
+                if (yPos > 0 && yPos < 32)
+                {
+                    block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite = block.GetComponent<SpriteRenderer>();
+                    sprite_verify.sortingOrder = wallsSortingOrderDown;
+                    sprite.sortingOrder = wallsSortingOrderDown;
                 }
                 if (yPos == 32)
                 {

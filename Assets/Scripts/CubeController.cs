@@ -8,6 +8,7 @@ public class CubeController : MonoBehaviour
     public float speed = 20f;
     public float animSpeed = 50f;
     public float timer = 2f;
+    public float timerForReset = 2f;
     public float animTimer = 2f;
     public bool cubesInPlace = false;
 
@@ -50,6 +51,10 @@ public class CubeController : MonoBehaviour
 
 
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
+    }
+
+    private void FixedUpdate()
+    {
         if (activeFinalAnims == true)
         {
             ResetLevel();
@@ -63,6 +68,7 @@ public class CubeController : MonoBehaviour
 
     public void ResetLevel()
     {
+        timerForReset -= Time.deltaTime;
         if (imAnUpCube == true && reset == false)
         {
             //transform.GetComponent<Collider>().enabled = false;
@@ -70,7 +76,7 @@ public class CubeController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, 0, transform.position.z), speed * 10 * Time.deltaTime);
         }
-        if (transform.position.y == 0 || transform.position.y == -32)
+        if (timerForReset <= 0)
         {
             reset = true;
         }

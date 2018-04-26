@@ -218,6 +218,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -330,6 +335,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -444,6 +454,11 @@ Prefab:
       propertyPath: animTimer
       value: 3.4
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -545,12 +560,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -659,6 +679,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -832,6 +857,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -939,6 +969,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1129,6 +1164,11 @@ Prefab:
       propertyPath: animTimer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -1246,6 +1286,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1543,6 +1588,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -1773,6 +1823,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -1880,6 +1935,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -1993,6 +2053,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2199,12 +2264,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2450,6 +2520,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -2833,6 +2908,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -2934,12 +3014,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.8
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3135,6 +3220,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -3319,6 +3409,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -3457,6 +3552,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3779,12 +3879,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -3887,12 +3992,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4012,6 +4122,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -4119,6 +4234,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4228,6 +4348,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -4335,6 +4460,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4444,6 +4574,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -4551,6 +4686,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4660,6 +4800,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -4768,6 +4913,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -4836,13 +4986,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
-      propertyPath: animSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
-        type: 2}
-      propertyPath: animTimer
-      value: 2
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -4951,6 +5096,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5064,6 +5214,11 @@ Prefab:
         type: 2}
       propertyPath: animTimer
       value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5287,6 +5442,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -5475,6 +5635,11 @@ Prefab:
         type: 2}
       propertyPath: animTimer
       value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5675,6 +5840,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -5782,6 +5952,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -5906,6 +6081,11 @@ Prefab:
       propertyPath: animTimer
       value: 3.6
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -6024,6 +6204,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -6131,6 +6316,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6361,12 +6551,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6486,6 +6681,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -6603,6 +6803,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -6798,6 +7003,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -6899,12 +7109,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5.4
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7199,6 +7414,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -7416,6 +7636,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -7524,6 +7749,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -7631,6 +7861,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7759,6 +7994,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -7924,6 +8164,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -8031,6 +8276,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -8150,6 +8400,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -8263,6 +8518,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -8370,6 +8630,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -8483,6 +8748,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -8678,6 +8948,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -8795,6 +9070,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -8985,6 +9265,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -9140,6 +9425,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -9257,6 +9547,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -9440,12 +9735,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.3
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -9554,6 +9854,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -9667,6 +9972,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -9786,6 +10096,11 @@ Prefab:
       propertyPath: animTimer
       value: 2.4
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -9893,6 +10208,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -10057,6 +10377,11 @@ Prefab:
         type: 2}
       propertyPath: animTimer
       value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -10513,6 +10838,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -10682,6 +11012,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -10795,6 +11130,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -10896,12 +11236,17 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5.2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -11010,6 +11355,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -11231,6 +11581,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -11401,6 +11756,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -11508,6 +11868,11 @@ Prefab:
         type: 2}
       propertyPath: animTimer
       value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -11617,6 +11982,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -11724,6 +12094,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -11919,6 +12294,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -12102,6 +12482,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
@@ -12333,6 +12718,11 @@ Prefab:
       propertyPath: animSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
@@ -12440,6 +12830,11 @@ Prefab:
         type: 2}
       propertyPath: animSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}

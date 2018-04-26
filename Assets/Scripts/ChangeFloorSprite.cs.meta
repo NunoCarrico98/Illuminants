@@ -8,11 +8,11 @@ MonoImporter:
   defaultReferences:
   - mySprite: {instanceID: 0}
   - spriteR: {instanceID: 0}
-  - sprite0: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  - sprite1: {fileID: 21300010, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  - sprite2: {fileID: 21300012, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  - sprite3: {fileID: 21300014, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
-  - sprite4: {fileID: 21300064, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  - sprite0: {fileID: 21300114, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  - sprite1: {fileID: 21300116, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  - sprite2: {fileID: 21300118, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  - sprite3: {fileID: 21300120, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  - sprite4: {fileID: 21300122, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
