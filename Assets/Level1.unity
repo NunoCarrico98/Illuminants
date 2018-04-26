@@ -211,7 +211,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.4
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -329,7 +329,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -452,7 +452,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -560,7 +560,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.8
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -673,7 +673,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -850,7 +850,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -963,7 +963,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1162,7 +1162,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1280,7 +1280,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1472,7 +1472,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1581,7 +1581,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1816,7 +1816,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -1929,7 +1929,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2047,7 +2047,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2264,7 +2264,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2514,7 +2514,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -2901,7 +2901,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.8
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3014,7 +3014,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3213,7 +3213,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.8
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3402,7 +3402,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3546,7 +3546,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3879,7 +3879,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -3992,7 +3992,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.8
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4115,7 +4115,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4228,7 +4228,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4341,7 +4341,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4454,7 +4454,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4567,7 +4567,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4680,7 +4680,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.2
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4793,7 +4793,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -4906,7 +4906,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5090,7 +5090,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5213,7 +5213,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5435,7 +5435,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5525,7 +5525,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -5634,7 +5634,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.8
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5833,7 +5833,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -5946,7 +5946,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6079,7 +6079,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6197,7 +6197,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6310,7 +6310,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6551,7 +6551,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6674,7 +6674,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6797,7 +6797,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.8
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -6996,7 +6996,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7109,7 +7109,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5.2
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7288,7 +7288,7 @@ MonoBehaviour:
   myRigidBody_Red: {fileID: 1863062063}
   myRigidBody_Green: {fileID: 2088330783}
   myRigidBody_Blue: {fileID: 1964117012}
-  timer: 8
+  timer: 6.6
   activeFinalAnims: 0
   loadLevel: Level2
 --- !u!114 &1300330053
@@ -7407,7 +7407,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7629,7 +7629,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.6
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7742,7 +7742,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7855,7 +7855,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.8
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -7988,7 +7988,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8157,7 +8157,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8270,7 +8270,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8393,7 +8393,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8511,7 +8511,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8624,7 +8624,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8742,7 +8742,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -8941,7 +8941,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9064,7 +9064,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.6
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9258,7 +9258,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.4
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9418,7 +9418,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9541,7 +9541,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.2
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9735,7 +9735,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9848,7 +9848,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -9966,7 +9966,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -10094,7 +10094,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.4
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -10202,7 +10202,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -10376,7 +10376,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.6
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -10831,7 +10831,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.6
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11005,7 +11005,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11123,7 +11123,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.4
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11236,7 +11236,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11349,7 +11349,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11574,7 +11574,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11749,7 +11749,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11867,7 +11867,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 2.2
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -11975,7 +11975,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -12088,7 +12088,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.6
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -12287,7 +12287,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.2
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -12476,7 +12476,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 3.8
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -12711,7 +12711,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4.8
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
@@ -12824,7 +12824,7 @@ Prefab:
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
