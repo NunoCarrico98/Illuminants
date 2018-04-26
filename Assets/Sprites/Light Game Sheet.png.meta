@@ -58,6 +58,9 @@ TextureImporter:
     21300102: Light Game Sheet_26
     21300104: Light Game Sheet_27
     21300106: Light Game Sheet_28
+    21300108: RedStart
+    21300110: GreenStart
+    21300112: BlueStart
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -271,7 +274,7 @@ TextureImporter:
       name: Floor 3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 191
         y: 224
         width: 32
         height: 32
@@ -581,6 +584,48 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedStart
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GreenStart
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlueStart
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0

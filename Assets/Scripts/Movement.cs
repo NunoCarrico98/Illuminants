@@ -237,10 +237,10 @@ public class Movement : MonoBehaviour
         onPortal = false;
 
         //Check if characters are inside the portals
-        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 1
-            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 1
-            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 1
-            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 1)
+        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 10
+            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 10
+            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 10
+            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 10)
         {
             //Stops the character when it enters the portal
             if (characterStopsOnPortal == true)
