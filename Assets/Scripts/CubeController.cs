@@ -9,6 +9,7 @@ public class CubeController : MonoBehaviour
     public float timer = 2f;
     public float timerForReset = 2f;
     public float animTimer = 2f;
+    public int numberOfReps = 0;
     public bool cubesInPlace = false;
 
     private float height;
@@ -126,7 +127,7 @@ public class CubeController : MonoBehaviour
         if (up)
         {
             animTimer -= Time.deltaTime;
-            if (animTimer <= 0.5)
+            if (animTimer <= 1)
             {
                 transform.position = Vector3.MoveTowards(transform.position,
                          new Vector3(transform.position.x, 32, transform.position.z), animSpeed * Time.deltaTime);
@@ -138,7 +139,7 @@ public class CubeController : MonoBehaviour
                 }
             }
         }
-        if(down)
+        if (down)
         {
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, -32, transform.position.z), animSpeed * Time.deltaTime);
@@ -148,10 +149,18 @@ public class CubeController : MonoBehaviour
                 normal = true;
             }
         }
-        if(normal)
+        if (normal)
         {
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, 0, transform.position.z), animSpeed * Time.deltaTime);
+            if(transform.position.y == 0 && numberOfReps > 0)
+            {
+                numberOfReps--;
+                up = true;
+                down = false;
+                normal = false;
+            }
         }
+
     }
 }
