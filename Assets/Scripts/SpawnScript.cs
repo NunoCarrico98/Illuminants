@@ -76,7 +76,7 @@ public class SpawnScript : MonoBehaviour {
     {
         fallingSpeedForCharacters += 4f;
         fallingSpeedForObjects += 2f;
-        //cubesInPlace = GameObject.FindGameObjectWithTag("Line").transform.Find("MyCube (1)").GetComponent<CubeController>().cubesInPlace;
+        cubesInPlace = CubeController.cubesInPlace;
 
         //Move the players to this position
         characters.position = Vector3.MoveTowards(characters.position,

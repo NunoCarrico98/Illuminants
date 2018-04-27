@@ -33,6 +33,7 @@ public class Movement : MonoBehaviour
     private bool rightside;
     private bool slowing;
     private bool stop = false;
+    private bool cubesInPlace = false;
     private float resetSpeed;
     private Animator myAnim;
 
@@ -52,6 +53,8 @@ public class Movement : MonoBehaviour
         currentPos = transform.position;
 
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
+
+        cubesInPlace = CubeController.cubesInPlace;
 
         v3 = new Vector3(0, 0, 0);
 
@@ -86,7 +89,7 @@ public class Movement : MonoBehaviour
             isGoingSideways = true;
         }*/
 
-        if(myRigidBody.position.y == 48)
+        if (myRigidBody.position.y == 48 && cubesInPlace == true)
         {
             Move();
         }

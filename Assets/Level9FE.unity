@@ -6113,16 +6113,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c692d18fb1a2bb42949c61048966975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingSpeedForCharacters: 100
-  startingHeightForCharacters: 1000
-  fallingSpeedForObjects: 400
-  startingHeightForRedPortal: 450
-  startingHeightForGreenPortal: 500
-  startingHeightForBluePortal: 550
-  startingHeightForRedStart: 1050
-  startingHeightForGreenStart: 1100
-  startingHeightForBlueStart: 1150
-  risingSpeed: 400
+  fallingSpeedForCharacters: 2000
+  startingHeightForCharacters: 4500
+  fallingSpeedForObjects: 2000
+  startingHeightForRedPortal: 1000
+  startingHeightForGreenPortal: 1500
+  startingHeightForBluePortal: 2000
+  startingHeightForRedStart: 2500
+  startingHeightForGreenStart: 3000
+  startingHeightForBlueStart: 3500
+  risingSpeed: 2000
   timeInterval: 0.1
   characters: {fileID: 1300330051}
   redPortal: {fileID: 1273554186}

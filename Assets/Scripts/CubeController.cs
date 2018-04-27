@@ -10,7 +10,8 @@ public class CubeController : MonoBehaviour
     public float timerForReset = 2f;
     public float animTimer = 2f;
     public int numberOfReps = 0;
-    public bool cubesInPlace = false;
+
+    public static bool cubesInPlace = false;
 
     private float height;
     private float initHeight;
@@ -55,8 +56,6 @@ public class CubeController : MonoBehaviour
         currentPos = transform.position.y;
 
         objectsInPlace = GameObject.FindGameObjectWithTag("Objects").GetComponent<SpawnScript>().objectsInPlace;
-
-        cubesInPlace = false;
 
         //after x seconds, this method will no longer be called;
         if (timer2 >= 0 && objectsInPlace == true)
@@ -135,7 +134,7 @@ public class CubeController : MonoBehaviour
                 {
                     up = false;
                     down = true;
-                    normal = true;
+                    normal = false;
                 }
             }
         }
