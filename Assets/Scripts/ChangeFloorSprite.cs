@@ -11,7 +11,7 @@ public class ChangeFloorSprite : MonoBehaviour {
     // Use this for initialization
     void Start () {
         spriteR = gameObject.GetComponent<SpriteRenderer>();
-        ChangeSprite();
+        //ChangeSprite();
     }
 
     private void Update()

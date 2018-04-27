@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CubeController : MonoBehaviour
 {
-    public GameObject objects;
     public float speed = 20f;
     public float animSpeed = 50f;
     public float timer = 2f;
@@ -27,6 +26,7 @@ public class CubeController : MonoBehaviour
     private bool up = true;
     private bool down = false;
     private bool normal = false;
+    private bool objectsInPlace = false;
 
     // Use this for initialization
     void Start()
@@ -39,15 +39,30 @@ public class CubeController : MonoBehaviour
         up = true;
         down = false;
         normal = false;
+
+        if (initHeight == 32 && firstCheck == 0)
+        {
+            firstCheck = 1;
+            imAnUpCube = true;
+            transform.position = (new Vector3(transform.position.x, 0, transform.position.z));
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer2 -= Time.deltaTime;
         currentPos = transform.position.y;
+
+        objectsInPlace = GameObject.FindGameObjectWithTag("Objects").GetComponent<SpawnScript>().objectsInPlace;
+
         cubesInPlace = false;
-        if(timer2 >= 0) RiseToPosition();   //after x seconds, this method will no longer be called;
+
+        //after x seconds, this method will no longer be called;
+        if (timer2 >= 0 && objectsInPlace == true)
+        {
+            timer2 -= Time.deltaTime;
+            RiseToPosition();
+        }
 
 
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
@@ -87,12 +102,6 @@ public class CubeController : MonoBehaviour
     public void RiseToPosition()
     {
         height = transform.position.y;
-        if (initHeight == 32 && firstCheck == 0)
-        {
-            firstCheck = 1;
-            imAnUpCube = true;
-            transform.position = (new Vector3(transform.position.x, 0, transform.position.z));
-        }
         if (height >= 0 && height <= 32 && firstCheck == 1)
         {
             timer -= Time.deltaTime;
@@ -114,14 +123,10 @@ public class CubeController : MonoBehaviour
         players[1].transform.GetComponent<Rigidbody>().isKinematic = true;
         players[2].transform.GetComponent<Rigidbody>().isKinematic = true;
 
-        objects = GameObject.FindGameObjectWithTag("Objects");
-        objects.transform.position = Vector3.MoveTowards(objects.transform.position, 
-            new Vector3(objects.transform.position.x, 500, objects.transform.position.z), 10 * Time.deltaTime);
-
         if (up)
         {
             animTimer -= Time.deltaTime;
-            if (animTimer <= 1)
+            if (animTimer <= 0.5)
             {
                 transform.position = Vector3.MoveTowards(transform.position,
                          new Vector3(transform.position.x, 32, transform.position.z), animSpeed * Time.deltaTime);
@@ -129,6 +134,7 @@ public class CubeController : MonoBehaviour
                 {
                     up = false;
                     down = true;
+                    normal = true;
                 }
             }
         }
