@@ -9,13 +9,14 @@ public class StopInMiddle : MonoBehaviour
     public LayerMask layerMask;
     public float stopSpeed = 100f;
     public GameObject canvas;
-    private bool isCanvasRotating;
 
     public bool ray1;
     public bool ray2;
     public bool ray3;
     public bool ray4;
     public bool isStepped;
+    private bool isCanvasRotating;
+    private bool isRewinding = false;
     public bool activeVertical = false;
     public bool activeHorizontal = false;
     public GameObject r;
@@ -42,6 +43,7 @@ public class StopInMiddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isRewinding = GameObject.FindGameObjectWithTag("Player").GetComponent<RewindTime>().isRewinding;
 
         isMovingR = r.GetComponent<Movement>().moving;
         isMovingG = g.GetComponent<Movement>().moving;
@@ -102,7 +104,7 @@ public class StopInMiddle : MonoBehaviour
                 activeHorizontal = false;
             }
 
-            if (activeVertical == true || isCanvasRotating == true)
+            if ((activeVertical == true || isCanvasRotating == true) && isRewinding == false)
             {
                 hit.transform.position = Vector3.MoveTowards(hit.transform.position,
                 new Vector3(transform.position.x, transform.position.y + 48, transform.position.z ), stopSpeed * Time.deltaTime);

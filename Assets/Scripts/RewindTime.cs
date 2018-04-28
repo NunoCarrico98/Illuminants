@@ -9,18 +9,29 @@ public class RewindTime : MonoBehaviour {
 
     private List<PointInTime> pointsInTime;
     private Rigidbody myRigidBody;
+    private Animation animationInspector;
+    private AnimationClip anim;
+    private bool cubesInPlace;
+    private bool isMoving;
 
 
     // Use this for initialization
     void Start () {
         pointsInTime = new List<PointInTime>();
         myRigidBody = GetComponent<Rigidbody>();
-	}
+        animationInspector = GameObject.Find("Face").GetComponent<Animation>();
+        anim = animationInspector.clip;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-        if(Input.GetKeyDown(KeyCode.Space))
+
+        anim = animationInspector.clip;
+
+        isMoving = transform.GetComponent<Movement>().moving;
+        cubesInPlace = CubeController.cubesInPlace;
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             StartRewind();
         }
@@ -32,13 +43,17 @@ public class RewindTime : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        if (isRewinding)
+        if (cubesInPlace == true)
         {
-            Rewind();
-        }
-        else
-        {
-            Record();
+
+            if (isRewinding)
+            {
+                Rewind();
+            }
+            else
+            {
+                Record();
+            }
         }
     }
     
@@ -51,6 +66,7 @@ public class RewindTime : MonoBehaviour {
             transform.rotation = pointInTime.rotation;
             myRigidBody.velocity = pointInTime.velocity;
             myRigidBody.angularVelocity = pointInTime.angularVelocity;
+            anim = pointInTime.animation;
             pointsInTime.RemoveAt(0);
             pointsInTime.RemoveAt(1);
             pointsInTime.RemoveAt(2);
@@ -65,20 +81,23 @@ public class RewindTime : MonoBehaviour {
 
     void Record()
     {
-        pointsInTime.Insert(0, new PointInTime(transform,
-            myRigidBody.velocity, myRigidBody.angularVelocity));
+        if (isMoving == true)
+        {
+            pointsInTime.Insert(0, new PointInTime(transform,
+                myRigidBody.velocity, myRigidBody.angularVelocity, anim));
+        }
     }
 
     void StartRewind()
     {
         isRewinding = true;
-        myRigidBody.isKinematic = true;
+        //myRigidBody.isKinematic = true;
     }
 
     void StopRewind()
     {
         isRewinding = false;
-        myRigidBody.isKinematic = false;
+        //myRigidBody.isKinematic = false;
         ReapplyForces();
     }
 

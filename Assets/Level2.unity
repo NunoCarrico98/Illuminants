@@ -2119,6 +2119,7 @@ GameObject:
   - component: {fileID: 396662377}
   - component: {fileID: 396662378}
   - component: {fileID: 396662379}
+  - component: {fileID: 396662380}
   m_Layer: 8
   m_Name: Face
   m_TagString: Untagged
@@ -2202,6 +2203,24 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &396662380
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396662376}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 4954772ad96b37349af0bed8427a8334, type: 2}
+  - {fileID: 7400000, guid: b2ef23900ee236b449905b75721d091f, type: 2}
+  - {fileID: 7400000, guid: a76b951b493fa4546b0e5dc9485cb5da, type: 2}
+  - {fileID: 7400000, guid: 06658a544412df348aafb78cd82b3f87, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &396970571 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -2597,6 +2616,7 @@ GameObject:
   - component: {fileID: 435060720}
   - component: {fileID: 435060722}
   - component: {fileID: 435060721}
+  - component: {fileID: 435060723}
   m_Layer: 8
   m_Name: Face
   m_TagString: Untagged
@@ -2691,6 +2711,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4dc230f787423048b928efa10b3bbb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!111 &435060723
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 435060718}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 5865b7d66a5236642b4a5716018d7d5a, type: 2}
+  - {fileID: 7400000, guid: ea96902bff047614a8ca3d42147a878c, type: 2}
+  - {fileID: 7400000, guid: 25843ee7109a1dd47a7d84d6194a0393, type: 2}
+  - {fileID: 7400000, guid: e21ec30a771db0d489fbb2ddc359d4ec, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &440123291
 Prefab:
   m_ObjectHideFlags: 0
@@ -7751,6 +7789,7 @@ GameObject:
   - component: {fileID: 1331543632}
   - component: {fileID: 1331543633}
   - component: {fileID: 1331543634}
+  - component: {fileID: 1331543635}
   m_Layer: 8
   m_Name: Face
   m_TagString: Untagged
@@ -7834,6 +7873,24 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1331543635
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331543631}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 1218ad0cf63cf094cbff0421a671ea21, type: 2}
+  - {fileID: 7400000, guid: ab77f213f12ee184b9bdfd129618f495, type: 2}
+  - {fileID: 7400000, guid: fa498286714728d438f5b6c766b88871, type: 2}
+  - {fileID: 7400000, guid: 8c071cf6e85755d42ba0c33ebb313f02, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &1347110152 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
