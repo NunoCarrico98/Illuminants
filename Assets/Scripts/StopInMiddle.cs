@@ -77,7 +77,7 @@ public class StopInMiddle : MonoBehaviour
 
             //Up or Down Movement
             if ((!(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-            || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) 
+            || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             && (isMovingR == false && isMovingG == false && isMovingB == false))
             {
                 activeVertical = true;
@@ -107,7 +107,7 @@ public class StopInMiddle : MonoBehaviour
             if ((activeVertical == true || isCanvasRotating == true) && isRewinding == false)
             {
                 hit.transform.position = Vector3.MoveTowards(hit.transform.position,
-                new Vector3(transform.position.x, transform.position.y + 48, transform.position.z ), stopSpeed * Time.deltaTime);
+                new Vector3(transform.position.x, transform.position.y + 48, transform.position.z), stopSpeed * Time.deltaTime);
                 if (hit.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
                     || hit.rigidbody.velocity == new Vector3(0, 0, 0))
                 {
@@ -127,7 +127,7 @@ public class StopInMiddle : MonoBehaviour
             }
 
             //Just a precaution in case the character doesn't get forced to the middle
-            if(!Input.anyKey && (isMovingR == false && isMovingG == false && isMovingB == false))
+            if (!Input.anyKey && (isMovingR == false && isMovingG == false && isMovingB == false))
             {
                 activeHorizontal = true;
                 activeVertical = true;

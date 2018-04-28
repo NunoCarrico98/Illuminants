@@ -2732,7 +2732,7 @@ GameObject:
   - component: {fileID: 468805939}
   m_Layer: 0
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7231,7 +7231,7 @@ MonoBehaviour:
   timer: 3.6
   playTransitionAnim: 0
   timeBetweenTransitions: 1
-  loadLevel: Level9FE
+  loadLevel: Level13FE
 --- !u!4 &1311701014 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -10346,7 +10346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acdf817964186144cbc6303c9b419d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlayer: {fileID: 1863062058}
 --- !u!65 &1863062062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11233,7 +11232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acdf817964186144cbc6303c9b419d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlayer: {fileID: 1964117007}
 --- !u!65 &1964117011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12283,7 +12281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acdf817964186144cbc6303c9b419d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlayer: {fileID: 2088330778}
 --- !u!65 &2088330782
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -7591,9 +7591,9 @@ MonoBehaviour:
   myRigidBody_Green: {fileID: 2088330783}
   myRigidBody_Blue: {fileID: 1964117012}
   timer: 4
-  playTransitionAnim: 1
+  playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Level2
+  loadLevel: Default_Level
 --- !u!4 &1311701014 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,

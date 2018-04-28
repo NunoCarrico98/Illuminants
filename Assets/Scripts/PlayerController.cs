@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public GameObject myPlayer;
     // Use this for initialization
     void Start()
     {
@@ -14,6 +13,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myPlayer.transform.rotation = Quaternion.AngleAxis(Camera.main.transform.rotation.y, Vector3.up);
+
+        TurnToCamera();
+
+    }
+
+    private void FixedUpdate()
+    {
+    }
+
+    private void TurnToCamera()
+    {
+        transform.rotation = Quaternion.AngleAxis(Camera.main.transform.rotation.y, Vector3.up);
     }
 }

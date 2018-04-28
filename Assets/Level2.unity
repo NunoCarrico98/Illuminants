@@ -2809,7 +2809,7 @@ GameObject:
   - component: {fileID: 468805939}
   m_Layer: 0
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3209,6 +3209,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4540384371115572, guid: 4811bdec55b344a41a8e9ac8da8354a6, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114670584545985356, guid: 4811bdec55b344a41a8e9ac8da8354a6,
+        type: 2}
+      propertyPath: camera2D1
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

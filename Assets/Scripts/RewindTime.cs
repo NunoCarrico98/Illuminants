@@ -53,10 +53,6 @@ public class RewindTime : MonoBehaviour
         {
             StopRewind();
         }
-    }
-
-    private void FixedUpdate()
-    {
 
         if (cubesInPlace == true)
         {
@@ -70,7 +66,6 @@ public class RewindTime : MonoBehaviour
                 Record();
             }
         }
-
     }
 
     void Rewind()
@@ -107,12 +102,13 @@ public class RewindTime : MonoBehaviour
             myAnim.SetBool("Up", up);
             myAnim.SetBool("Down", down);
             myAnim.SetBool("Vertical", sideways);
+            Debug.Log("Count is = " + pointsInTime.Count);
             pointsInTime.RemoveAt(0);
             acceleration += Time.deltaTime;
-            if (acceleration > 0.8 && pointsInTime.Count > 1) pointsInTime.RemoveAt(0);
-            if (acceleration > 1.4 && pointsInTime.Count > 2) pointsInTime.RemoveAt(0);
-            if (acceleration > 1.8 && pointsInTime.Count > 3) pointsInTime.RemoveAt(0);
-            if (acceleration > 2 && pointsInTime.Count > 4) pointsInTime.RemoveAt(0);
+            if (acceleration > 0.8 && pointsInTime.Count > 0) pointsInTime.RemoveAt(0);
+            if (acceleration > 1.4 && pointsInTime.Count > 1) pointsInTime.RemoveAt(0);
+            if (acceleration > 1.8 && pointsInTime.Count > 2) pointsInTime.RemoveAt(0);
+            if (acceleration > 2 && pointsInTime.Count > 3) pointsInTime.RemoveAt(0);
         }
         else
         {
@@ -140,13 +136,7 @@ public class RewindTime : MonoBehaviour
         isRewinding = false;
         acceleration = 0;
         myRigidBody.isKinematic = false;
-        //ReapplyForces();
+
     }
 
-    public void ReapplyForces()
-    {
-        myRigidBody.position = pointsInTime[0].position;
-        canvas.rotation = pointsInTime[0].rotation;
-        myRigidBody.velocity = pointsInTime[0].velocity;
-    }
 }

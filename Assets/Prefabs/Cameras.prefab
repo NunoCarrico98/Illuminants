@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1124528314607002
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +81,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4285911381872500
 Transform:
   m_ObjectHideFlags: 1
@@ -285,13 +285,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1124528314607002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8723caa20b9aee14a836c4f0acee0b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera2D1: 0
-  camera2D2: 1
+  camera2D1: 1
+  camera2D2: 0
   camera3D1: 0
 --- !u!124 &124139217812031712
 Behaviour:

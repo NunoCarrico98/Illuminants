@@ -17,6 +17,7 @@ public class LayerSortingScript : MonoBehaviour
     private float yPos;     //y coordinates of the bottom of the cube
     private GameObject characters;
     private bool activeFinalAnims;
+    private bool cubesInPlace = false;
 
     // Use this for initialization
     void Start()
@@ -34,35 +35,38 @@ public class LayerSortingScript : MonoBehaviour
 
     public void ChangeLayers()
     {
-        for (int j = 1; j < 10; j++)
-        {
-            cube = transform.Find("MyCube (" + j + ")").gameObject;
-            block_verify = cube.transform.Find("New Sprite (1)");
-            yPos = block_verify.transform.position.y;
-            sprite_verify = block_verify.GetComponent<SpriteRenderer>();
-
-            for (int i = 0; i < 6; i++)
+        cubesInPlace = CubeController.cubesInPlace;
+        if(cubesInPlace == false) {
+            for (int j = 1; j < 10; j++)
             {
-                if (yPos > 1 && yPos < 33)
+                cube = transform.Find("MyCube (" + j + ")").gameObject;
+                block_verify = cube.transform.Find("New Sprite (1)");
+                yPos = block_verify.transform.position.y;
+                sprite_verify = block_verify.GetComponent<SpriteRenderer>();
+
+                for (int i = 0; i < 6; i++)
                 {
-                    block = cube.transform.Find("New Sprite (" + i + ")");
-                    sprite = block.GetComponent<SpriteRenderer>();
-                    sprite_verify.sortingOrder = wallsSortingOrderDown;
-                    if (i == 0) sprite.sortingOrder = floorSortingOrderUp;
-                    else sprite.sortingOrder = wallsSortingOrderDown;
-                }
-                if (yPos == 33)
-                {
-                    block = cube.transform.Find("New Sprite (" + i + ")");
-                    sprite = block.GetComponent<SpriteRenderer>();
-                    sprite_verify.sortingOrder = wallsSortingOrderUp;
-                    if (i == 0)
+                    if (yPos > 1 && yPos < 33)
                     {
-                        sprite.sortingOrder = floorSortingOrderUp;
+                        block = cube.transform.Find("New Sprite (" + i + ")");
+                        sprite = block.GetComponent<SpriteRenderer>();
+                        sprite_verify.sortingOrder = wallsSortingOrderDown;
+                        if (i == 0) sprite.sortingOrder = floorSortingOrderUp;
+                        else sprite.sortingOrder = wallsSortingOrderDown;
                     }
-                    if (i > 1 && i < 6)
+                    if (yPos == 33)
                     {
-                        sprite.sortingOrder = wallsSortingOrderUp;
+                        block = cube.transform.Find("New Sprite (" + i + ")");
+                        sprite = block.GetComponent<SpriteRenderer>();
+                        sprite_verify.sortingOrder = wallsSortingOrderUp;
+                        if (i == 0)
+                        {
+                            sprite.sortingOrder = floorSortingOrderUp;
+                        }
+                        if (i > 1 && i < 6)
+                        {
+                            sprite.sortingOrder = wallsSortingOrderUp;
+                        }
                     }
                 }
             }

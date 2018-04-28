@@ -98,8 +98,7 @@ public class CubeController : MonoBehaviour
         timerForReset -= Time.deltaTime;
         if (imAnUpCube == true && reset == false)
         {
-            //transform.GetComponent<Collider>().enabled = false;
-            //transform.Translate(Vector3.down * Time.deltaTime * 10 * speed);
+            cubesInPlace = false;
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, 0, transform.position.z), speed * 10 * Time.deltaTime);
         }
