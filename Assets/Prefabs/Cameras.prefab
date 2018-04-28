@@ -290,8 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8723caa20b9aee14a836c4f0acee0b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera2D1: 1
-  camera2D2: 0
+  camera2D1: 0
+  camera2D2: 1
   camera3D1: 0
 --- !u!124 &124139217812031712
 Behaviour:
