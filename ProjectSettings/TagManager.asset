@@ -9,6 +9,7 @@ TagManager:
   - Characters
   - Line
   - Objects
+  - Canvas
   layers:
   - Default
   - TransparentFX

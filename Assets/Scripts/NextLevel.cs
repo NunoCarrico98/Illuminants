@@ -37,6 +37,9 @@ public class NextLevel : MonoBehaviour
             && myRigidBody_Blue.GetComponent<Movement>().onPortal == true)
         {
             activeFinalAnims = true;
+        }
+        if(activeFinalAnims == true)
+        {
             timer -= Time.deltaTime;
             if (timer <= 0)
             {

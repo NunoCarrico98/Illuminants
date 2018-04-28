@@ -3,32 +3,46 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class RewindTime : MonoBehaviour {
+public class RewindTime : MonoBehaviour
+{
 
     public bool isRewinding;
 
     private List<PointInTime> pointsInTime;
     private Rigidbody myRigidBody;
-    private Animation animationInspector;
-    private AnimationClip anim;
+    private Animator myAnim;
+    private Transform canvas;
+    private float acceleration = 0;
     private bool cubesInPlace;
-    private bool isMoving;
+    private bool up = false;
+    private bool down = false;
+    private bool sideways = false;
+    private bool isMoving = false;
+    private bool isGoingUp = false;
+    private bool isGoingDown = false;
+    private bool isGoingSideways = false;
+    
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         pointsInTime = new List<PointInTime>();
         myRigidBody = GetComponent<Rigidbody>();
-        animationInspector = GameObject.Find("Face").GetComponent<Animation>();
-        anim = animationInspector.clip;
+        myAnim = transform.Find("Face").GetComponent<Animator>();
+        canvas = GameObject.FindGameObjectWithTag("Canvas").transform;
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        anim = animationInspector.clip;
+    // Update is called once per frame
+    void Update()
+    {
+        
 
         isMoving = transform.GetComponent<Movement>().moving;
+        isGoingUp = transform.GetComponent<Movement>().isGoingUp;
+        isGoingDown = transform.GetComponent<Movement>().isGoingDown;
+        isGoingSideways = transform.GetComponent<Movement>().isGoingSideways;
+
         cubesInPlace = CubeController.cubesInPlace;
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -43,6 +57,7 @@ public class RewindTime : MonoBehaviour {
 
     private void FixedUpdate()
     {
+
         if (cubesInPlace == true)
         {
 
@@ -55,23 +70,49 @@ public class RewindTime : MonoBehaviour {
                 Record();
             }
         }
+
     }
-    
+
     void Rewind()
     {
+
         if (pointsInTime.Count > 0)
         {
             PointInTime pointInTime = pointsInTime[0];
             transform.position = pointInTime.position;
-            transform.rotation = pointInTime.rotation;
+            canvas.rotation = pointInTime.rotation;
             myRigidBody.velocity = pointInTime.velocity;
-            myRigidBody.angularVelocity = pointInTime.angularVelocity;
-            anim = pointInTime.animation;
+            up = pointInTime.up;
+            down = pointInTime.down;
+            sideways = pointInTime.sideways;
+            if (myRigidBody.velocity.z < 0)
+            {
+                up = true;
+                down = false;
+                sideways = false;
+            }
+            if (myRigidBody.velocity.z > 0)
+            {
+                up = false;
+                down = true;
+                sideways = false;
+            }
+            if (myRigidBody.velocity.x != 0)
+            {
+                up = false;
+                down = false;
+                sideways = true;
+            }
+
+            myAnim.SetBool("Up", up);
+            myAnim.SetBool("Down", down);
+            myAnim.SetBool("Vertical", sideways);
             pointsInTime.RemoveAt(0);
-            pointsInTime.RemoveAt(1);
-            pointsInTime.RemoveAt(2);
-            pointsInTime.RemoveAt(3);
-            pointsInTime.RemoveAt(4);
+            acceleration += Time.deltaTime;
+            if (acceleration > 0.8 && pointsInTime.Count > 1) pointsInTime.RemoveAt(0);
+            if (acceleration > 1.4 && pointsInTime.Count > 2) pointsInTime.RemoveAt(0);
+            if (acceleration > 1.8 && pointsInTime.Count > 3) pointsInTime.RemoveAt(0);
+            if (acceleration > 2 && pointsInTime.Count > 4) pointsInTime.RemoveAt(0);
         }
         else
         {
@@ -83,29 +124,29 @@ public class RewindTime : MonoBehaviour {
     {
         if (isMoving == true)
         {
-            pointsInTime.Insert(0, new PointInTime(transform,
-                myRigidBody.velocity, myRigidBody.angularVelocity, anim));
+            pointsInTime.Insert(0, new PointInTime(transform, canvas,
+                myRigidBody.velocity, isGoingUp, isGoingDown, isGoingSideways));
         }
     }
 
     void StartRewind()
     {
         isRewinding = true;
-        //myRigidBody.isKinematic = true;
+        myRigidBody.isKinematic = true;
     }
 
     void StopRewind()
     {
         isRewinding = false;
-        //myRigidBody.isKinematic = false;
-        ReapplyForces();
+        acceleration = 0;
+        myRigidBody.isKinematic = false;
+        //ReapplyForces();
     }
 
     public void ReapplyForces()
     {
         myRigidBody.position = pointsInTime[0].position;
-        myRigidBody.rotation = pointsInTime[0].rotation;
+        canvas.rotation = pointsInTime[0].rotation;
         myRigidBody.velocity = pointsInTime[0].velocity;
-        myRigidBody.angularVelocity = pointsInTime[0].angularVelocity;
     }
 }

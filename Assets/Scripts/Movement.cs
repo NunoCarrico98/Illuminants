@@ -14,7 +14,6 @@ public class Movement : MonoBehaviour
     public bool activeHorizontal = false;
     public bool activeVertical = false;
     public bool onPortal;
-    public bool moving = false;
 
     private Vector3 currentPos;
     private Vector3 lastPos;
@@ -23,10 +22,9 @@ public class Movement : MonoBehaviour
     private Vector3 backward;
     private Vector3 right;
     private Vector3 v3;
-    private bool isGoingUp;
-    private bool isGoingDown;
-    private bool isGoingSideways;
-    private bool isCanvasRotating;
+
+    private bool isCanvasRotating = false;
+    private bool isRewinding = false;
     private bool up;
     private bool down;
     private bool leftside;
@@ -34,8 +32,15 @@ public class Movement : MonoBehaviour
     private bool slowing;
     private bool stop = false;
     private bool cubesInPlace = false;
+
     private float resetSpeed;
+
     private Animator myAnim;
+
+    internal bool moving = false;
+    internal bool isGoingUp;
+    internal bool isGoingDown;
+    internal bool isGoingSideways;
 
     private void Start()
     {
@@ -53,6 +58,8 @@ public class Movement : MonoBehaviour
         currentPos = transform.position;
 
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
+
+        isRewinding = transform.GetComponent<RewindTime>().isRewinding;
 
         cubesInPlace = CubeController.cubesInPlace;
 
@@ -95,9 +102,12 @@ public class Movement : MonoBehaviour
         }
         CheckDirection();
 
-        myAnim.SetBool("Up", isGoingUp);
-        myAnim.SetBool("Down", isGoingDown);
-        myAnim.SetBool("Vertical", isGoingSideways);
+        if (isRewinding == false)
+        {
+            myAnim.SetBool("Up", isGoingUp);
+            myAnim.SetBool("Down", isGoingDown);
+            myAnim.SetBool("Vertical", isGoingSideways);
+        }
 
         if (!Input.anyKey || (myRigidBody.velocity.x == 0 && myRigidBody.velocity.z == 0))
         {

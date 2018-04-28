@@ -2,21 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PointInTime {
+public class PointInTime
+{
 
-        public Vector3 position;
-        public Quaternion rotation;
-        public Vector3 velocity;
-        public Vector3 angularVelocity;
-        public AnimationClip animation;
+    public Vector3 position;
+    public Quaternion rotation;
+    public Vector3 velocity;
+    public AnimationClip animation;
+    public bool up;
+    public bool down;
+    public bool sideways;
 
-    public PointInTime(Transform t, Vector3 v, Vector3 aV, AnimationClip anim)
+    public PointInTime(Transform character, Transform canvas, Vector3 v, bool isGoingUp, bool isGoingDown, bool isGoingSideways)
     {
-        position = t.position;
-        rotation = t.rotation;
+        position = character.position;
+        rotation = canvas.rotation;
         velocity = v;
-        angularVelocity = aV;
-        animation = anim;
+        up = isGoingUp;
+        down = isGoingDown;
+        sideways = isGoingSideways;
     }
 
 }

@@ -49,27 +49,7 @@ public class CanvasRotation : MonoBehaviour
         }
         if (qKeyCount == 1)
         {
-            isCanvasRotating = true;
-            timer -= Time.deltaTime;
-            //FreezeCharacter();
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-            if(timer/2 < resetTimer/3 ) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
-            character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-            character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-            character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-            if (timer <= 0)
-            {
-                timer = resetTimer;
-                //UnfreezeCharacter();
-                angleY = myTransform.rotation.eulerAngles.y;
-                lookPos = myTransform.position - transform.position;
-                lookPos.y = 0;
-                rotationQ = Quaternion.LookRotation(lookPos);
-                rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
-                qKeyCount = 0;
-                isCanvasRotating = false;
-                speed = resetSpeed;
-            }
+            RotateRight();
 
         }
         if (Input.GetKeyUp(KeyCode.E) && timer == resetTimer && !Input.anyKey)
@@ -82,32 +62,60 @@ public class CanvasRotation : MonoBehaviour
         }
         if (eKeyCount == 1)
         {
-            isCanvasRotating = true;
-            timer -= Time.deltaTime;
-            //FreezeCharacter();
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-            if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
-            character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-            character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-            character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-
-            if (timer <= 0)
-            {
-                timer = resetTimer;
-                //UnfreezeCharacter();
-                angleY = myTransform.rotation.eulerAngles.y;
-                lookPos = myTransform.position - transform.position;
-                lookPos.y = 0;
-                rotationE = Quaternion.LookRotation(lookPos);
-                rotationE *= Quaternion.Euler(0, angleY + 90, 0);
-                eKeyCount = 0;
-                isCanvasRotating = false;
-                speed = resetSpeed;
-            }
-
+            RotateLeft();
         }
     }
 
+    private void RotateRight()
+    {
+        isCanvasRotating = true;
+        timer -= Time.deltaTime;
+        //FreezeCharacter();
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+        if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
+        character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+        character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+        character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
+        if (timer <= 0)
+        {
+            timer = resetTimer;
+            //UnfreezeCharacter();
+            angleY = myTransform.rotation.eulerAngles.y;
+            lookPos = myTransform.position - transform.position;
+            lookPos.y = 0;
+            rotationQ = Quaternion.LookRotation(lookPos);
+            rotationQ *= Quaternion.Euler(0, angleY - 90, 0);
+            qKeyCount = 0;
+            isCanvasRotating = false;
+            speed = resetSpeed;
+        }
+    }
+
+    private void RotateLeft()
+    {
+        isCanvasRotating = true;
+        timer -= Time.deltaTime;
+        //FreezeCharacter();
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+        if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
+        character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+        character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+        character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
+
+        if (timer <= 0)
+        {
+            timer = resetTimer;
+            //UnfreezeCharacter();
+            angleY = myTransform.rotation.eulerAngles.y;
+            lookPos = myTransform.position - transform.position;
+            lookPos.y = 0;
+            rotationE = Quaternion.LookRotation(lookPos);
+            rotationE *= Quaternion.Euler(0, angleY + 90, 0);
+            eKeyCount = 0;
+            isCanvasRotating = false;
+            speed = resetSpeed;
+        }
+    }
 
     void FreezeCharacter()
     {
