@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-
-    //private Movement arrived;
+    public bool activeFinalAnims = false;
     public Rigidbody myRigidBody_Red;
     public Rigidbody myRigidBody_Green;
     public Rigidbody myRigidBody_Blue;
     public float timer = 10f;
-    public bool activeFinalAnims = false;
+    public bool playTransitionAnim = false;
+    public float timeBetweenTransitions = 1f;
     public string loadLevel;
 
     private void Update()
@@ -43,6 +43,10 @@ public class NextLevel : MonoBehaviour
                 activeFinalAnims = false;
                 SceneManager.LoadScene(loadLevel);
             }
+        }
+        if (playTransitionAnim == true)
+        {
+            activeFinalAnims = true;
         }
     }
 }

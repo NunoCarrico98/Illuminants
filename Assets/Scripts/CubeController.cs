@@ -11,12 +11,14 @@ public class CubeController : MonoBehaviour
     public float animTimer = 2f;
     public int numberOfReps = 0;
 
+
     public static bool cubesInPlace = false;
 
     private float height;
     private float initHeight;
     private int firstCheck = 0;
     private bool activeFinalAnims = false;
+    private bool playTransitionAnim = false;
     private GameObject characters;
     private float velocity;
     private float currentPos;
@@ -24,7 +26,11 @@ public class CubeController : MonoBehaviour
     private float resetTimer;
     private bool imAnUpCube = false;
     private float timer2 = 2.5f;
+    private float timeBetweenTransitions;
+    private float resetTransitionTimer;
+    private int resetRepsNum;
     private bool reset = false;
+    private bool noReps = false;
     private bool up = true;
     private bool down = false;
     private bool normal = false;
@@ -37,7 +43,14 @@ public class CubeController : MonoBehaviour
         height = transform.position.y;
         initHeight = height;
         resetTimer = timer;
+        resetRepsNum = numberOfReps;
         lastPos = transform.position.y;
+
+        timeBetweenTransitions = characters.GetComponent<NextLevel>().timeBetweenTransitions;
+        playTransitionAnim = characters.GetComponent<NextLevel>().playTransitionAnim;
+
+        resetTransitionTimer = timeBetweenTransitions;
+
         up = true;
         down = false;
         normal = false;
@@ -64,18 +77,17 @@ public class CubeController : MonoBehaviour
             RiseToPosition();
         }
 
-
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
-    }
 
-    private void FixedUpdate()
-    {
         if (activeFinalAnims == true)
         {
             ResetLevel();
             if (reset) TransitionAnimation();
         }
+    }
 
+    private void FixedUpdate()
+    {
         velocity = (lastPos - currentPos);
 
         lastPos = transform.position.y;
@@ -152,12 +164,44 @@ public class CubeController : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, 0, transform.position.z), animSpeed * Time.deltaTime);
-            if(transform.position.y == 0 && numberOfReps > 0)
+            if (transform.position.y == 0 && numberOfReps >= 0)
             {
-                numberOfReps--;
-                up = true;
-                down = false;
-                normal = false;
+                noReps = false;
+                if (playTransitionAnim == true && numberOfReps == 0)
+                {
+                    timeBetweenTransitions -= Time.deltaTime;
+                    if (timeBetweenTransitions < 0)
+                    {
+                        up = true;
+                        down = false;
+                        normal = false;
+                        numberOfReps = resetRepsNum;
+                        timeBetweenTransitions = resetTransitionTimer;
+                    }
+                }
+                else if (numberOfReps > 0)
+                {
+                    numberOfReps--;
+                    up = true;
+                    down = false;
+                    normal = false;
+                }
+
+            }
+            //Play animation infinitly if user activates that option (used for testing the animation)
+            if (transform.position.y == 0 && playTransitionAnim == true && noReps == true)
+            {
+                //float reseter;
+                //reseter = timeBetweenTransitions;
+
+                timeBetweenTransitions -= Time.deltaTime;
+                if (timeBetweenTransitions < 0)
+                {
+                    up = true;
+                    down = false;
+                    normal = false;
+                    timeBetweenTransitions = resetTransitionTimer;
+                }
             }
         }
 

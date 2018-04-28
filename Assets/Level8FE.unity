@@ -7034,11 +7034,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1c30ca301e1764590bddc9fc0def4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeFinalAnims: 0
   myRigidBody_Red: {fileID: 1863062063}
   myRigidBody_Green: {fileID: 2088330783}
   myRigidBody_Blue: {fileID: 1964117012}
   timer: 8
-  activeFinalAnims: 0
+  playTransitionAnim: 0
+  timeBetweenTransitions: 1
   loadLevel: Level9FE
 --- !u!4 &1311701014 stripped
 Transform:
