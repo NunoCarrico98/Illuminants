@@ -95,8 +95,14 @@ public class Movement : MonoBehaviour
             //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
             isGoingSideways = true;
         }*/
-
-        if (myRigidBody.position.y == 48 && cubesInPlace == true)
+        if (GameObject.FindGameObjectWithTag("Cube").GetComponent<CubeController>().enabled == true)
+        {
+            if ((myRigidBody.position.y == 46 || myRigidBody.transform.position.y == 78) && cubesInPlace == true)
+            {
+                Move();
+            }
+        }
+        else
         {
             Move();
         }

@@ -102,7 +102,6 @@ public class RewindTime : MonoBehaviour
             myAnim.SetBool("Up", up);
             myAnim.SetBool("Down", down);
             myAnim.SetBool("Vertical", sideways);
-            Debug.Log("Count is = " + pointsInTime.Count);
             pointsInTime.RemoveAt(0);
             acceleration += Time.deltaTime;
             if (acceleration > 0.8 && pointsInTime.Count > 0) pointsInTime.RemoveAt(0);

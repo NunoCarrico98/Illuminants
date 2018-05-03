@@ -21,12 +21,12 @@ public class ChangeFloorSprite : MonoBehaviour {
 
     void ChangeSprite()
     {
-        if (mySprite.transform.position.y == 32)        //Minumum height for the top of the cubes
+        if (mySprite.transform.position.y == 31)        //Minumum height for the top of the cubes
         {
             spriteR.sprite = sprite0;
         }
 
-        if (mySprite.transform.position.y > 32 && mySprite.transform.position.y <= 38)
+        if (mySprite.transform.position.y > 31 && mySprite.transform.position.y <= 38)
         {
             spriteR.sprite = sprite1;
         }
@@ -41,7 +41,7 @@ public class ChangeFloorSprite : MonoBehaviour {
             spriteR.sprite = sprite3;
         }
 
-        if (mySprite.transform.position.y > 58 && mySprite.transform.position.y <= 64)     //Max height for the top of the cubes
+        if (mySprite.transform.position.y > 58 && mySprite.transform.position.y <= 63)     //Max height for the top of the cubes
         {
             spriteR.sprite = sprite4;
         }

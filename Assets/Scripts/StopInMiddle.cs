@@ -107,7 +107,7 @@ public class StopInMiddle : MonoBehaviour
             if ((activeVertical == true || isCanvasRotating == true) && isRewinding == false)
             {
                 hit.transform.position = Vector3.MoveTowards(hit.transform.position,
-                new Vector3(transform.position.x, transform.position.y + 48, transform.position.z), stopSpeed * Time.deltaTime);
+                new Vector3(transform.position.x, transform.position.y + 46, transform.position.z), stopSpeed * Time.deltaTime);
                 if (hit.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
                     || hit.rigidbody.velocity == new Vector3(0, 0, 0))
                 {
@@ -118,7 +118,7 @@ public class StopInMiddle : MonoBehaviour
             if (activeHorizontal == true || isCanvasRotating == true)
             {
                 hit.transform.position = Vector3.MoveTowards(hit.transform.position,
-                new Vector3(transform.position.x, transform.position.y + 48, transform.position.z), stopSpeed * Time.deltaTime);
+                new Vector3(transform.position.x, transform.position.y + 46, transform.position.z), stopSpeed * Time.deltaTime);
                 if (hit.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
                     || hit.rigidbody.velocity == new Vector3(0, 0, 0))
                 {

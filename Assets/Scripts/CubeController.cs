@@ -35,6 +35,7 @@ public class CubeController : MonoBehaviour
     private bool down = false;
     private bool normal = false;
     private bool objectsInPlace = false;
+    private bool isDefaultLevel = false;
 
     // Use this for initialization
     void Start()
@@ -66,6 +67,7 @@ public class CubeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         currentPos = transform.position.y;
 
         objectsInPlace = GameObject.FindGameObjectWithTag("Objects").GetComponent<SpawnScript>().objectsInPlace;

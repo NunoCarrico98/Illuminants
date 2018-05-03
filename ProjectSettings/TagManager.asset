@@ -10,6 +10,7 @@ TagManager:
   - Line
   - Objects
   - Canvas
+  - Level
   layers:
   - Default
   - TransparentFX

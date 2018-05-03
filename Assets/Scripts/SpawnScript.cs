@@ -25,12 +25,19 @@ public class SpawnScript : MonoBehaviour {
     public bool objectsInPlace = false;
 
     private float timer = 0;
-    private bool cubesInPlace = false;
     private bool activeFinalAnims;
-
+    private float redPortalInitHeight;
+    private float greenPortalInitHeight;
+    private float bluePortalInitHeight;
 
     // Use this for initialization
     void Start () {
+
+        redPortalInitHeight = redPortal.transform.position.y;
+        greenPortalInitHeight = greenPortal.transform.position.y;
+        bluePortalInitHeight = bluePortal.transform.position.y;
+
+
         characters = GameObject.FindGameObjectWithTag("Characters").transform;
 
         characters.position = new Vector3(characters.position.x,
@@ -59,7 +66,6 @@ public class SpawnScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
         if (activeFinalAnims == false)
         {
@@ -76,32 +82,31 @@ public class SpawnScript : MonoBehaviour {
     {
         fallingSpeedForCharacters += 4f;
         fallingSpeedForObjects += 2f;
-        cubesInPlace = CubeController.cubesInPlace;
 
         //Move the players to this position
         characters.position = Vector3.MoveTowards(characters.position,
-                new Vector3(characters.position.x, -5, characters.position.z), fallingSpeedForCharacters * Time.deltaTime);
+                new Vector3(characters.position.x, 0, characters.position.z), fallingSpeedForCharacters * Time.deltaTime);
 
         //Move other objects
         redPortal.position = Vector3.MoveTowards(redPortal.position, 
-            new Vector3(redPortal.position.x, 32, redPortal.position.z), fallingSpeedForObjects * Time.deltaTime);
+            new Vector3(redPortal.position.x, 31, redPortal.position.z), fallingSpeedForObjects * Time.deltaTime);
 
         greenPortal.position = Vector3.MoveTowards(greenPortal.position,
-                new Vector3(greenPortal.position.x, 32, greenPortal.position.z), fallingSpeedForObjects * Time.deltaTime);
+                new Vector3(greenPortal.position.x, 31, greenPortal.position.z), fallingSpeedForObjects * Time.deltaTime);
 
         bluePortal.position = Vector3.MoveTowards(bluePortal.position,
-                new Vector3(bluePortal.position.x, 32, bluePortal.position.z), fallingSpeedForObjects * Time.deltaTime);
+                new Vector3(bluePortal.position.x, 31, bluePortal.position.z), fallingSpeedForObjects * Time.deltaTime);
 
         redSP.position = Vector3.MoveTowards(redSP.position,
-                new Vector3(redSP.position.x, 32, redSP.position.z), fallingSpeedForObjects * Time.deltaTime);
+                new Vector3(redSP.position.x, 31, redSP.position.z), fallingSpeedForObjects * Time.deltaTime);
 
         greenSP.position = Vector3.MoveTowards(greenSP.position,
-                new Vector3(greenSP.position.x, 32, greenSP.position.z), fallingSpeedForObjects * Time.deltaTime);
+                new Vector3(greenSP.position.x, 31, greenSP.position.z), fallingSpeedForObjects * Time.deltaTime);
 
         blueSP.position = Vector3.MoveTowards(blueSP.position,
-                new Vector3(blueSP.position.x, 32, blueSP.position.z), fallingSpeedForObjects * Time.deltaTime);
+                new Vector3(blueSP.position.x, 31, blueSP.position.z), fallingSpeedForObjects * Time.deltaTime);
 
-        if (characters.position.y == -5) objectsInPlace = true;
+        if (characters.position.y == 0) objectsInPlace = true;
     }
 
     void SendToHeaven()
