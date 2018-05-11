@@ -11,7 +11,7 @@ public class ChangeFloorSprite : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        spriteR = gameObject.GetComponent<SpriteRenderer>();
+        spriteR = transform.GetComponent<SpriteRenderer>();
 
         spriteColor = spriteR.color;
         spriteColor.a = 0;
@@ -28,6 +28,5 @@ public class ChangeFloorSprite : MonoBehaviour {
     {
         spriteColor.a = (transform.position.y - 31) * (0.03125f);
         spriteR.color = spriteColor;
-
     }
 }

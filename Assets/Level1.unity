@@ -2943,7 +2943,7 @@ MonoBehaviour:
   myRigidBody_Red: {fileID: 1590757459}
   myRigidBody_Green: {fileID: 1226006844}
   myRigidBody_Blue: {fileID: 73159221}
-  timerToChangeLevel: 3.3
+  timerToChangeLevel: 4
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
   loadLevel: Level2
@@ -7075,6 +7075,27 @@ Prefab:
       propertyPath: animTimer
       value: 3.6
       objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: animSpeed
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: timerForReset
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 65636164895048676, guid: 9971db486e803004ab8ec2362a60eef3,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0b86e355312b43945b1a6aa7d9bba163,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0

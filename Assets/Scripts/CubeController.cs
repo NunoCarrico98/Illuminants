@@ -25,7 +25,7 @@ public class CubeController : MonoBehaviour
     private float lastPos;
     private float resetTimer;
     private bool imAnUpCube = false;
-    private float timer2 = 2.5f;
+    private float timer2 = 1f;
     private float timeBetweenTransitions;
     private float resetTransitionTimer;
     private int resetRepsNum;
@@ -120,7 +120,7 @@ public class CubeController : MonoBehaviour
             timer -= Time.deltaTime;
 
             //Wait x seconds for the cubes to start rising
-            if (timer <= 0)
+            if (timer <= 1)
             {
                 transform.position = Vector3.MoveTowards(transform.position,
                 new Vector3(transform.position.x, 32, transform.position.z), speed * Time.deltaTime);

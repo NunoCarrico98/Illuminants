@@ -38,7 +38,7 @@ public class NextLevel : MonoBehaviour
         {
             activeFinalAnims = true;
         }
-        if(activeFinalAnims == true)
+        if(activeFinalAnims == true && playTransitionAnim == false)
         {
             timerToChangeLevel -= Time.deltaTime;
             if (timerToChangeLevel <= 0)
