@@ -12,8 +12,9 @@ public class PointInTime
     public bool up;
     public bool down;
     public bool sideways;
+    public bool spriteActive;
 
-    public PointInTime(Transform character, Transform canvas, Vector3 v, bool isGoingUp, bool isGoingDown, bool isGoingSideways)
+    public PointInTime(Transform character, Transform canvas, Vector3 v, bool isGoingUp, bool isGoingDown, bool isGoingSideways, bool isSpriteActive)
     {
         position = character.position;
         rotation = canvas.rotation;
@@ -21,6 +22,7 @@ public class PointInTime
         up = isGoingUp;
         down = isGoingDown;
         sideways = isGoingSideways;
+        spriteActive = isSpriteActive;
     }
 
 }

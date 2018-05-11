@@ -1163,6 +1163,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114189845804892456, guid: 53f3270cbc73a374687a03dd363e5562,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 1355993136}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
   m_IsPrefabParent: 0
@@ -3301,6 +3306,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114311306610078984, guid: 40287ccadd4cdc845856ed0a637ed431,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 1355993136}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
   m_IsPrefabParent: 0
@@ -4393,6 +4403,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be,
     type: 2}
   m_PrefabInternal: {fileID: 742902867}
+--- !u!1 &742902869 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1423263847226844, guid: 598f5739061c2074e99649ccd9b355be,
+    type: 2}
+  m_PrefabInternal: {fileID: 742902867}
 --- !u!1001 &785540971
 Prefab:
   m_ObjectHideFlags: 0
@@ -4684,6 +4699,11 @@ Prefab:
 --- !u!4 &790185784 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b,
+    type: 2}
+  m_PrefabInternal: {fileID: 790185783}
+--- !u!1 &790185785 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1717022320109474, guid: f0200cb8ca344d247bf83ce1b56ae75b,
     type: 2}
   m_PrefabInternal: {fileID: 790185783}
 --- !u!1001 &797639152
@@ -6345,10 +6365,10 @@ MonoBehaviour:
   startingHeightForBlueStart: 3500
   risingSpeed: 1000
   timeInterval: 0.1
-  characters: {fileID: 0}
-  redPortal: {fileID: 0}
-  greenPortal: {fileID: 0}
-  bluePortal: {fileID: 0}
+  characters: {fileID: 1662913953}
+  redPortal: {fileID: 1355993135}
+  greenPortal: {fileID: 790185784}
+  bluePortal: {fileID: 742902868}
   redSP: {fileID: 2127401228}
   greenSP: {fileID: 1668129808}
   blueSP: {fileID: 1974793670}
@@ -7607,6 +7627,11 @@ Prefab:
 --- !u!4 &1355993135 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861,
+    type: 2}
+  m_PrefabInternal: {fileID: 1355993134}
+--- !u!1 &1355993136 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1549169844131148, guid: 5b0e3270afdaa23408e5c2f74b185861,
     type: 2}
   m_PrefabInternal: {fileID: 1355993134}
 --- !u!1001 &1368035760
@@ -9316,6 +9341,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114856773371247066, guid: ac1d1a254eb1993469471e9d012087ea,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 1355993136}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
   m_IsPrefabParent: 0
@@ -9620,6 +9650,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114318673215650322, guid: ebb9da5e36a545d428ee6800927733eb,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 790185785}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
   m_IsPrefabParent: 0
@@ -11688,6 +11723,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114604583515073848, guid: bfb367a7996631d4296c4014963d84f4,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 742902869}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
   m_IsPrefabParent: 0
@@ -12506,6 +12546,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114955824537167270, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 1355993136}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
   m_IsPrefabParent: 0
@@ -12982,6 +13027,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 1355993136}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
   m_IsPrefabParent: 0

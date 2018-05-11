@@ -37,10 +37,13 @@ public class Movement : MonoBehaviour
 
     private Animator myAnim;
 
+    private SpriteRenderer sprite;
+
     internal bool moving = false;
     internal bool isGoingUp;
     internal bool isGoingDown;
     internal bool isGoingSideways;
+    internal bool isSpriteActive = false;
 
     private void Start()
     {
@@ -57,6 +60,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        sprite = transform.Find("Face").GetComponent<SpriteRenderer>();
         currentPos = transform.position;
 
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
@@ -66,6 +70,8 @@ public class Movement : MonoBehaviour
         cubesInPlace = CubeController.cubesInPlace;
 
         v3 = new Vector3(0, 0, 0);
+
+        CheckIfSpriteOn();
 
         //Movement with WASD or Arrows v1
 
@@ -100,9 +106,9 @@ public class Movement : MonoBehaviour
 
         //if (myRigidBody.position.y == 48 && cubesInPlace == true)
         //{
-         //Move();
+        //Move();
         //}
-        if(cubesInPlace == true) Move();
+        if (cubesInPlace == true) Move();
         CheckDirection();
 
         if (isRewinding == false)
@@ -279,7 +285,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void CheckDirection() 
+    void CheckDirection()
     {
         //When player is controlling the character
         if (Input.anyKey)
@@ -314,6 +320,18 @@ public class Movement : MonoBehaviour
             if (myRigidBody.velocity.z < 0) isGoingDown = true;
             if (myRigidBody.velocity.x != 0) isGoingSideways = true;
         }
+
     }
 
+    void CheckIfSpriteOn()
+    {
+        if (sprite.enabled == true)
+        {
+            isSpriteActive = true;
+        }
+        else
+        {
+            isSpriteActive = false;
+        }
+    }
 }

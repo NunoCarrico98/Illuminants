@@ -9,15 +9,18 @@ public class LayerSortingScript : MonoBehaviour
     public int wallsSortingOrderUp = 2;
     public int floorSortingOrderDown = 0;
     public int wallsSortingOrderDown = -1;
-    private SpriteRenderer sprite;      //sprites from the walls and top of the cube
-    private SpriteRenderer sprite_verify;       //sprite from the bottom of the cube
-    private GameObject cube;        //child
-    private Transform block_verify;     //child of child
-    private Transform block;        //child of child
+
     private float yPos;     //y coordinates of the bottom of the cube
-    private GameObject characters;
-    private bool activeFinalAnims;
-    private bool cubesInPlace = false;
+
+    private SpriteRenderer sprite;          //Sprites from the walls and top of the cube
+    private SpriteRenderer sprite_verify;   //Sprite from the bottom of the cube
+    private SpriteRenderer lightSprite;     //Sprite of the light component of the cube
+    private GameObject cube;                //Cube
+    private GameObject characters;          //Characters
+    private Transform block_verify;         //Top of the cube
+    private Transform block;                //Walls and bottom
+    private bool activeFinalAnims;          //Boolean for the Final Animations
+    private bool cubesInPlace = false;      //Boolean to check if cubes are in place on beggingin of the game
 
     // Use this for initialization
     void Start()
@@ -42,6 +45,7 @@ public class LayerSortingScript : MonoBehaviour
             {
                 cube = transform.Find("MyCube (" + j + ")").gameObject;
                 block_verify = cube.transform.Find("New Sprite (1)");
+                lightSprite = cube.transform.Find("light").GetComponent<SpriteRenderer>();
                 yPos = block_verify.transform.position.y;
                 sprite_verify = block_verify.GetComponent<SpriteRenderer>();
 
@@ -52,11 +56,13 @@ public class LayerSortingScript : MonoBehaviour
                         block = cube.transform.Find("New Sprite (" + i + ")");
                         sprite = block.GetComponent<SpriteRenderer>();
                         sprite_verify.sortingOrder = floorSortingOrderDown;
+                        lightSprite.sortingOrder = floorSortingOrderDown + 1;
                         sprite.sortingOrder = wallsSortingOrderDown;
                     }
                     if (yPos >= 32 && yPos <= 63)
                     {
                         sprite_verify.sortingOrder = floorSortingOrderUp;
+                        lightSprite.sortingOrder = floorSortingOrderUp + 1;
                     }
                     if(yPos == 63)
                     {
@@ -81,6 +87,7 @@ public class LayerSortingScript : MonoBehaviour
                 sprite = block.GetComponent<SpriteRenderer>();
                 sprite.sortingOrder = wallsSortingOrderDown;
                 sprite_verify.sortingOrder = 0;
+                lightSprite.sortingOrder = 0;
             }
         }
     }

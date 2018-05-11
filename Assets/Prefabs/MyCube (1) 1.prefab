@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4307189471650208}
   - component: {fileID: 65636164895048676}
   - component: {fileID: 114308853981951290}
-  - component: {fileID: 114074009784396718}
   m_Layer: 0
   m_Name: MyCube (1) 1
   m_TagString: Cube
@@ -173,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1230162760489416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -32, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4010096938888996}
@@ -236,32 +235,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 32, y: 32, z: 32}
   m_Center: {x: 0, y: 16, z: 0}
---- !u!114 &114074009784396718
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1230162760489416}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95ccf8629d4718f418c9f3f2d5fa657e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  stopSpeed: 50
-  canvas: {fileID: 0}
-  ray1: 0
-  ray2: 0
-  ray3: 0
-  ray4: 0
-  isStepped: 0
-  activeVertical: 0
-  activeHorizontal: 0
-  r: {fileID: 0}
-  g: {fileID: 0}
-  b: {fileID: 0}
 --- !u!114 &114308853981951290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -274,10 +247,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  animSpeed: 300
+  animSpeed: 100
   timer: -2.3037279
-  timerForReset: 0.2
-  animTimer: 2
+  timerForReset: 0.5
+  animTimer: 2.4
   numberOfReps: 0
 --- !u!114 &114479215192114390
 MonoBehaviour:
@@ -303,7 +276,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1282309834943404}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7eded3a2bdc6f94fa4678e767269be3, type: 3}
   m_Name: 
@@ -349,7 +322,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300064, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
+  m_Sprite: {fileID: 21300006, guid: d541edc21ea218c46ac6a12eee9fb56e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

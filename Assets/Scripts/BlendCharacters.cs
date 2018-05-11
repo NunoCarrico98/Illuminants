@@ -8,6 +8,8 @@ public class BlendCharacters : MonoBehaviour {
     private GameObject ahr, gee, bee, magent, yellow, cyan, whitey;
     private SpriteRenderer ahrSprite, geeSprite, beeSprite, magentSprite, yellowSprite, cyanSprite, whiteySprite;
     private bool isWhite = false;
+    private bool isRewinding;
+    private bool isBlended = false;
 
     // Use this for initialization
     void Start () {
@@ -33,11 +35,28 @@ public class BlendCharacters : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        VerifyPositions();
+
+        isRewinding = ahr.GetComponent<RewindTime>().isRewinding;
+
+        if (isRewinding == false)
+        {
+            VerifyPositions();
+        }
 	}
 
     private void VerifyPositions()
     {
+
+            //If none of them have the same positions
+            if (Input.GetKeyUp(KeyCode.Space) && (((ahr.transform.position.x != gee.transform.position.x)
+            || (ahr.transform.position.y != gee.transform.position.y)
+            || (ahr.transform.position.z != gee.transform.position.z))
+            && ((ahr.transform.position.x != bee.transform.position.x)
+            || (ahr.transform.position.y != bee.transform.position.y)
+            || (ahr.transform.position.z != bee.transform.position.z))))
+        {
+            DontBlend();
+        }
         //Red and Green
         if (((ahr.transform.position.x == gee.transform.position.x)
             && (ahr.transform.position.y == gee.transform.position.y)
@@ -50,7 +69,7 @@ public class BlendCharacters : MonoBehaviour {
         //Red and Blue
         if (((ahr.transform.position.x == bee.transform.position.x)
             && (ahr.transform.position.y == bee.transform.position.y)
-            && (ahr.transform.position.z == bee.transform.position.z))&& isWhite == false)
+            && (ahr.transform.position.z == bee.transform.position.z)) && isWhite == false)
         {
             BlendMagent();
         }
@@ -75,12 +94,26 @@ public class BlendCharacters : MonoBehaviour {
         }
     }
 
+    private void DontBlend()
+    {
+        ahrSprite.enabled = true;
+        geeSprite.enabled = true;
+        beeSprite.enabled = true;
+        magentSprite.enabled = false;
+        yellowSprite.enabled = false;
+        cyanSprite.enabled = false;
+        whiteySprite.enabled = false;
+        isBlended = false;
+        isWhite = false;
+    }
+
     private void BlendMagent()
     {
         magentSprite.enabled = true;
         ahrSprite.enabled = false;
         beeSprite.enabled = false;
-
+        isBlended = true;
+        isWhite = false;
     }
 
     private void BlendYellow()
@@ -88,6 +121,8 @@ public class BlendCharacters : MonoBehaviour {
         yellowSprite.enabled = true;
         ahrSprite.enabled = false;
         geeSprite.enabled = false;
+        isBlended = true;
+        isWhite = false;
     }
 
     private void BlendCyan()
@@ -95,6 +130,8 @@ public class BlendCharacters : MonoBehaviour {
         cyanSprite.enabled = true;
         beeSprite.enabled = false;
         geeSprite.enabled = false;
+        isBlended = true;
+        isWhite = false;
     }
 
     private void BlendWhitey()
@@ -106,6 +143,7 @@ public class BlendCharacters : MonoBehaviour {
         magentSprite.enabled = false;
         yellowSprite.enabled = false;
         cyanSprite.enabled = false;
+        isBlended = true;
         isWhite = true;
     }
 }

@@ -7,16 +7,28 @@ public class ChangeFloorSprite : MonoBehaviour {
     public GameObject mySprite;
     public SpriteRenderer spriteR;
     public Sprite sprite0, sprite1, sprite2, sprite3, sprite4;
+    private Color spriteColor;
+    private float initPos;
+    private float counter = 0;
+    private float alpha = 0;
+
 
     // Use this for initialization
     void Start () {
         spriteR = gameObject.GetComponent<SpriteRenderer>();
-        //ChangeSprite();
+
+        spriteColor = spriteR.color;
+        spriteColor.a = 0;
+        spriteR.color = spriteColor;
+
+
+        initPos = transform.position.y;
     }
 
     private void Update()
     {
-        ChangeSprite();
+        //ChangeSprite();
+        ChangeLightAlpha();
     }
 
     void ChangeSprite()
@@ -45,5 +57,16 @@ public class ChangeFloorSprite : MonoBehaviour {
         {
             spriteR.sprite = sprite4;
         }
+    }
+
+        void ChangeLightAlpha()
+    {
+        //= new Color(1, 1, 1, alpha);
+        //spriteColor.a = transform.position.y * (1/(transform.position.y - 31));
+        spriteColor.a = (transform.position.y - 31) * (0.03125f);
+        //counter += (255/32);
+        Debug.Log("Position is: " + (transform.position.y - 31));
+        spriteR.color = spriteColor;
+
     }
 }
