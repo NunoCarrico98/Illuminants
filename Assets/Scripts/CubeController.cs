@@ -71,6 +71,7 @@ public class CubeController : MonoBehaviour
         currentPos = transform.position.y;
 
         objectsInPlace = GameObject.FindGameObjectWithTag("Objects").GetComponent<SpawnScript>().objectsInPlace;
+        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
 
         //after x seconds, this method will no longer be called;
         if (timer2 >= 0 && objectsInPlace == true)
@@ -79,7 +80,6 @@ public class CubeController : MonoBehaviour
             RiseToPosition();
         }
 
-        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
 
         if (activeFinalAnims == true)
         {
@@ -135,6 +135,10 @@ public class CubeController : MonoBehaviour
         players[0].transform.GetComponent<Rigidbody>().isKinematic = true;
         players[1].transform.GetComponent<Rigidbody>().isKinematic = true;
         players[2].transform.GetComponent<Rigidbody>().isKinematic = true;
+        players[3].transform.GetComponent<Rigidbody>().isKinematic = true;
+        players[4].transform.GetComponent<Rigidbody>().isKinematic = true;
+        players[5].transform.GetComponent<Rigidbody>().isKinematic = true;
+        players[6].transform.GetComponent<Rigidbody>().isKinematic = true;
 
         if (up)
         {
@@ -146,8 +150,8 @@ public class CubeController : MonoBehaviour
                 if (transform.position.y == 32)
                 {
                     up = false;
-                    down = true;
-                    normal = false;
+                    down = false;
+                    normal = true;
                 }
             }
         }

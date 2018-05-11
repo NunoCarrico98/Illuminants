@@ -9,7 +9,7 @@ public class NextLevel : MonoBehaviour
     public Rigidbody myRigidBody_Red;
     public Rigidbody myRigidBody_Green;
     public Rigidbody myRigidBody_Blue;
-    public float timer = 10f;
+    public float timerToChangeLevel = 4f;
     public bool playTransitionAnim = false;
     public float timeBetweenTransitions = 1f;
     public string loadLevel;
@@ -40,8 +40,8 @@ public class NextLevel : MonoBehaviour
         }
         if(activeFinalAnims == true)
         {
-            timer -= Time.deltaTime;
-            if (timer <= 0)
+            timerToChangeLevel -= Time.deltaTime;
+            if (timerToChangeLevel <= 0)
             {
                 activeFinalAnims = false;
                 SceneManager.LoadScene(loadLevel);

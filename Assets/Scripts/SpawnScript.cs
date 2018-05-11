@@ -15,13 +15,15 @@ public class SpawnScript : MonoBehaviour {
     public float startingHeightForBlueStart = 250f;
     public float risingSpeed = 400f;
     public float timeInterval = 0.1f;
-    public Transform characters;
-    public Transform redPortal;
-    public Transform greenPortal;
-    public Transform bluePortal;
-    public Transform redSP;
-    public Transform greenSP;
-    public Transform blueSP;
+
+    private Transform characters;
+    private Transform redPortal;
+    private Transform greenPortal;
+    private Transform bluePortal;
+    private Transform redSP;
+    private Transform greenSP;
+    private Transform blueSP;
+
     public bool objectsInPlace = false;
 
     private float timer = 0;
@@ -33,12 +35,17 @@ public class SpawnScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
+        characters = GameObject.FindGameObjectWithTag("Characters").transform;
+        redPortal = GameObject.FindGameObjectWithTag("RedPortal").transform;
+        greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
+        bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
+        redSP = GameObject.FindGameObjectWithTag("RedStart").transform;
+        greenSP = GameObject.FindGameObjectWithTag("GreenStart").transform;
+        blueSP = GameObject.FindGameObjectWithTag("BlueStart").transform;
+
         redPortalInitHeight = redPortal.transform.position.y;
         greenPortalInitHeight = greenPortal.transform.position.y;
         bluePortalInitHeight = bluePortal.transform.position.y;
-
-
-        characters = GameObject.FindGameObjectWithTag("Characters").transform;
 
         characters.position = new Vector3(characters.position.x,
             characters.position.y + startingHeightForCharacters, characters.position.z);
@@ -67,11 +74,11 @@ public class SpawnScript : MonoBehaviour {
 	void Update () {
 
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
-        if (activeFinalAnims == false)
+        if (activeFinalAnims == false && objectsInPlace == false)
         {
             Spawn();
         }
-        else
+        else if (activeFinalAnims == true)
         {
             SendToHeaven();
         }
