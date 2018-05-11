@@ -8,24 +8,16 @@ public class StopInMiddle : MonoBehaviour
 
     public LayerMask layerMask;
     public float stopSpeed = 100f;
-    public GameObject canvas;
+    private GameObject canvas;
 
-    public bool ray1;
-    public bool ray2;
-    public bool ray3;
-    public bool ray4;
-    public bool isStepped;
+    public bool ray;
+    public bool onCube;
     private bool isCanvasRotating;
     private bool isRewinding = false;
     public bool activeVertical = false;
     public bool activeHorizontal = false;
-    public GameObject r;
-    public GameObject g;
-    public GameObject b;
 
-    private bool isMovingR = false;
-    private bool isMovingG = false;
-    private bool isMovingB = false;
+    private bool isMoving = false;
 
 
 
@@ -33,9 +25,10 @@ public class StopInMiddle : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
-        layerMask = LayerMask.GetMask("Player");
-        isStepped = Physics.Raycast(transform.position, Vector3.up, out hit, 64);
+        layerMask = LayerMask.GetMask("Default");
+        onCube = Physics.Raycast(transform.position, Vector3.up, out hit, 64);
         Vector3 forward = transform.TransformDirection(Vector3.up) * 64;
         Debug.DrawRay(transform.position, forward, Color.green);
     }
@@ -45,27 +38,22 @@ public class StopInMiddle : MonoBehaviour
     {
         isRewinding = GameObject.FindGameObjectWithTag("Player").GetComponent<RewindTime>().isRewinding;
 
-        isMovingR = r.GetComponent<Movement>().moving;
-        isMovingG = g.GetComponent<Movement>().moving;
-        isMovingB = b.GetComponent<Movement>().moving;
+        isMoving = transform.GetComponent<Movement>().moving;
         //isMoving = hit.transform.GetComponent<Movement>().moving;
 
-        ray1 = Physics.Raycast(new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z), Vector3.up, out hit, 64, layerMask);
-        ray2 = Physics.Raycast(new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z), Vector3.up, out hit, 64, layerMask);
-        ray3 = Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z - 1f), Vector3.up, out hit, 64, layerMask);
-        ray4 = Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z + 1f), Vector3.up, out hit, 64, layerMask);
-        if (ray1 || ray2 || ray3 || ray4)
+        ray = Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z), Vector3.down, out hit, 64, layerMask);
+        if (ray)
         {
-            isStepped = true;
+            onCube = true;
         }
         else
         {
-            isStepped = false;
+            onCube = false;
             activeHorizontal = false;
             activeVertical = false;
         }
 
-        if (isStepped)
+        if (onCube)
         {
 
             //Up or Down Movement
@@ -76,16 +64,17 @@ public class StopInMiddle : MonoBehaviour
             }*/
 
             //Up or Down Movement
-            if ((!(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            if ((!(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)
             || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-            && (isMovingR == false && isMovingG == false && isMovingB == false))
+            && (isMoving == false)))
             {
                 activeVertical = true;
             }
 
-            if (((!(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)))
-            || (!(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))))
-            && (isMovingR == false && isMovingG == false && isMovingB == false))
+            //Left or Right Movement
+            if ((!(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)
+            || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            && (isMoving == false)))
             {
                 activeHorizontal = true;
             }
@@ -106,10 +95,10 @@ public class StopInMiddle : MonoBehaviour
 
             if ((activeVertical == true || isCanvasRotating == true) && isRewinding == false)
             {
-                hit.transform.position = Vector3.MoveTowards(hit.transform.position,
-                new Vector3(transform.position.x, transform.position.y + 46, transform.position.z), stopSpeed * Time.deltaTime);
-                if (hit.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
-                    || hit.rigidbody.velocity == new Vector3(0, 0, 0))
+                transform.position = Vector3.MoveTowards(transform.position,
+                new Vector3(hit.transform.position.x, hit.transform.position.y + 46, hit.transform.position.z), stopSpeed * Time.deltaTime);
+                if (transform.position == new Vector3(hit.transform.position.x, hit.transform.position.y + 46, hit.transform.position.z)
+                    || transform.GetComponent<Rigidbody>().velocity == new Vector3(0, 0, 0))
                 {
                     activeVertical = false;
                 }
@@ -117,24 +106,24 @@ public class StopInMiddle : MonoBehaviour
 
             if (activeHorizontal == true || isCanvasRotating == true)
             {
-                hit.transform.position = Vector3.MoveTowards(hit.transform.position,
-                new Vector3(transform.position.x, transform.position.y + 46, transform.position.z), stopSpeed * Time.deltaTime);
-                if (hit.transform.position == new Vector3(transform.position.x, transform.position.y + 48, transform.position.z)
-                    || hit.rigidbody.velocity == new Vector3(0, 0, 0))
+                transform.position = Vector3.MoveTowards(transform.position,
+                new Vector3(hit.transform.position.x, hit.transform.position.y + 46, hit.transform.position.z), stopSpeed * Time.deltaTime);
+                if (transform.position == new Vector3(hit.transform.position.x, hit.transform.position.y + 46, hit.transform.position.z)
+                    || transform.GetComponent<Rigidbody>().velocity == new Vector3(0, 0, 0))
                 {
                     activeHorizontal = false;
                 }
             }
 
             //Just a precaution in case the character doesn't get forced to the middle
-            if (!Input.anyKey && (isMovingR == false && isMovingG == false && isMovingB == false))
+            if (!Input.anyKey && (isMoving == false) && isCanvasRotating == true)
             {
                 activeHorizontal = true;
                 activeVertical = true;
             }
             else
             {
-                isStepped = false;
+                onCube = false;
                 activeVertical = false;
                 activeHorizontal = false;
             }
@@ -142,7 +131,7 @@ public class StopInMiddle : MonoBehaviour
         }
         else
         {
-            isStepped = false;
+            onCube = false;
             activeVertical = false;
             activeHorizontal = false;
         }

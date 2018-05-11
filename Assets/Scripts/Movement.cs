@@ -44,6 +44,8 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
+
         currentPos = transform.position;
 
         resetSpeed = speed;
@@ -95,17 +97,12 @@ public class Movement : MonoBehaviour
             //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
             isGoingSideways = true;
         }*/
-        if (GameObject.FindGameObjectWithTag("Cube").GetComponent<CubeController>().enabled == true)
-        {
-            if ((myRigidBody.position.y == 46 || myRigidBody.transform.position.y == 78) && cubesInPlace == true)
-            {
-                Move();
-            }
-        }
-        else
-        {
-            Move();
-        }
+
+        //if (myRigidBody.position.y == 48 && cubesInPlace == true)
+        //{
+         //Move();
+        //}
+        if(cubesInPlace == true) Move();
         CheckDirection();
 
         if (isRewinding == false)

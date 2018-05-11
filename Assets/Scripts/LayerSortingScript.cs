@@ -36,7 +36,8 @@ public class LayerSortingScript : MonoBehaviour
     public void ChangeLayers()
     {
         cubesInPlace = CubeController.cubesInPlace;
-        if(cubesInPlace == false) {
+        if (cubesInPlace == false)
+        {
             for (int j = 1; j < 10; j++)
             {
                 cube = transform.Find("MyCube (" + j + ")").gameObject;
@@ -44,29 +45,24 @@ public class LayerSortingScript : MonoBehaviour
                 yPos = block_verify.transform.position.y;
                 sprite_verify = block_verify.GetComponent<SpriteRenderer>();
 
-                for (int i = 0; i < 6; i++)
+                for (int i = 2; i < 6; i++)
                 {
-                    if (yPos > 1 && yPos < 31)
+                    if (yPos > 31 && yPos < 32)
                     {
                         block = cube.transform.Find("New Sprite (" + i + ")");
                         sprite = block.GetComponent<SpriteRenderer>();
-                        sprite_verify.sortingOrder = wallsSortingOrderDown;
-                        if (i == 0) sprite.sortingOrder = floorSortingOrderUp;
-                        else sprite.sortingOrder = wallsSortingOrderDown;
+                        sprite_verify.sortingOrder = floorSortingOrderDown;
+                        sprite.sortingOrder = wallsSortingOrderDown;
                     }
-                    if (yPos == 31)
+                    if (yPos >= 32 && yPos <= 63)
+                    {
+                        sprite_verify.sortingOrder = floorSortingOrderUp;
+                    }
+                    if(yPos == 63)
                     {
                         block = cube.transform.Find("New Sprite (" + i + ")");
                         sprite = block.GetComponent<SpriteRenderer>();
-                        sprite_verify.sortingOrder = wallsSortingOrderUp;
-                        if (i == 0)
-                        {
-                            sprite.sortingOrder = floorSortingOrderUp;
-                        }
-                        if (i > 1 && i < 6)
-                        {
-                            sprite.sortingOrder = wallsSortingOrderUp;
-                        }
+                        sprite.sortingOrder = wallsSortingOrderUp;
                     }
                 }
             }
@@ -79,12 +75,12 @@ public class LayerSortingScript : MonoBehaviour
         {
             cube = transform.Find("MyCube (" + j + ")").gameObject;
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 2; i < 6; i++)
             {
                 block = cube.transform.Find("New Sprite (" + i + ")");
                 sprite = block.GetComponent<SpriteRenderer>();
-                sprite_verify.sortingOrder = wallsSortingOrderDown;
-                sprite.sortingOrder = 0;
+                sprite.sortingOrder = wallsSortingOrderDown;
+                sprite_verify.sortingOrder = 0;
             }
         }
     }

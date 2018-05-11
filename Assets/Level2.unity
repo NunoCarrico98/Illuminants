@@ -177,12 +177,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -197,17 +197,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -300,12 +300,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -320,17 +320,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -423,12 +423,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -443,17 +443,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -541,12 +541,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -561,17 +561,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -659,12 +659,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -679,17 +679,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -741,9 +741,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character:
-  - {fileID: 1863062058}
-  - {fileID: 2088330778}
-  - {fileID: 1964117007}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   myGO: {fileID: 98649324}
   speed: 10
   timer: 0.5
@@ -760,6 +760,39 @@ Transform:
   m_Children:
   - {fileID: 1219579033}
   m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &99144397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1553697779551174, guid: 253ea218dee88394c9a665bee17a2e97,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 99144398}
+  m_Layer: 0
+  m_Name: Portals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99144398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99144397}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: -96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2000994136}
+  - {fileID: 1313401458}
+  - {fileID: 632620810}
+  m_Father: {fileID: 1079614283}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &99185616 stripped
@@ -841,12 +874,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -861,17 +894,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -959,12 +992,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -979,17 +1012,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -1158,12 +1191,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -1178,17 +1211,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -1286,12 +1319,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -1306,17 +1339,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -1511,12 +1544,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -1531,17 +1564,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -1751,12 +1784,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -1771,17 +1804,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -1874,12 +1907,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -1894,17 +1927,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -1997,12 +2030,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -2017,17 +2050,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -2130,12 +2163,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -2150,17 +2183,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -2240,16 +2273,6 @@ MonoBehaviour:
   wallsSortingOrderUp: 2
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
---- !u!1 &415749164 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1558294117442182, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
---- !u!4 &415749166 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4836712178959658, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
 --- !u!1 &421313570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2390,12 +2413,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -2410,17 +2433,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -2443,60 +2466,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &440123291
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1079614283}
-    m_Modifications:
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291983481509326, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -80
-      objectReference: {fileID: 0}
-    - target: {fileID: 4226411968928966, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836712178959658, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 112
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 253ea218dee88394c9a665bee17a2e97, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &461962393 stripped
 Transform:
@@ -2532,9 +2501,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character:
-  - {fileID: 1863062058}
-  - {fileID: 2088330778}
-  - {fileID: 1964117007}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   myGO: {fileID: 468805938}
   speed: 10
   timer: 0.5
@@ -2620,12 +2589,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -2640,17 +2609,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -2679,6 +2648,85 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &476004896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1523051830162096, guid: cbe2638af865da94e83398be74068e96,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 476004897}
+  - component: {fileID: 476004899}
+  - component: {fileID: 476004898}
+  m_Layer: 0
+  m_Name: Characters_2D
+  m_TagString: Characters
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476004897
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4803500534517744, guid: cbe2638af865da94e83398be74068e96,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476004896}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16, y: 0, z: -96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 573579909}
+  - {fileID: 712850938}
+  - {fileID: 861191195}
+  - {fileID: 1648074056}
+  - {fileID: 2105452414}
+  - {fileID: 2005780415}
+  - {fileID: 1676040970}
+  m_Father: {fileID: 1079614283}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476004898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114325079657783280, guid: cbe2638af865da94e83398be74068e96,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476004896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e662a1708c52c49817a2024c68cc6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 573579910}
+  - {fileID: 712850939}
+  - {fileID: 861191196}
+  - {fileID: 1648074057}
+  - {fileID: 2105452415}
+  - {fileID: 2005780416}
+  - {fileID: 1676040971}
+--- !u!114 &476004899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114653940981699670, guid: cbe2638af865da94e83398be74068e96,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476004896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1c30ca301e1764590bddc9fc0def4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeFinalAnims: 0
+  myRigidBody_Red: {fileID: 573579911}
+  myRigidBody_Green: {fileID: 712850940}
+  myRigidBody_Blue: {fileID: 861191197}
+  timer: 4
+  playTransitionAnim: 0
+  timeBetweenTransitions: 1.8
+  loadLevel: Level6FE
 --- !u!1001 &483686961
 Prefab:
   m_ObjectHideFlags: 0
@@ -2743,12 +2791,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -2763,17 +2811,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -2930,6 +2978,68 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 211948463}
+--- !u!1001 &573579908
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
+        type: 2}
+      propertyPath: characterStopsOnPortal
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &573579909 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4383737196366250, guid: b7888d135fe71c143b3eec7e15186a51,
+    type: 2}
+  m_PrefabInternal: {fileID: 573579908}
+--- !u!1 &573579910 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1558713861899896, guid: b7888d135fe71c143b3eec7e15186a51,
+    type: 2}
+  m_PrefabInternal: {fileID: 573579908}
+--- !u!54 &573579911 stripped
+Rigidbody:
+  m_PrefabParentObject: {fileID: 54570309531084324, guid: b7888d135fe71c143b3eec7e15186a51,
+    type: 2}
+  m_PrefabInternal: {fileID: 573579908}
 --- !u!1001 &578779374
 Prefab:
   m_ObjectHideFlags: 0
@@ -2994,12 +3104,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3014,17 +3124,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -3193,12 +3303,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3213,17 +3323,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -3281,8 +3391,55 @@ Transform:
   - {fileID: 1668129808}
   - {fileID: 1974793670}
   m_Father: {fileID: 1079614283}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &632620809
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 99144398}
+    m_Modifications:
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 598f5739061c2074e99649ccd9b355be, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &632620810 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be,
+    type: 2}
+  m_PrefabInternal: {fileID: 632620809}
 --- !u!1001 &638541427
 Prefab:
   m_ObjectHideFlags: 0
@@ -3347,12 +3504,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3367,17 +3524,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -3406,221 +3563,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &650162844
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1079614283}
-    m_Modifications:
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -96
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 1107359701}
-    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 415749164}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Red
-      value: 
-      objectReference: {fileID: 1273554184}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Green
-      value: 
-      objectReference: {fileID: 1107359701}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Blue
-      value: 
-      objectReference: {fileID: 415749164}
-    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 1273554184}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Red
-      value: 
-      objectReference: {fileID: 1273554184}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Green
-      value: 
-      objectReference: {fileID: 1107359701}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: portal_Blue
-      value: 
-      objectReference: {fileID: 415749164}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Red
-      value: 
-      objectReference: {fileID: 650162847}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Green
-      value: 
-      objectReference: {fileID: 650162846}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Blue
-      value: 
-      objectReference: {fileID: 650162845}
-    - target: {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: loadLevel
-      value: Default_Level
-      objectReference: {fileID: 0}
-    - target: {fileID: 4832724962723172, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -160
-      objectReference: {fileID: 0}
-    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: slowingSpeed
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: stopSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: stopSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: slowingSpeed
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: slowingSpeed
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: stopSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Red
-      value: 
-      objectReference: {fileID: 650162847}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Green
-      value: 
-      objectReference: {fileID: 650162846}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: myRigidBody_Blue
-      value: 
-      objectReference: {fileID: 650162845}
-    - target: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: loadLevel
-      value: Default_Level
-      objectReference: {fileID: 0}
-    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114016492797960178, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114268852198322850, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114191793236127504, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-        type: 2}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091267364757134, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091267364757134, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-      propertyPath: m_Name
-      value: Characters_3D
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114194038944396382, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: ebf1d39c1bad73e478d88e07c9c0ea71, type: 2}
-  m_IsPrefabParent: 0
---- !u!54 &650162845 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54291506852228488, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 650162844}
---- !u!54 &650162846 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54522628798338420, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 650162844}
---- !u!54 &650162847 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54837773289093020, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 650162844}
 --- !u!4 &660609724 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -3690,12 +3632,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3710,17 +3652,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -3808,12 +3750,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3828,17 +3770,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -3941,12 +3883,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -3961,17 +3903,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4000,6 +3942,68 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &712850937
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114318673215650322, guid: ebb9da5e36a545d428ee6800927733eb,
+        type: 2}
+      propertyPath: characterStopsOnPortal
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &712850938 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4332342169934830, guid: ebb9da5e36a545d428ee6800927733eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 712850937}
+--- !u!1 &712850939 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1953363627623564, guid: ebb9da5e36a545d428ee6800927733eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 712850937}
+--- !u!54 &712850940 stripped
+Rigidbody:
+  m_PrefabParentObject: {fileID: 54884021486603730, guid: ebb9da5e36a545d428ee6800927733eb,
+    type: 2}
+  m_PrefabInternal: {fileID: 712850937}
 --- !u!1001 &722533451
 Prefab:
   m_ObjectHideFlags: 0
@@ -4064,12 +4068,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4084,17 +4088,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4182,12 +4186,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4202,17 +4206,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4300,12 +4304,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4320,17 +4324,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4418,12 +4422,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4438,17 +4442,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4536,12 +4540,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4556,17 +4560,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4654,12 +4658,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4674,17 +4678,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4777,12 +4781,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -4797,17 +4801,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -4884,17 +4888,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 1230162760489416, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
       propertyPath: m_Name
       value: MyCube (1)
@@ -4986,12 +4990,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5006,17 +5010,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -5114,12 +5118,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5134,17 +5138,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -5261,12 +5265,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724658d50fcb6864f8fac4caece1767e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidBody: {fileID: 2088330783}
+  myRigidBody: {fileID: 0}
 --- !u!4 &859817899 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 1778120765}
+--- !u!1001 &861191194
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114604583515073848, guid: bfb367a7996631d4296c4014963d84f4,
+        type: 2}
+      propertyPath: characterStopsOnPortal
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &861191195 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4149136590928492, guid: bfb367a7996631d4296c4014963d84f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 861191194}
+--- !u!1 &861191196 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1290805478507150, guid: bfb367a7996631d4296c4014963d84f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 861191194}
+--- !u!54 &861191197 stripped
+Rigidbody:
+  m_PrefabParentObject: {fileID: 54456061609699100, guid: bfb367a7996631d4296c4014963d84f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 861191194}
 --- !u!4 &862165423 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -5346,12 +5412,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5366,17 +5432,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -5464,12 +5530,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5484,17 +5550,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -5673,12 +5739,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5693,17 +5759,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -5791,12 +5857,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5811,17 +5877,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -5924,12 +5990,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -5944,17 +6010,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -6052,12 +6118,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6072,17 +6138,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -6175,12 +6241,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6195,17 +6261,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -6266,9 +6332,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496913447}
-  - {fileID: 1779210229}
-  - {fileID: 1300330051}
-  - {fileID: 1092638684}
+  - {fileID: 476004897}
+  - {fileID: 99144398}
   - {fileID: 629971106}
   m_Father: {fileID: 468805943}
   m_RootOrder: 0
@@ -6295,10 +6360,10 @@ MonoBehaviour:
   startingHeightForBlueStart: 3500
   risingSpeed: 2000
   timeInterval: 0.1
-  characters: {fileID: 1300330051}
-  redPortal: {fileID: 1273554186}
-  greenPortal: {fileID: 1107359703}
-  bluePortal: {fileID: 415749166}
+  characters: {fileID: 0}
+  redPortal: {fileID: 0}
+  greenPortal: {fileID: 0}
+  bluePortal: {fileID: 0}
   redSP: {fileID: 2127401228}
   greenSP: {fileID: 1668129808}
   blueSP: {fileID: 1974793670}
@@ -6457,12 +6522,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6477,17 +6542,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -6516,11 +6581,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1092638684 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4540018585881524, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
 --- !u!4 &1104241283 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -6590,12 +6650,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6610,17 +6670,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -6644,16 +6704,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1107359701 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1946395317620926, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
---- !u!4 &1107359703 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4226411968928966, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
 --- !u!4 &1185988209 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -6723,12 +6773,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6743,17 +6793,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -6927,12 +6977,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -6947,17 +6997,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7045,12 +7095,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7065,17 +7115,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7192,7 +7242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724658d50fcb6864f8fac4caece1767e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidBody: {fileID: 1964117012}
+  myRigidBody: {fileID: 0}
 --- !u!4 &1252619841 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -7203,80 +7253,63 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 732096490}
---- !u!1 &1273554184 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1671087998853728, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
---- !u!4 &1273554186 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4291983481509326, guid: 253ea218dee88394c9a665bee17a2e97,
-    type: 2}
-  m_PrefabInternal: {fileID: 440123291}
 --- !u!4 &1284049989 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 722533451}
---- !u!1 &1300330050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1091267364757134, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1300330051}
-  - component: {fileID: 1300330052}
-  m_Layer: 0
-  m_Name: Characters_2D
-  m_TagString: Characters
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1300330051
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1300330050}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16, y: 0, z: -96}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1863062059}
-  - {fileID: 2088330779}
-  - {fileID: 1964117008}
-  m_Father: {fileID: 1079614283}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1300330052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114775724579931228, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1300330050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1c30ca301e1764590bddc9fc0def4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeFinalAnims: 0
-  myRigidBody_Red: {fileID: 1863062063}
-  myRigidBody_Green: {fileID: 2088330783}
-  myRigidBody_Blue: {fileID: 1964117012}
-  timer: 4
-  playTransitionAnim: 0
-  timeBetweenTransitions: 1.8
-  loadLevel: Level4FE
 --- !u!4 &1311701014 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 1487502213}
+--- !u!1001 &1313401457
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 99144398}
+    m_Modifications:
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f0200cb8ca344d247bf83ce1b56ae75b, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1313401458 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4369204642291796, guid: f0200cb8ca344d247bf83ce1b56ae75b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1313401457}
 --- !u!1001 &1314117292
 Prefab:
   m_ObjectHideFlags: 0
@@ -7341,12 +7374,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7361,17 +7394,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7479,12 +7512,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7499,17 +7532,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7602,12 +7635,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7622,17 +7655,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7720,12 +7753,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7740,17 +7773,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -7858,12 +7891,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -7878,17 +7911,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8037,12 +8070,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8057,17 +8090,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8155,12 +8188,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8175,17 +8208,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8288,12 +8321,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8308,17 +8341,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8416,12 +8449,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8436,17 +8469,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8534,12 +8567,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8554,17 +8587,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8657,12 +8690,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8677,17 +8710,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8861,12 +8894,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -8881,17 +8914,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -8989,12 +9022,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9009,17 +9042,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9112,12 +9145,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9132,17 +9165,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9166,63 +9199,58 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1648564633
+--- !u!1001 &1648074055
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300330051}
+    m_TransformParent: {fileID: 476004897}
     m_Modifications:
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 16
+      value: -16
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalPosition.y
       value: 48
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalPosition.z
       value: -160
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+    - target: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114139835400980356, guid: ebb9da5e36a545d428ee6800927733eb,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 1107359701}
-    - target: {fileID: 114139835400980356, guid: ebb9da5e36a545d428ee6800927733eb,
-        type: 2}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 468805938}
-    - target: {fileID: 114139835400980356, guid: ebb9da5e36a545d428ee6800927733eb,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1648074056 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea,
+    type: 2}
+  m_PrefabInternal: {fileID: 1648074055}
+--- !u!1 &1648074057 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1844185516129432, guid: ac1d1a254eb1993469471e9d012087ea,
+    type: 2}
+  m_PrefabInternal: {fileID: 1648074055}
 --- !u!1 &1668129807
 GameObject:
   m_ObjectHideFlags: 0
@@ -9270,6 +9298,58 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 2026542175}
+--- !u!1001 &1676040969
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1676040970 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4385162333033592, guid: 53f3270cbc73a374687a03dd363e5562,
+    type: 2}
+  m_PrefabInternal: {fileID: 1676040969}
+--- !u!1 &1676040971 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1310102167609272, guid: 53f3270cbc73a374687a03dd363e5562,
+    type: 2}
+  m_PrefabInternal: {fileID: 1676040969}
 --- !u!1001 &1692705442
 Prefab:
   m_ObjectHideFlags: 0
@@ -9334,12 +9414,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9354,17 +9434,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9462,12 +9542,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9482,17 +9562,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9661,12 +9741,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9681,17 +9761,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9719,63 +9799,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1759561427
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300330051}
-    m_Modifications:
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -80
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -160
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114787857578997186, guid: b7888d135fe71c143b3eec7e15186a51,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 1273554184}
-    - target: {fileID: 114787857578997186, guid: b7888d135fe71c143b3eec7e15186a51,
-        type: 2}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 468805938}
-    - target: {fileID: 114787857578997186, guid: b7888d135fe71c143b3eec7e15186a51,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1778120765
 Prefab:
@@ -9841,12 +9864,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9861,17 +9884,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -9895,11 +9918,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1779210229 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4344484085939124, guid: ebf1d39c1bad73e478d88e07c9c0ea71,
-    type: 2}
-  m_PrefabInternal: {fileID: 650162844}
 --- !u!1001 &1782410418
 Prefab:
   m_ObjectHideFlags: 0
@@ -9964,12 +9982,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -9984,17 +10002,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -10092,12 +10110,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -10112,17 +10130,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -10210,12 +10228,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -10230,17 +10248,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -10384,12 +10402,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -10404,17 +10422,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -10482,21 +10500,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 6144119}
---- !u!1 &1863062058 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1569728378438686, guid: b7888d135fe71c143b3eec7e15186a51,
-    type: 2}
-  m_PrefabInternal: {fileID: 1759561427}
---- !u!4 &1863062059 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4174989101004728, guid: b7888d135fe71c143b3eec7e15186a51,
-    type: 2}
-  m_PrefabInternal: {fileID: 1759561427}
---- !u!54 &1863062063 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54420369479219120, guid: b7888d135fe71c143b3eec7e15186a51,
-    type: 2}
-  m_PrefabInternal: {fileID: 1759561427}
 --- !u!1 &1908417952
 GameObject:
   m_ObjectHideFlags: 0
@@ -10585,7 +10588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724658d50fcb6864f8fac4caece1767e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidBody: {fileID: 1863062063}
+  myRigidBody: {fileID: 0}
 --- !u!1 &1908506077
 GameObject:
   m_ObjectHideFlags: 0
@@ -10706,12 +10709,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -10726,17 +10729,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -10885,12 +10888,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -10905,17 +10908,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11013,12 +11016,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11033,17 +11036,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11136,12 +11139,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11156,17 +11159,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11254,12 +11257,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11274,17 +11277,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11308,21 +11311,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1964117007 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1445815140772040, guid: bfb367a7996631d4296c4014963d84f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1981119899}
---- !u!4 &1964117008 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1981119899}
---- !u!54 &1964117012 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54980403823628408, guid: bfb367a7996631d4296c4014963d84f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1981119899}
 --- !u!1001 &1968908468
 Prefab:
   m_ObjectHideFlags: 0
@@ -11387,12 +11375,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11407,17 +11395,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11488,63 +11476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39912ddc5d46d9a4288de7a7948b3413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1981119899
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300330051}
-    m_Modifications:
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -160
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4275863597265150, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114731424591533676, guid: bfb367a7996631d4296c4014963d84f4,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 415749164}
-    - target: {fileID: 114731424591533676, guid: bfb367a7996631d4296c4014963d84f4,
-        type: 2}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 468805938}
-    - target: {fileID: 114731424591533676, guid: bfb367a7996631d4296c4014963d84f4,
-        type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
-  m_IsPrefabParent: 0
 --- !u!4 &1981840542 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -11624,12 +11555,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11644,17 +11575,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11678,6 +11609,53 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2000994135
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 99144398}
+    m_Modifications:
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5b0e3270afdaa23408e5c2f74b185861, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2000994136 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4808800404032696, guid: 5b0e3270afdaa23408e5c2f74b185861,
+    type: 2}
+  m_PrefabInternal: {fileID: 2000994135}
 --- !u!1001 &2004340836
 Prefab:
   m_ObjectHideFlags: 0
@@ -11742,12 +11720,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11762,17 +11740,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animSpeed
@@ -11796,6 +11774,58 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2005780414
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2005780415 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4538125880034806, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2005780414}
+--- !u!1 &2005780416 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1114844801079670, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 2005780414}
 --- !u!1001 &2007692507
 Prefab:
   m_ObjectHideFlags: 0
@@ -11860,12 +11890,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11880,17 +11910,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -11978,12 +12008,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -11998,17 +12028,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -12101,12 +12131,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -12121,17 +12151,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -12300,12 +12330,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -12320,17 +12350,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -12359,26 +12389,63 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 785540971}
---- !u!1 &2088330778 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1252274729774446, guid: ebb9da5e36a545d428ee6800927733eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 1648564633}
---- !u!4 &2088330779 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4432425367458766, guid: ebb9da5e36a545d428ee6800927733eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 1648564633}
---- !u!54 &2088330783 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 54813244947578936, guid: ebb9da5e36a545d428ee6800927733eb,
-    type: 2}
-  m_PrefabInternal: {fileID: 1648564633}
 --- !u!4 &2094685626 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 2066406245}
+--- !u!1001 &2105452413
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 476004897}
+    m_Modifications:
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2105452414 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4279700418214296, guid: 40287ccadd4cdc845856ed0a637ed431,
+    type: 2}
+  m_PrefabInternal: {fileID: 2105452413}
+--- !u!1 &2105452415 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1867232297532550, guid: 40287ccadd4cdc845856ed0a637ed431,
+    type: 2}
+  m_PrefabInternal: {fileID: 2105452413}
 --- !u!1001 &2116257434
 Prefab:
   m_ObjectHideFlags: 0
@@ -12443,12 +12510,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -12463,17 +12530,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer
@@ -12561,12 +12628,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: rb
       value: 
-      objectReference: {fileID: 1863062063}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: canvas
@@ -12581,17 +12648,17 @@ Prefab:
         type: 2}
       propertyPath: r
       value: 
-      objectReference: {fileID: 1863062058}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: g
       value: 
-      objectReference: {fileID: 2088330778}
+      objectReference: {fileID: 0}
     - target: {fileID: 114074009784396718, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: b
       value: 
-      objectReference: {fileID: 1964117007}
+      objectReference: {fileID: 0}
     - target: {fileID: 114308853981951290, guid: 9971db486e803004ab8ec2362a60eef3,
         type: 2}
       propertyPath: animTimer

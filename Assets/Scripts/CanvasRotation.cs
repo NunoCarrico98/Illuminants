@@ -73,9 +73,6 @@ public class CanvasRotation : MonoBehaviour
         //FreezeCharacter();
         transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
         if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
-        character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-        character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
-        character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationQ, Time.deltaTime * speed);
         if (timer <= 0)
         {
             timer = resetTimer;
@@ -98,9 +95,6 @@ public class CanvasRotation : MonoBehaviour
         //FreezeCharacter();
         transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
         if (timer / 2 < resetTimer / 3) speed += 100 * Time.deltaTime; //accelarate when a two thirds of time have passed
-        character[0].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-        character[1].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
-        character[2].transform.rotation = Quaternion.Slerp(transform.rotation, rotationE, Time.deltaTime * speed);
 
         if (timer <= 0)
         {

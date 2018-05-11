@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private SpriteRenderer sprite;
+    private bool objectsInPlace = false;
     // Use this for initialization
     void Start()
     {
@@ -14,10 +15,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //objectsInPlace = GameObject.FindGameObjectWithTag("Objects").GetComponent<SpawnScript>().objectsInPlace;
 
         TurnToCamera();
-        ChangeLayer();
 
+        //if (objectsInPlace == true) {
+          //  ChangeLayer();
+        //}
     }
 
     private void FixedUpdate()
@@ -31,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
     private void ChangeLayer()
     {
-        if (transform.position.y == 46)
+        if (transform.position.y < 78)
         {
             sprite.sortingOrder = 3;
         }

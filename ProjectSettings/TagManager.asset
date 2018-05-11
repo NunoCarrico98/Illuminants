@@ -11,6 +11,9 @@ TagManager:
   - Objects
   - Canvas
   - Level
+  - RedPortal
+  - GreenPortal
+  - BluePortal
   layers:
   - Default
   - TransparentFX
