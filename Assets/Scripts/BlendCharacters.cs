@@ -48,12 +48,19 @@ public class BlendCharacters : MonoBehaviour {
     {
 
             //If none of them have the same positions
-            if (Input.GetKeyUp(KeyCode.Space) && (((ahr.transform.position.x != gee.transform.position.x)
-            || (ahr.transform.position.y != gee.transform.position.y)
-            || (ahr.transform.position.z != gee.transform.position.z))
-            && ((ahr.transform.position.x != bee.transform.position.x)
-            || (ahr.transform.position.y != bee.transform.position.y)
-            || (ahr.transform.position.z != bee.transform.position.z))))
+            if (Input.GetKeyUp(KeyCode.Space) && 
+            (((ahr.transform.position.x > gee.transform.position.x + 25)
+            || (ahr.transform.position.x < gee.transform.position.x - 25)
+            || (ahr.transform.position.y > gee.transform.position.y + 25)
+            || (ahr.transform.position.y < gee.transform.position.y - 25)
+            || (ahr.transform.position.z > gee.transform.position.z + 25)
+            || (ahr.transform.position.z < gee.transform.position.z - 25))
+            && (ahr.transform.position.x > bee.transform.position.x + 25)
+            || (ahr.transform.position.x < bee.transform.position.x - 25)
+            || (ahr.transform.position.y > bee.transform.position.y + 25)
+            || (ahr.transform.position.y < bee.transform.position.y - 25)
+            || (ahr.transform.position.z > bee.transform.position.z + 25)
+            || (ahr.transform.position.z < bee.transform.position.z - 25)))
         {
             DontBlend();
         }
@@ -63,7 +70,6 @@ public class BlendCharacters : MonoBehaviour {
             && (ahr.transform.position.z == gee.transform.position.z)) && isWhite == false)
         {
             BlendYellow();
-            Debug.Log("Mudou po amarelo");
         }
 
         //Red and Blue

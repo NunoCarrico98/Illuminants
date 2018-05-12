@@ -14,6 +14,17 @@ public class NextLevel : MonoBehaviour
     public float timeBetweenTransitions = 1f;
     public string loadLevel;
 
+    private Transform redPortal;
+    private Transform greenPortal;
+    private Transform bluePortal;
+
+    private void Start()
+    {
+        redPortal = GameObject.FindGameObjectWithTag("RedPortal").transform;
+        greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
+        bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
+    }
+
     private void Update()
     {
         OnTriggerEnter();
@@ -37,6 +48,19 @@ public class NextLevel : MonoBehaviour
             && myRigidBody_Blue.GetComponent<Movement>().onPortal == true)
         {
             activeFinalAnims = true;
+
+            myRigidBody_Red.velocity = new Vector3(0,0,0);
+            myRigidBody_Green.velocity = new Vector3(0, 0, 0);
+            myRigidBody_Blue.velocity = new Vector3(0, 0, 0);
+
+            myRigidBody_Red.position = Vector3.MoveTowards(myRigidBody_Red.position, 
+                new Vector3(redPortal.position.x, myRigidBody_Red.position.y, redPortal.position.z), 50 * Time.deltaTime);
+            myRigidBody_Green.position = Vector3.MoveTowards(myRigidBody_Green.position,
+                new Vector3(greenPortal.position.x, myRigidBody_Green.position.y, greenPortal.position.z), 50 * Time.deltaTime);
+            myRigidBody_Blue.position = Vector3.MoveTowards(myRigidBody_Blue.position,
+                new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
+
+
         }
         if(activeFinalAnims == true && playTransitionAnim == false)
         {

@@ -143,7 +143,7 @@ public class CubeController : MonoBehaviour
         if (up)
         {
             animTimer -= Time.deltaTime;
-            if (animTimer <= 1.5)
+            if (animTimer <= 0.4)
             {
                 transform.position = Vector3.MoveTowards(transform.position,
                          new Vector3(transform.position.x, 32, transform.position.z), animSpeed * Time.deltaTime);

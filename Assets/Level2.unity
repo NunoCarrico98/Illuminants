@@ -2654,7 +2654,7 @@ MonoBehaviour:
   myRigidBody_Red: {fileID: 573579911}
   myRigidBody_Green: {fileID: 712850940}
   myRigidBody_Blue: {fileID: 861191197}
-  timerToChangeLevel: 3
+  timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
   loadLevel: Level4FE
@@ -2896,11 +2896,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114670584545985356, guid: 4811bdec55b344a41a8e9ac8da8354a6,
-        type: 2}
-      propertyPath: camera2D1
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4811bdec55b344a41a8e9ac8da8354a6, type: 2}
   m_IsPrefabParent: 0
@@ -2950,14 +2945,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
         type: 2}
-      propertyPath: characterStopsOnPortal
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
-        type: 2}
       propertyPath: portalDestination
       value: 
       objectReference: {fileID: 2000994137}
+    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
+        type: 2}
+      propertyPath: characterStopsOnPortal
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
   m_IsPrefabParent: 0
@@ -6251,7 +6246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallingSpeedForCharacters: 2000
-  startingHeightForCharacters: 3000
+  startingHeightForCharacters: 1000
   fallingSpeedForObjects: 2000
   startingHeightForRedPortal: 1000
   startingHeightForGreenPortal: 1500
@@ -6262,13 +6257,14 @@ MonoBehaviour:
   risingSpeed: 2000
   timeInterval: 0.1
   beginSpawnTimer: 0
-  bifrostGrowTime: 0.5
+  bifrostGrowTime: 2
   redPortalTimer: 0
   greenPortalTimer: 0.5
   bluePortalTimer: 1
   objectsInPlace: 0
   portalsInPlace: 0
   charactersInPlace: 0
+  portalsGone: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:

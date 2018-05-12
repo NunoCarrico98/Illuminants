@@ -32,8 +32,11 @@ public class Movement : MonoBehaviour
     private bool slowing;
     private bool stop = false;
     private bool cubesInPlace = false;
+    private bool activeFinalAnims = false;
 
     private float resetSpeed;
+
+    private GameObject characters;
 
     private Animator myAnim;
 
@@ -47,6 +50,9 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+
+        characters = GameObject.FindGameObjectWithTag("Characters");
+
         canvas = GameObject.FindGameObjectWithTag("Canvas");
 
         currentPos = transform.position;
@@ -63,9 +69,13 @@ public class Movement : MonoBehaviour
         sprite = transform.Find("Face").GetComponent<SpriteRenderer>();
         currentPos = transform.position;
 
+
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
 
+        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
+
         isRewinding = transform.GetComponent<RewindTime>().isRewinding;
+
 
         cubesInPlace = CubeController.cubesInPlace;
 
@@ -73,42 +83,11 @@ public class Movement : MonoBehaviour
 
         CheckIfSpriteOn();
 
-        //Movement with WASD or Arrows v1
-
-        /*if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) 
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
+        //Movement with WASD or Arrows
+        if (cubesInPlace == true && activeFinalAnims == false)
         {
-            myRigidBody.velocity = forward * speed;
-            isGoingUp = true;
-            //myRigidBody.rotation = Quaternion.AngleAxis(180, Vector3.up);
+            Move();
         }
-        if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow))
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = left * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(90, Vector3.up);
-            isGoingSideways = true;
-        }
-        if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow))
-            && !Input.anyKey  && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = backward * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(0, Vector3.up);
-            isGoingDown = true;
-        }
-        if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow))
-            && !Input.anyKey && stop == false && isCanvasRotating == false)
-        {
-            myRigidBody.velocity = right * speed;
-            //myRigidBody.rotation = Quaternion.AngleAxis(-90, Vector3.up);
-            isGoingSideways = true;
-        }*/
-
-        //if (myRigidBody.position.y == 48 && cubesInPlace == true)
-        //{
-        //Move();
-        //}
-        if (cubesInPlace == true) Move();
         CheckDirection();
 
         if (isRewinding == false)
@@ -259,10 +238,10 @@ public class Movement : MonoBehaviour
         onPortal = false;
 
         //Check if characters are inside the portals
-        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 10
-            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 10
-            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 10
-            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 10)
+        if (myRigidBody.transform.position.x <= portalDestination.transform.position.x + 3
+            && myRigidBody.transform.position.x >= portalDestination.transform.position.x - 3
+            && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 3
+            && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 3)
         {
             //Stops the character when it enters the portal
             if (characterStopsOnPortal == true)

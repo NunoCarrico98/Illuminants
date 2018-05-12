@@ -5831,7 +5831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallingSpeedForCharacters: 2000
-  startingHeightForCharacters: 3000
+  startingHeightForCharacters: 1000
   fallingSpeedForObjects: 2000
   startingHeightForRedPortal: 1000
   startingHeightForGreenPortal: 1500
@@ -5842,13 +5842,14 @@ MonoBehaviour:
   risingSpeed: 2000
   timeInterval: 0.1
   beginSpawnTimer: 0
-  bifrostGrowTime: 0.5
+  bifrostGrowTime: 2
   redPortalTimer: 0
   greenPortalTimer: 0.5
   bluePortalTimer: 1
   objectsInPlace: 0
   portalsInPlace: 0
   charactersInPlace: 0
+  portalsGone: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:
@@ -11980,7 +11981,7 @@ MonoBehaviour:
   myRigidBody_Red: {fileID: 101725701}
   myRigidBody_Green: {fileID: 218343215}
   myRigidBody_Blue: {fileID: 412653696}
-  timerToChangeLevel: 3
+  timerToChangeLevel: 3.4
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
   loadLevel: Level13FE

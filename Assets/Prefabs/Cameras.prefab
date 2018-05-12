@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 20812199679381274}
   - component: {fileID: 124782271220607090}
   - component: {fileID: 81182244837314768}
+  - component: {fileID: 114410207436359526}
   m_Layer: 0
   m_Name: cam2
   m_TagString: MainCamera
@@ -354,6 +355,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myGO: {fileID: 1124528314607002}
   keyCount: 0
+--- !u!114 &114410207436359526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1787630184437992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6363bba448bf64e60a763433f9ddf81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _threshold: 1
+  _softKnee: 0.5
+  _radius: 2
+  _intensity: 0.6
+  _highQuality: 1
+  _antiFlicker: 1
+  _shader: {fileID: 4800000, guid: 5a711a01011934ebcb58ef5ad52159d6, type: 3}
 --- !u!114 &114670584545985356
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -36,6 +36,7 @@ public class SpawnScript : MonoBehaviour
     public bool objectsInPlace = false;
     public bool portalsInPlace = false;
     public bool charactersInPlace = false;
+    public bool portalsGone = false;
 
     private float timer = 0;
     private float redPortalInitHeight;
@@ -49,6 +50,9 @@ public class SpawnScript : MonoBehaviour
     private SpriteRenderer spriteRSP;
     private SpriteRenderer spriteGSP;
     private SpriteRenderer spriteBSP;
+    private SpriteRenderer spriteRSP2;
+    private SpriteRenderer spriteGSP2;
+    private SpriteRenderer spriteBSP2;
     private Color redSpriteColor;
     private Color greenSpriteColor;
     private Color blueSpriteColor;
@@ -59,6 +63,11 @@ public class SpawnScript : MonoBehaviour
     private Transform blueBifrost;
     private Transform greenBifrost;
 
+    private Transform redChar;
+    private Transform greenChar;
+    private Transform blueChar;
+    private bool charactersInHeaven = false;
+
     public float fadeInTime = 2f;
 
     // Use this for initialization
@@ -66,29 +75,46 @@ public class SpawnScript : MonoBehaviour
     {
 
         characters = GameObject.FindGameObjectWithTag("Characters").transform;
+        redChar = characters.Find("Red_Player");
+        greenChar = characters.Find("Green_Player");
+        blueChar = characters.Find("Blue_Player");
+
         redPortal = GameObject.FindGameObjectWithTag("RedPortal").transform;
         greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
         bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
+
+        //Spawn points
         redSP = GameObject.FindGameObjectWithTag("RedStart").transform;
         greenSP = GameObject.FindGameObjectWithTag("GreenStart").transform;
         blueSP = GameObject.FindGameObjectWithTag("BlueStart").transform;
 
+        //Sprites of the spawn points
+        spriteRSP2 = redSP.Find("RedSP").GetComponent<SpriteRenderer>();
+        spriteGSP2 = greenSP.Find("GreenSP").GetComponent<SpriteRenderer>();
+        spriteBSP2 = blueSP.Find("BlueSP").GetComponent<SpriteRenderer>();
+
+        //Bifrost beams
         bifrosts = GameObject.FindGameObjectWithTag("Bifrosts").transform;
         redBifrost = bifrosts.Find("Red").transform.Find("Sprite");
         greenBifrost = bifrosts.Find("Green").transform.Find("Sprite");
         blueBifrost = bifrosts.Find("Blue").transform.Find("Sprite");
 
+        //Inicial heights for the portals
         redPortalInitHeight = redPortal.transform.position.y;
         greenPortalInitHeight = greenPortal.transform.position.y;
         bluePortalInitHeight = bluePortal.transform.position.y;
 
+        //Sprite Renderers of the portals
         spriteRed = redPortal.GetComponent<SpriteRenderer>();
         spriteGreen = greenPortal.GetComponent<SpriteRenderer>();
         spriteBlue = bluePortal.GetComponent<SpriteRenderer>();
+
+        //Sprites of the RGB Symbols of the portals of the portals
         spriteRSP = redPortal.Find("1").Find("RedSP").GetComponent<SpriteRenderer>();
         spriteGSP = greenPortal.Find("2").Find("GreenSP").GetComponent<SpriteRenderer>();
         spriteBSP = bluePortal.Find("3").Find("BlueSP").GetComponent<SpriteRenderer>();
 
+        //Bifrosts start with 0 scale on X axis
         BifrostsStartSize();
 
         //Initialize portals with 0 opacity
@@ -122,13 +148,61 @@ public class SpawnScript : MonoBehaviour
                 Spawn();
             }
         }
-        else if (activeFinalAnims == true)
+        if (activeFinalAnims == true)
         {
             SendToHeaven();
         }
 
     }
 
+    private void Spawn()
+    {
+        //Characters spawn with a bifrost-like effect
+        if (portalsInPlace == true && charactersInPlace == false)
+        {
+            ActiveBifrost();
+            FallingCharacters();
+        }
+        if (charactersInPlace == true && objectsInPlace == false)
+        {
+            ByeBifrost();
+            if (adder == 0) objectsInPlace = true;
+        }
+
+        if (portalsInPlace == false)
+        {
+            //Portals spawn with a fade
+            FadeInPortals();
+        }
+
+        //Objects spawn by falling from the sky
+        //FallingObjects();
+    }
+
+    private void SendToHeaven()
+    {
+        //timer += Time.deltaTime;
+        if (charactersInHeaven == false)
+        {
+            ActiveBifrost();
+            if (adder >= 32)
+            {
+                CharactersGoToHeaven();
+            }
+        }
+
+        if (charactersInHeaven == true /*&& adder > 0*/)
+        {
+            ByeBifrost();
+        //}
+        //if (adder == 0)
+        //{
+            FadeOutPortals();
+        }
+
+
+        //ObjectsGoToHeaven();
+    }
 
     private void BifrostsStartSize()
     {
@@ -139,16 +213,19 @@ public class SpawnScript : MonoBehaviour
 
     private void ActiveBifrost()
     {
+        redBifrost.position = new Vector3(redChar.position.x, redBifrost.position.y, redChar.position.z);
+        greenBifrost.position = new Vector3(greenChar.position.x, greenBifrost.position.y, greenChar.position.z);
+        blueBifrost.position = new Vector3(blueChar.position.x, blueBifrost.position.y, blueChar.position.z);
+
         if (adder <= 32)
         {
             adder += bifrostGrowTime;
         }
+        if (adder > 32) adder = 32;
         redBifrost.transform.localScale = new Vector3(adder, 480, 32);
         greenBifrost.transform.localScale = new Vector3(adder, 480, 32);
         blueBifrost.transform.localScale = new Vector3(adder, 480, 32);
 
-
-        FallingCharacters();
     }
 
     private void ByeBifrost()
@@ -157,11 +234,10 @@ public class SpawnScript : MonoBehaviour
         {
             adder -= bifrostGrowTime;
         }
+        if (adder < 0) adder = 0;
         redBifrost.transform.localScale = new Vector3(adder, 480, 32);
         greenBifrost.transform.localScale = new Vector3(adder, 480, 32);
         blueBifrost.transform.localScale = new Vector3(adder, 480, 32);
-
-        if (adder == 0) objectsInPlace = true;
     }
 
     private void FadeInPortals()
@@ -190,18 +266,42 @@ public class SpawnScript : MonoBehaviour
             spriteBSP.color = blueSpriteColor;
         }
 
-        if (blueSpriteColor.a >= 0.7) portalsInPlace = true;
+        if(blueSpriteColor.a >= 0.7) portalsInPlace = true;
+        if (blueSpriteColor.a >= 1)
+        {
+            portalSpawnTimer = 0;
+        }
     }
 
     private void FadeOutPortals()
     {
+        portalSpawnTimer += Time.deltaTime;
+        if (portalSpawnTimer >= redPortalTimer)
+        {
+            redSpriteColor = spriteRed.color;
+            redSpriteColor.a -= fadeInTime / 100;
+            spriteRed.color = redSpriteColor;
+            spriteRSP.color = redSpriteColor;
+            spriteRSP2.color = redSpriteColor;
+        }
+        if (portalSpawnTimer >= greenPortalTimer)
+        {
+            greenSpriteColor = spriteGreen.color;
+            greenSpriteColor.a -= fadeInTime / 100;
+            spriteGreen.color = greenSpriteColor;
+            spriteGSP.color = greenSpriteColor;
+            spriteGSP2.color = greenSpriteColor;
+        }
+        if (portalSpawnTimer >= bluePortalTimer)
+        {
+            blueSpriteColor = spriteBlue.color;
+            blueSpriteColor.a -= fadeInTime / 100;
+            spriteBlue.color = blueSpriteColor;
+            spriteBSP.color = blueSpriteColor;
+            spriteBSP2.color = blueSpriteColor;
+        }
 
-    }
-
-    private void CharactersStartPositionForFall()
-    {
-        characters.position = new Vector3(characters.position.x,
-            characters.position.y + startingHeightForCharacters, characters.position.z);
+        if (blueSpriteColor.a <= 0) portalsGone = true;
     }
 
     private void TransparentPortals()
@@ -218,6 +318,12 @@ public class SpawnScript : MonoBehaviour
         spriteRSP.color = redSpriteColor;
         spriteGSP.color = greenSpriteColor;
         spriteBSP.color = blueSpriteColor;
+    }
+
+    private void CharactersStartPositionForFall()
+    {
+        characters.position = new Vector3(characters.position.x,
+            characters.position.y + startingHeightForCharacters, characters.position.z);
     }
 
     private void ObjectsStartPositionsForFall()
@@ -239,26 +345,6 @@ public class SpawnScript : MonoBehaviour
 
         blueSP.position = new Vector3(blueSP.position.x,
             blueSP.position.y + startingHeightForBlueStart, blueSP.position.z);
-    }
-
-
-    private void Spawn()
-    {
-        //Characters spawn with a bifrost-like effect
-        if (portalsInPlace == true && charactersInPlace == false)
-        {
-            ActiveBifrost();
-        }
-        if (charactersInPlace == true)
-        {
-            ByeBifrost();
-        }
-
-        //Portals spawn with a fade
-        FadeInPortals();
-
-        //Objects spawn by falling from the sky
-        //FallingObjects();
     }
 
     private void FallingCharacters()
@@ -303,16 +389,26 @@ public class SpawnScript : MonoBehaviour
                 new Vector3(blueSP.position.x, 31, blueSP.position.z), fallingSpeedForObjects * Time.deltaTime);
     }
 
-    private void SendToHeaven()
-    {
-        timer += Time.deltaTime;
 
-        if (timer >= 0.1)
+
+    private void CharactersGoToHeaven()
+    {
+        //if (timer >= 0.1)
+
+        //Move the players to this position
+        characters.position = Vector3.MoveTowards(characters.position,
+                new Vector3(characters.position.x, 2000, characters.position.z), risingSpeed * Time.deltaTime);
+
+        if (characters.position.y >= 500)
         {
-            //Move the players to this position
-            characters.position = Vector3.MoveTowards(characters.position,
-                    new Vector3(characters.position.x, 2000, characters.position.z), risingSpeed * Time.deltaTime);
+            charactersInHeaven = true;
         }
+
+    }
+
+    private void ObjectsGoToHeaven()
+    {
+
         if (timer >= 0.1 + timeInterval)
         {
             //Move other objects
@@ -344,5 +440,6 @@ public class SpawnScript : MonoBehaviour
             blueSP.position = Vector3.MoveTowards(blueSP.position,
                 new Vector3(blueSP.position.x, 2000, blueSP.position.z), risingSpeed * Time.deltaTime);
         }
+
     }
 }
