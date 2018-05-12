@@ -37,6 +37,7 @@ public class SpawnScript : MonoBehaviour
     public bool portalsInPlace = false;
     public bool charactersInPlace = false;
     public bool portalsGone = false;
+    public bool bifrostActive = false;
 
     private float timer = 0;
     private float redPortalInitHeight;
@@ -138,7 +139,6 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
         if (activeFinalAnims == false && objectsInPlace == false)
         {
@@ -213,6 +213,7 @@ public class SpawnScript : MonoBehaviour
 
     private void ActiveBifrost()
     {
+        bifrostActive = true;
         redBifrost.position = new Vector3(redChar.position.x, redBifrost.position.y, redChar.position.z);
         greenBifrost.position = new Vector3(greenChar.position.x, greenBifrost.position.y, greenChar.position.z);
         blueBifrost.position = new Vector3(blueChar.position.x, blueBifrost.position.y, blueChar.position.z);
@@ -234,10 +235,15 @@ public class SpawnScript : MonoBehaviour
         {
             adder -= bifrostGrowTime;
         }
-        if (adder < 0) adder = 0;
+        if (adder <= 0)
+        {
+            adder = 0;
+            //bifrostActive = false;
+        }
         redBifrost.transform.localScale = new Vector3(adder, 480, 32);
         greenBifrost.transform.localScale = new Vector3(adder, 480, 32);
         blueBifrost.transform.localScale = new Vector3(adder, 480, 32);
+        if (redBifrost.transform.localScale.x == 0) bifrostActive = false;
     }
 
     private void FadeInPortals()

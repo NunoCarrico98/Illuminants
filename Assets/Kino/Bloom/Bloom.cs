@@ -179,6 +179,8 @@ namespace Kino
             var rtFormat = useRGBM ?
                 RenderTextureFormat.Default : RenderTextureFormat.DefaultHDR;
 
+            _radius = transform.GetComponent<SuperGlowBifrost>().radius;
+
             // determine the iteration count
             var logh = Mathf.Log(th, 2) + _radius - 8;
             var logh_i = (int)logh;

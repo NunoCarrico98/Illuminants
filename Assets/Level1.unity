@@ -1517,8 +1517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &268365159
@@ -1836,8 +1836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &340375175
@@ -1892,8 +1892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!4 &350336732 stripped
@@ -2522,8 +2522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!4 &415749166 stripped
@@ -3108,8 +3108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!4 &549187048 stripped
@@ -3161,16 +3161,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114311306610078984, guid: 40287ccadd4cdc845856ed0a637ed431,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 205923578}
     - target: {fileID: 114564594902449066, guid: 40287ccadd4cdc845856ed0a637ed431,
         type: 2}
       propertyPath: parent
       value: 
       objectReference: {fileID: 1226006836}
+    - target: {fileID: 114311306610078984, guid: 40287ccadd4cdc845856ed0a637ed431,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 205923578}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
   m_IsPrefabParent: 0
@@ -6310,16 +6310,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114955824537167270, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 205923578}
     - target: {fileID: 114205246508871184, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
         type: 2}
       propertyPath: parent
       value: 
       objectReference: {fileID: 73159213}
+    - target: {fileID: 114955824537167270, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 205923578}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
   m_IsPrefabParent: 0
@@ -6394,6 +6394,7 @@ MonoBehaviour:
   portalsInPlace: 0
   charactersInPlace: 0
   portalsGone: 0
+  bifrostActive: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:
@@ -8157,8 +8158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1434949174
@@ -9372,16 +9373,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114856773371247066, guid: ac1d1a254eb1993469471e9d012087ea,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 205923578}
     - target: {fileID: 114703421541531492, guid: ac1d1a254eb1993469471e9d012087ea,
         type: 2}
       propertyPath: parent
       value: 
       objectReference: {fileID: 1590757451}
+    - target: {fileID: 114856773371247066, guid: ac1d1a254eb1993469471e9d012087ea,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 205923578}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
   m_IsPrefabParent: 0
@@ -10409,8 +10410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1824233443
@@ -10718,8 +10719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1908841904
@@ -10902,8 +10903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1918256205
@@ -11319,16 +11320,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114189845804892456, guid: 53f3270cbc73a374687a03dd363e5562,
-        type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 205923578}
     - target: {fileID: 114559502443889882, guid: 53f3270cbc73a374687a03dd363e5562,
         type: 2}
       propertyPath: parent
       value: 
       objectReference: {fileID: 1590757451}
+    - target: {fileID: 114189845804892456, guid: 53f3270cbc73a374687a03dd363e5562,
+        type: 2}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 205923578}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
   m_IsPrefabParent: 0

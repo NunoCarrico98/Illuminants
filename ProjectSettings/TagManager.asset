@@ -18,6 +18,7 @@ TagManager:
   - GreenStart
   - BlueStart
   - Bifrosts
+  - CubeSheet
   layers:
   - Default
   - TransparentFX

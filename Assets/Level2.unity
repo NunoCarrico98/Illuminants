@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &277894721
@@ -1662,8 +1662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &340375175
@@ -1718,8 +1718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!4 &350336732 stripped
@@ -2276,8 +2276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &426771485
@@ -2843,8 +2843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!4 &549187048 stripped
@@ -6265,6 +6265,7 @@ MonoBehaviour:
   portalsInPlace: 0
   charactersInPlace: 0
   portalsGone: 0
+  bifrostActive: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:
@@ -7994,8 +7995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1434949174
@@ -10270,8 +10271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1824233443
@@ -10577,8 +10578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1908841904
@@ -10756,8 +10757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1001 &1918256205
