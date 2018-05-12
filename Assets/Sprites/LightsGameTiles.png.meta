@@ -27,6 +27,15 @@ TextureImporter:
     21300040: LightsGameTiles_20
     21300042: LightsGameTiles_21
     21300044: LightsGameTiles_22
+    21300046: LightsGameTiles_23
+    21300048: LightsGameTiles_24
+    21300050: LightsGameTiles_25
+    21300052: LightsGameTiles_26
+    21300054: LightsGameTiles_27
+    21300056: LightsGameTiles_28
+    21300058: LightsGameTiles_29
+    21300060: LightsGameTiles_30
+    21300062: LightsGameTiles_31
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -416,6 +425,48 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LightsGameTiles_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LightsGameTiles_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LightsGameTiles_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
         width: 32
         height: 32
       alignment: 0

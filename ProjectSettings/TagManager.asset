@@ -17,6 +17,7 @@ TagManager:
   - RedStart
   - GreenStart
   - BlueStart
+  - Bifrosts
   layers:
   - Default
   - TransparentFX
