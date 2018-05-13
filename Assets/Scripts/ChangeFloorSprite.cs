@@ -20,7 +20,6 @@ public class ChangeFloorSprite : MonoBehaviour {
 
     private void Update()
     {
-
         ChangeLightAlpha();
     }
 

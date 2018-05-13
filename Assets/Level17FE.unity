@@ -6216,6 +6216,7 @@ MonoBehaviour:
   portalsInPlace: 0
   charactersInPlace: 0
   portalsGone: 0
+  bifrostActive: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:
@@ -9262,7 +9263,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Level15FE
+  loadLevel: Level4FE
 --- !u!4 &1668275209 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,

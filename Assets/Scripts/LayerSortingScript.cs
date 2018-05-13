@@ -10,7 +10,9 @@ public class LayerSortingScript : MonoBehaviour
     public int floorSortingOrderDown = 0;
     public int wallsSortingOrderDown = -1;
 
-    private float yPos;     //y coordinates of the bottom of the cube
+    private float initPos;
+    private float yPos;
+    private int counter = 0;
 
     private SpriteRenderer sprite;          //Sprites from the walls and top of the cube
     private SpriteRenderer sprite_verify;   //Sprite from the bottom of the cube
@@ -39,40 +41,41 @@ public class LayerSortingScript : MonoBehaviour
     public void ChangeLayers()
     {
         cubesInPlace = CubeController.cubesInPlace;
-        if (cubesInPlace == false)
+        //if (cubesInPlace == false)
+        //{
+        for (int j = 1; j < 10; j++)
         {
-            for (int j = 1; j < 10; j++)
+            cube = transform.Find("MyCube (" + j + ")").gameObject;
+            block_verify = cube.transform.Find("New Sprite (1)");
+            lightSprite = cube.transform.Find("light").GetComponent<SpriteRenderer>();
+            yPos = block_verify.transform.position.y;
+            sprite_verify = block_verify.GetComponent<SpriteRenderer>();
+
+            for (int i = 2; i < 6; i++)
             {
-                cube = transform.Find("MyCube (" + j + ")").gameObject;
-                block_verify = cube.transform.Find("New Sprite (1)");
-                lightSprite = cube.transform.Find("light").GetComponent<SpriteRenderer>();
-                yPos = block_verify.transform.position.y;
-                sprite_verify = block_verify.GetComponent<SpriteRenderer>();
 
-                for (int i = 2; i < 6; i++)
+                if (yPos > 31 && yPos < 35)
                 {
-                    if (yPos > 31 && yPos < 35)
-                    {
-                        block = cube.transform.Find("New Sprite (" + i + ")");
-                        sprite = block.GetComponent<SpriteRenderer>();
-                        sprite_verify.sortingOrder = floorSortingOrderDown;
-                        lightSprite.sortingOrder = floorSortingOrderDown + 1;
-                        sprite.sortingOrder = wallsSortingOrderDown;
-                    }
-                    if (yPos >= 35 && yPos <= 63)
-                    {
-                        sprite_verify.sortingOrder = floorSortingOrderUp;
-                        lightSprite.sortingOrder = floorSortingOrderUp + 1;
+                    block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite = block.GetComponent<SpriteRenderer>();
+                    sprite_verify.sortingOrder = floorSortingOrderDown;
+                    lightSprite.sortingOrder = floorSortingOrderDown + 1;
+                    sprite.sortingOrder = wallsSortingOrderDown;
+                }
+                if (yPos >= 35 && yPos <= 63)
+                {
+                    sprite_verify.sortingOrder = floorSortingOrderUp;
+                    lightSprite.sortingOrder = floorSortingOrderUp + 1;
 
-                    }
-                    if(yPos >= 58)
-                    {
-                        block = cube.transform.Find("New Sprite (" + i + ")");
-                        sprite = block.GetComponent<SpriteRenderer>();
-                        sprite.sortingOrder = wallsSortingOrderUp;
-                    }
+                }
+                if (yPos >= 58)
+                {
+                    block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite = block.GetComponent<SpriteRenderer>();
+                    sprite.sortingOrder = wallsSortingOrderUp;
                 }
             }
+            //}
         }
     }
 

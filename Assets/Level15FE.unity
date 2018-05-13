@@ -570,7 +570,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Level6FE
+  loadLevel: Level17FE
 --- !u!1001 &84761510
 Prefab:
   m_ObjectHideFlags: 0
@@ -6581,6 +6581,7 @@ MonoBehaviour:
   portalsInPlace: 0
   charactersInPlace: 0
   portalsGone: 0
+  bifrostActive: 0
   fadeInTime: 2
 --- !u!1001 &1080106741
 Prefab:
