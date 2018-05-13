@@ -66,12 +66,17 @@ public class LayerSortingScript : MonoBehaviour
                 {
                     sprite_verify.sortingOrder = floorSortingOrderUp;
                     lightSprite.sortingOrder = floorSortingOrderUp + 1;
+                    block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite.sortingOrder = wallsSortingOrderDown;
 
                 }
                 if (yPos >= 58)
                 {
-                    block = cube.transform.Find("New Sprite (" + i + ")");
                     sprite = block.GetComponent<SpriteRenderer>();
+                }
+                if(yPos >= 63)
+                {
+                    block = cube.transform.Find("New Sprite (" + i + ")");
                     sprite.sortingOrder = wallsSortingOrderUp;
                 }
             }
