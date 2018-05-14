@@ -21,6 +21,7 @@ public class RewindTime : MonoBehaviour
     private bool isGoingUp = false;
     private bool isGoingDown = false;
     private bool isGoingSideways = false;
+    private bool isCanvasRotating = false;
     private bool isSpriteActive = false;
     private SpriteRenderer sprite;
 
@@ -45,6 +46,7 @@ public class RewindTime : MonoBehaviour
         isGoingUp = transform.GetComponent<Movement>().isGoingUp;
         isGoingDown = transform.GetComponent<Movement>().isGoingDown;
         isGoingSideways = transform.GetComponent<Movement>().isGoingSideways;
+        isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
         isSpriteActive = transform.GetComponent<Movement>().isSpriteActive;
 
         cubesInPlace = CubeController.cubesInPlace;
@@ -122,7 +124,7 @@ public class RewindTime : MonoBehaviour
 
     void Record()
     {
-        if (isMoving == true)
+        if (isMoving == true || isCanvasRotating == true)
         {
             pointsInTime.Insert(0, new PointInTime(transform, canvas,
                 myRigidBody.velocity, isGoingUp, isGoingDown, isGoingSideways, isSpriteActive));

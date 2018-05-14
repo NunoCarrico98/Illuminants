@@ -8784,8 +8784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &250429022
@@ -10847,8 +10847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &340281157
@@ -10979,8 +10979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &341225493
@@ -11946,8 +11946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &407496682
@@ -14964,8 +14964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &544733558
@@ -33645,8 +33645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &1429501190
@@ -41848,8 +41848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &1812285967
@@ -45117,8 +45117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &1913067513
@@ -45269,8 +45269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77dbd64d65b94f94ab3d7906d4de1871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorSortingOrderUp: 4
-  wallsSortingOrderUp: 2
+  floorSortingOrderUp: 5
+  wallsSortingOrderUp: 3
   floorSortingOrderDown: 0
   wallsSortingOrderDown: -1
 --- !u!1 &1921011023
@@ -46685,11 +46685,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
-  camMoveSpeed: 287
-  camRotationSpeed: 30
+  camMoveSpeed: 295
+  camRotationSpeed: 30.83
   buttonsRiseSpeed: 600
   cubesReplacementSpeed: 300
-  timerToStartLevel: 1
+  timerToStartLevel: 0.5
   playButt: {fileID: 907826474}
   optionsButt: {fileID: 2094685626}
   quitButt: {fileID: 1284049989}

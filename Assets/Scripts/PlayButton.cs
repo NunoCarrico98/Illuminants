@@ -39,6 +39,7 @@ public class PlayButton : MonoBehaviour
     private Quaternion rotation;
     private float acceleration = 100;
     private float acceleration2 = 100;
+    private float acceleration3 = 100;
     private float initButtonsRiseSpeed;
 
 
@@ -69,9 +70,10 @@ public class PlayButton : MonoBehaviour
 
     private void Update()
     {
-        if (playWasPressed == true && cubesInPlace == false)
+        if (playWasPressed == true /*&& cubesInPlace == false*/)
         {
             play = true;
+            noMorePlayingAround = true;
         } else
         {
             play = false;
@@ -214,19 +216,26 @@ public class PlayButton : MonoBehaviour
         {
             //Rise the buttons
             playButt.position = Vector3.MoveTowards(playButt.position,
-                new Vector3(playButt.position.x, 0, playButt.position.z), cubesReplacementSpeed * Time.deltaTime);
+                new Vector3(playButt.position.x, 0, playButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
             optionsButt.position = Vector3.MoveTowards(optionsButt.position,
-                new Vector3(optionsButt.position.x, 0, optionsButt.position.z), cubesReplacementSpeed * Time.deltaTime);
+                new Vector3(optionsButt.position.x, 0, optionsButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
             quitButt.position = Vector3.MoveTowards(quitButt.position,
-                new Vector3(quitButt.position.x, 0, quitButt.position.z), cubesReplacementSpeed * Time.deltaTime);
+                new Vector3(quitButt.position.x, 0, quitButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
 
             //Send the invisible cubes down
             for (int i = 0; i < cubesForReplacement.Length; i++)
                 cubesForReplacement[i].position = Vector3.MoveTowards(cubesForReplacement[i].position,
                     new Vector3(cubesForReplacement[i].position.x, 0, cubesForReplacement[i].position.z),
-                    cubesReplacementSpeed * Time.deltaTime);
+                    cubesReplacementSpeed/10 * Time.deltaTime);
+
+            if (cubesReplacementSpeed > 0.5)
+            {
+                cubesReplacementSpeed -= cubesReplacementSpeed / acceleration3;
+                if (acceleration3 > 2) acceleration3 -= 2;
+            }
+
         }
 
-        if (playButt.position.y >= 0) cubesInPlace = true;
+        if (playButt.position.y <= 0) cubesInPlace = true;
     }
 }
