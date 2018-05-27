@@ -16,7 +16,7 @@ public class MenuMouseScript : MonoBehaviour
     {
         initPos = transform.position.y;
         newPos = initPos + 32;
-        playButt = GameObject.Find("Line (5)").transform.Find("MyCube (5)");
+        playButt = GameObject.Find("Line (5)").transform.Find("MyCube (4)");
         play = playButt.GetComponent<PlayButton>().play;
         noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
     }

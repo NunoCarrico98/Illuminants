@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BlendCharacters : MonoBehaviour {
 
+    public static int playerBlended = 0;
+
     public GameObject[] characters = new GameObject[7];
+
     private GameObject ahr, gee, bee, magent, yellow, cyan, whitey;
     private SpriteRenderer ahrSprite, geeSprite, beeSprite, magentSprite, yellowSprite, cyanSprite, whiteySprite;
     private bool isWhite = false;
@@ -65,36 +68,54 @@ public class BlendCharacters : MonoBehaviour {
             DontBlend();
         }
         //Red and Green
-        if (((ahr.transform.position.x == gee.transform.position.x)
-            && (ahr.transform.position.y == gee.transform.position.y)
-            && (ahr.transform.position.z == gee.transform.position.z)) && isWhite == false)
+        if (((ahr.transform.position.x >= gee.transform.position.x - 5 
+            && ahr.transform.position.x <= gee.transform.position.x + 5)
+            && (ahr.transform.position.y >= gee.transform.position.y - 5 
+            && ahr.transform.position.y <= gee.transform.position.y + 5)
+            && (ahr.transform.position.z >= gee.transform.position.z - 5) 
+            && ahr.transform.position.z <= gee.transform.position.z + 5) 
+            && isWhite == false)
         {
             BlendYellow();
         }
 
         //Red and Blue
-        if (((ahr.transform.position.x == bee.transform.position.x)
-            && (ahr.transform.position.y == bee.transform.position.y)
-            && (ahr.transform.position.z == bee.transform.position.z)) && isWhite == false)
+        if (((ahr.transform.position.x >= bee.transform.position.x - 5
+            && ahr.transform.position.x <= bee.transform.position.x + 5)
+            && (ahr.transform.position.y >= bee.transform.position.y - 5
+            && ahr.transform.position.y <= bee.transform.position.y + 5)
+            && (ahr.transform.position.z >= bee.transform.position.z - 5)
+            && ahr.transform.position.z <= bee.transform.position.z + 5)
+            && isWhite == false)
         {
             BlendMagent();
         }
 
         //Green and Blue
-        if (((bee.transform.position.x == gee.transform.position.x)
-            && (bee.transform.position.y == gee.transform.position.y)
-            && (bee.transform.position.z == gee.transform.position.z)) && isWhite == false)
+        if (((bee.transform.position.x >= gee.transform.position.x - 5
+            && bee.transform.position.x <= gee.transform.position.x + 5)
+            && (bee.transform.position.y >= gee.transform.position.y - 5
+            && bee.transform.position.y <= gee.transform.position.y + 5)
+            && (bee.transform.position.z >= gee.transform.position.z - 5)
+            && bee.transform.position.z <= gee.transform.position.z + 5)
+            && isWhite == false)
         {
             BlendCyan();
         }
 
         //Red, Green and Blue
-        if (((ahr.transform.position.x == gee.transform.position.x)
-            && (ahr.transform.position.y == gee.transform.position.y)
-            && (ahr.transform.position.z == gee.transform.position.z))
-            && ((ahr.transform.position.x == bee.transform.position.x)
-            && (ahr.transform.position.y == bee.transform.position.y)
-            && (ahr.transform.position.z == bee.transform.position.z)))
+        if (((ahr.transform.position.x >= bee.transform.position.x - 5
+            && ahr.transform.position.x <= bee.transform.position.x + 5)
+            && (ahr.transform.position.y >= bee.transform.position.y - 5
+            && ahr.transform.position.y <= bee.transform.position.y + 5)
+            && (ahr.transform.position.z >= bee.transform.position.z - 5)
+            && ahr.transform.position.z <= bee.transform.position.z + 5)
+            && ((ahr.transform.position.x >= gee.transform.position.x - 5
+            && ahr.transform.position.x <= gee.transform.position.x + 5)
+            && (ahr.transform.position.y >= gee.transform.position.y - 5
+            && ahr.transform.position.y <= gee.transform.position.y + 5)
+            && (ahr.transform.position.z >= gee.transform.position.z - 5)
+            && ahr.transform.position.z <= gee.transform.position.z + 5))
         {
             BlendWhitey();
         }
@@ -120,6 +141,8 @@ public class BlendCharacters : MonoBehaviour {
         beeSprite.enabled = false;
         isBlended = true;
         isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
     }
 
     private void BlendYellow()
@@ -129,6 +152,8 @@ public class BlendCharacters : MonoBehaviour {
         geeSprite.enabled = false;
         isBlended = true;
         isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
     }
 
     private void BlendCyan()
@@ -138,6 +163,8 @@ public class BlendCharacters : MonoBehaviour {
         geeSprite.enabled = false;
         isBlended = true;
         isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
     }
 
     private void BlendWhitey()
@@ -151,5 +178,7 @@ public class BlendCharacters : MonoBehaviour {
         cyanSprite.enabled = false;
         isBlended = true;
         isWhite = true;
+
+        if(playerBlended == 0) playerBlended++;
     }
 }

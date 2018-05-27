@@ -7,9 +7,18 @@ public class PlayButton : MonoBehaviour
     public float cubesRiseSpeed = 200f;
     public float camMoveSpeed = 200f;
     public float camRotationSpeed = 200f;
+    public float minCamMoveSpeed = 30f;
+    public float minCamRotationSpeed = 2f;
 
     public float buttonsRiseSpeed = 100f;
     public float cubesReplacementSpeed = 300f;
+
+    public float fadeInTime = 300f;
+    public float fadeOutTime = 300f;
+
+    public float playButtonTimer = 1f;
+    public float optionsButtonTimer = 1.5f;
+    public float quitButtonTimer = 2f;
 
     public float timerToStartLevel = 2f;
 
@@ -23,6 +32,13 @@ public class PlayButton : MonoBehaviour
     public Sprite newSpritesForSides;
     public Sprite newSpritesForLight;
 
+    private SpriteRenderer[] playButtSprites = new SpriteRenderer[6];
+    private SpriteRenderer[] optionsButtSprites = new SpriteRenderer[6];
+    private SpriteRenderer[] quitButtSprites = new SpriteRenderer[6];
+    private SpriteRenderer[,] cubesSprites = new SpriteRenderer[12, 6];
+
+    private Color[] spritesColor = new Color[6];
+
     private float initPos;
     private float newPos;
     private float angle = 90f;
@@ -31,7 +47,7 @@ public class PlayButton : MonoBehaviour
     public bool play = false;
     public bool noMorePlayingAround = false;
 
-    private bool buttonsUp = false;
+    private bool buttonGone = false;
     private bool spritesChanged = false;
     private bool cubesInPlace = false;
     private Transform cam;
@@ -47,6 +63,7 @@ public class PlayButton : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = true;
         initPos = transform.position.y;
         newPos = initPos + 32;
         cam = Camera.main.transform;
@@ -61,7 +78,7 @@ public class PlayButton : MonoBehaviour
     }
     public void OnMouseOver()
     {
-        if(play == false) goUp = true;
+        if (play == false) goUp = true;
     }
     private void OnMouseDown()
     {
@@ -74,7 +91,8 @@ public class PlayButton : MonoBehaviour
         {
             play = true;
             noMorePlayingAround = true;
-        } else
+        }
+        else
         {
             play = false;
         }
@@ -109,12 +127,19 @@ public class PlayButton : MonoBehaviour
             if (angle < 60) angle = 60;
             cam.eulerAngles = new Vector3(angle, cam.eulerAngles.y, cam.eulerAngles.z);
         }
-        if (camMoveSpeed > 2)
+
+        //Create acceleration effect by changing the speeds
+        if (camMoveSpeed > minCamMoveSpeed)
         {
             camMoveSpeed -= camMoveSpeed / acceleration;
-            camRotationSpeed -= camRotationSpeed / acceleration;
-            if (acceleration > 5) acceleration -= 2 / 10;
         }
+
+        if (camRotationSpeed > minCamRotationSpeed)
+        {
+            camRotationSpeed -= camRotationSpeed / acceleration;
+        }
+        if (acceleration > 50) acceleration -= 0.5f;
+        if (acceleration > 20 && acceleration <= 50) acceleration -= 1;
 
         if ((cam.position.x == 0 && cam.position.y == 677 && cam.position.z == -508) && angle == 60)
         {
@@ -125,16 +150,108 @@ public class PlayButton : MonoBehaviour
                 {
                     noMorePlayingAround = true;
                 }
-                    if (timerToStartLevel <= 0) SceneManager.LoadScene("Level1");
+                if (timerToStartLevel <= 0) SceneManager.LoadScene("Level1");
             }
         }
     }
 
     private void ChangeButtonsForCubes()
     {
-        ButtonsRise();
-        if (buttonsUp == true) ChangeSprites();
-        if (spritesChanged == true) CubesDown();
+        //ButtonsRise();
+        //if (buttonsUp == true) ChangeSprites();
+        //if (spritesChanged == true) CubesDown();
+        if (buttonGone == false)
+        {
+            ButtonsDisappear();
+        }
+        if (buttonGone == true && spritesChanged == false)
+        {
+            ChangeSprites();
+        }
+        if (spritesChanged == true) CubesAlphaUp();
+    }
+
+    private void ButtonsDisappear()
+    {
+        GetSprites();
+        if (buttonGone == false)
+        {
+            for (int i = 0; i < playButtSprites.Length; i++)
+            {
+                spritesColor[i] = playButtSprites[i].color;
+
+                /*if (spritesColor[5].a <= 0.05)
+                {
+                    spritesColor[i].a = 0;
+                }*/
+                if (spritesColor[i].a > 0)
+                {
+                    spritesColor[i].a -= fadeOutTime / 100;
+                }
+                playButtSprites[i].color = spritesColor[i];
+                optionsButtSprites[i].color = spritesColor[i];
+                quitButtSprites[i].color = spritesColor[i];
+                for (int j = 0; j < cubesForReplacement.Length; j++)
+                {
+                    cubesSprites[j, i].color = spritesColor[i];
+                }
+            }
+        }
+        if (quitButtSprites[4].color.a <= 0) buttonGone = true;
+    }
+
+    private void GetSprites()
+    {
+        for (int i = 1; i < 6; i++)
+        {
+
+            playButtSprites[i - 1] = playButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
+            optionsButtSprites[i - 1] = optionsButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
+            quitButtSprites[i - 1] = quitButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
+            for (int j = 0; j < cubesForReplacement.Length; j++)
+            {
+
+                cubesSprites[j, i - 1] = cubesForReplacement[j].Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
+            }
+        }
+        playButtSprites[5] = playButt.Find("light").GetComponent<SpriteRenderer>();
+        optionsButtSprites[5] = optionsButt.Find("light").GetComponent<SpriteRenderer>();
+        quitButtSprites[5] = quitButt.Find("light").GetComponent<SpriteRenderer>();
+        for (int i = 0; i < cubesForReplacement.Length; i++)
+        {
+
+            cubesSprites[i, 5] = cubesForReplacement[i].Find("light").GetComponent<SpriteRenderer>();
+        }
+    }
+
+    private void CubesAlphaDown()
+    {
+
+    }
+
+    private void CubesAlphaUp()
+    {
+        for (int i = 0; i < cubesSprites.GetLength(1); i++)
+        {
+            spritesColor[i] = cubesSprites[0, 0].color;
+            spritesColor[i].a += fadeInTime / 100;
+
+            if (i < cubesSprites.GetLength(1) - 1)
+            {
+                playButtSprites[i].color = spritesColor[i];
+                optionsButtSprites[i].color = spritesColor[i];
+                quitButtSprites[i].color = spritesColor[i];
+            }
+
+            for (int j = 0; j < cubesForReplacement.Length; j++)
+            {
+                if (i < cubesSprites.GetLength(1) - 1)
+                {
+                    cubesSprites[j, i].color = spritesColor[i];
+                }
+            }
+        }
+        if (cubesSprites[11, 4].color.a >= 1) cubesInPlace = true;
     }
 
     private void ButtonsRise()
@@ -152,7 +269,7 @@ public class PlayButton : MonoBehaviour
             if (buttonsRiseSpeed > initButtonsRiseSpeed) buttonsRiseSpeed = initButtonsRiseSpeed;
         }
 
-        if (buttonsUp == false)
+        if (buttonGone == false)
         {
             //Rise the buttons
             playButt.position = Vector3.MoveTowards(playButt.position,
@@ -168,7 +285,7 @@ public class PlayButton : MonoBehaviour
                     new Vector3(cubesForReplacement[i].position.x, 600, cubesForReplacement[i].position.z),
                     buttonsRiseSpeed * Time.deltaTime);
 
-            if (playButt.position.y == 600 && cubesForReplacement[11].position.y == 600) buttonsUp = true;
+            if (playButt.position.y == 600 && cubesForReplacement[11].position.y == 600) buttonGone = true;
         }
     }
 
@@ -216,17 +333,17 @@ public class PlayButton : MonoBehaviour
         {
             //Rise the buttons
             playButt.position = Vector3.MoveTowards(playButt.position,
-                new Vector3(playButt.position.x, 0, playButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
+                new Vector3(playButt.position.x, 0, playButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
             optionsButt.position = Vector3.MoveTowards(optionsButt.position,
-                new Vector3(optionsButt.position.x, 0, optionsButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
+                new Vector3(optionsButt.position.x, 0, optionsButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
             quitButt.position = Vector3.MoveTowards(quitButt.position,
-                new Vector3(quitButt.position.x, 0, quitButt.position.z), cubesReplacementSpeed/10 * Time.deltaTime);
+                new Vector3(quitButt.position.x, 0, quitButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
 
             //Send the invisible cubes down
             for (int i = 0; i < cubesForReplacement.Length; i++)
                 cubesForReplacement[i].position = Vector3.MoveTowards(cubesForReplacement[i].position,
                     new Vector3(cubesForReplacement[i].position.x, 0, cubesForReplacement[i].position.z),
-                    cubesReplacementSpeed/10 * Time.deltaTime);
+                    cubesReplacementSpeed / 10 * Time.deltaTime);
 
             if (cubesReplacementSpeed > 0.5)
             {

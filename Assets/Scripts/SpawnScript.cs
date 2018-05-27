@@ -59,6 +59,17 @@ public class SpawnScript : MonoBehaviour
     private Color blueSpriteColor;
     private float alpha;
 
+    private Light redPortalLight;
+    private Light greenPortalLight;
+    private Light bluePortalLight;
+    private Light redSPLight;
+    private Light greenSPLight;
+    private Light blueSPLight;
+    private float redIntensity = 0;
+    private float greenIntensity = 0;
+    private float blueIntensity = 0;
+    private float initIntensity;
+
     private Transform bifrosts;
     private Transform redBifrost;
     private Transform blueBifrost;
@@ -75,11 +86,13 @@ public class SpawnScript : MonoBehaviour
     void Start()
     {
 
+        //Characters
         characters = GameObject.FindGameObjectWithTag("Characters").transform;
         redChar = characters.Find("Red_Player");
         greenChar = characters.Find("Green_Player");
         blueChar = characters.Find("Blue_Player");
 
+        //Portals
         redPortal = GameObject.FindGameObjectWithTag("RedPortal").transform;
         greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
         bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
@@ -115,6 +128,27 @@ public class SpawnScript : MonoBehaviour
         spriteGSP = greenPortal.Find("2").Find("GreenSP").GetComponent<SpriteRenderer>();
         spriteBSP = bluePortal.Find("3").Find("BlueSP").GetComponent<SpriteRenderer>();
 
+        //Lights of the portals
+        redPortalLight = redPortal.Find("1").Find("Area Light").GetComponent<Light>();
+        greenPortalLight = greenPortal.Find("2").Find("Area Light").GetComponent<Light>();
+        bluePortalLight = bluePortal.Find("3").Find("Area Light").GetComponent<Light>();
+
+        //Lights of the spawn points
+        redSPLight = redSP.Find("Area Light").GetComponent<Light>();
+        greenSPLight = greenSP.Find("Area Light").GetComponent<Light>();
+        blueSPLight = blueSP.Find("Area Light").GetComponent<Light>();
+
+        //Inicial intensity goes to a variable called initIntensity
+        initIntensity = redPortalLight.intensity;
+
+        //Portals and spawn points inicial light's intensity is set to 0
+        redPortalLight.intensity = 0;
+        greenPortalLight.intensity = 0;
+        bluePortalLight.intensity = 0;
+        redSPLight.intensity = 0;
+        greenSPLight.intensity = 0;
+        blueSPLight.intensity = 0;
+
         //Bifrosts start with 0 scale on X axis
         BifrostsStartSize();
 
@@ -133,6 +167,10 @@ public class SpawnScript : MonoBehaviour
         blueSP.position = new Vector3(blueSP.position.x,
             blueSP.position.y + startingHeightForBlueStart, blueSP.position.z);
         //ObjectsStartPositionsForFall();
+
+        redChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
+        greenChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
+        blueChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
 
     }
 
@@ -194,9 +232,9 @@ public class SpawnScript : MonoBehaviour
         if (charactersInHeaven == true /*&& adder > 0*/)
         {
             ByeBifrost();
-        //}
-        //if (adder == 0)
-        //{
+            //}
+            //if (adder == 0)
+            //{
             FadeOutPortals();
         }
 
@@ -252,27 +290,51 @@ public class SpawnScript : MonoBehaviour
         portalSpawnTimer += Time.deltaTime;
         if (portalSpawnTimer >= redPortalTimer)
         {
+            //Change Sprite's opacity
             redSpriteColor = spriteRed.color;
             redSpriteColor.a += fadeInTime / 100;
             spriteRed.color = redSpriteColor;
             spriteRSP.color = redSpriteColor;
+
+            //Change light's intensity
+            redPortalLight.intensity = redIntensity;
+            if (redIntensity < initIntensity)
+            {
+                redIntensity += 0.05f;
+            }
         }
         if (portalSpawnTimer >= greenPortalTimer)
         {
+            //Change Sprite's opacity
             greenSpriteColor = spriteGreen.color;
             greenSpriteColor.a += fadeInTime / 100;
             spriteGreen.color = greenSpriteColor;
             spriteGSP.color = greenSpriteColor;
+
+            //Change light's intensity
+            greenPortalLight.intensity = greenIntensity;
+            if (greenIntensity < initIntensity)
+            {
+                greenIntensity += 0.05f;
+            }
         }
         if (portalSpawnTimer >= bluePortalTimer)
         {
+            //Change Sprite's opacity
             blueSpriteColor = spriteBlue.color;
             blueSpriteColor.a += fadeInTime / 100;
             spriteBlue.color = blueSpriteColor;
             spriteBSP.color = blueSpriteColor;
+
+            //Change light's intensity
+            bluePortalLight.intensity = blueIntensity;
+            if (blueIntensity < initIntensity)
+            {
+                blueIntensity += 0.05f;
+            }
         }
 
-        if(blueSpriteColor.a >= 0.7) portalsInPlace = true;
+        if (blueSpriteColor.a >= 0.7) portalsInPlace = true;
         if (blueSpriteColor.a >= 1)
         {
             portalSpawnTimer = 0;
@@ -284,27 +346,45 @@ public class SpawnScript : MonoBehaviour
         portalSpawnTimer += Time.deltaTime;
         if (portalSpawnTimer >= redPortalTimer)
         {
+            //Change sprite's opacity
             redSpriteColor = spriteRed.color;
             redSpriteColor.a -= fadeInTime / 100;
             spriteRed.color = redSpriteColor;
             spriteRSP.color = redSpriteColor;
             spriteRSP2.color = redSpriteColor;
+
+            //Change light's intensity
+            redPortalLight.intensity = redIntensity;
+            redSPLight.intensity = redIntensity;
+            redIntensity -= 0.05f;
         }
         if (portalSpawnTimer >= greenPortalTimer)
         {
+            //Change sprite's opacity
             greenSpriteColor = spriteGreen.color;
             greenSpriteColor.a -= fadeInTime / 100;
             spriteGreen.color = greenSpriteColor;
             spriteGSP.color = greenSpriteColor;
             spriteGSP2.color = greenSpriteColor;
+
+            //Change light's intensity
+            greenPortalLight.intensity = greenIntensity;
+            greenSPLight.intensity = greenIntensity;
+            greenIntensity -= 0.05f;
         }
         if (portalSpawnTimer >= bluePortalTimer)
         {
+            //Change sprite's opacity
             blueSpriteColor = spriteBlue.color;
             blueSpriteColor.a -= fadeInTime / 100;
             spriteBlue.color = blueSpriteColor;
             spriteBSP.color = blueSpriteColor;
             spriteBSP2.color = blueSpriteColor;
+
+            //Change light's intensity
+            bluePortalLight.intensity = blueIntensity;
+            blueSPLight.intensity = blueIntensity;
+            blueIntensity -= 0.05f;
         }
 
         if (blueSpriteColor.a <= 0) portalsGone = true;
@@ -366,6 +446,15 @@ public class SpawnScript : MonoBehaviour
             redSP.position = new Vector3(redSP.position.x, 31, redSP.position.z);
             greenSP.position = new Vector3(greenSP.position.x, 31, greenSP.position.z);
             blueSP.position = new Vector3(blueSP.position.x, 31, blueSP.position.z);
+
+            //Light's intensity is set to it's inspector intensity
+            redSPLight.intensity = initIntensity;
+            greenSPLight.intensity = initIntensity;
+            blueSPLight.intensity = initIntensity;
+
+            redChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 4;
+            greenChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 4;
+            blueChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 4;
 
             charactersInPlace = true;
         }

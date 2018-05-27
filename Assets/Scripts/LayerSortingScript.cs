@@ -54,7 +54,7 @@ public class LayerSortingScript : MonoBehaviour
             for (int i = 2; i < 6; i++)
             {
 
-                if (yPos > 31 && yPos < 35)
+                if (yPos > 32 && yPos < 35)
                 {
                     block = cube.transform.Find("New Sprite (" + i + ")");
                     sprite = block.GetComponent<SpriteRenderer>();
@@ -62,7 +62,7 @@ public class LayerSortingScript : MonoBehaviour
                     lightSprite.sortingOrder = floorSortingOrderDown + 1;
                     sprite.sortingOrder = wallsSortingOrderDown;
                 }
-                if (yPos >= 35 && yPos <= 63)
+                if (yPos >= 35 && yPos < 64)
                 {
                     sprite_verify.sortingOrder = floorSortingOrderUp;
                     lightSprite.sortingOrder = floorSortingOrderUp + 1;
@@ -72,11 +72,12 @@ public class LayerSortingScript : MonoBehaviour
                 }
                 if (yPos >= 58)
                 {
-                    sprite = block.GetComponent<SpriteRenderer>();
+                    //sprite = block.GetComponent<SpriteRenderer>();
                 }
-                if(yPos >= 63)
+                if(yPos >= 64)
                 {
                     block = cube.transform.Find("New Sprite (" + i + ")");
+                    sprite = block.GetComponent<SpriteRenderer>();
                     sprite.sortingOrder = wallsSortingOrderUp;
                 }
             }
