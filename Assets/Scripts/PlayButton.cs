@@ -16,26 +16,24 @@ public class PlayButton : MonoBehaviour
     public float fadeInTime = 300f;
     public float fadeOutTime = 300f;
 
-    public float playButtonTimer = 1f;
-    public float optionsButtonTimer = 1.5f;
-    public float quitButtonTimer = 2f;
-
     public float timerToStartLevel = 2f;
 
     public Transform playButt;
+    public Transform levelButt;
     public Transform optionsButt;
     public Transform quitButt;
 
-    public Transform[] cubesForReplacement = new Transform[12];
+    public Transform[] cubesForReplacement = new Transform[16];
 
     public Sprite newSpritesForTop;
     public Sprite newSpritesForSides;
     public Sprite newSpritesForLight;
 
     private SpriteRenderer[] playButtSprites = new SpriteRenderer[6];
+    private SpriteRenderer[] levelButtSprites = new SpriteRenderer[6];
     private SpriteRenderer[] optionsButtSprites = new SpriteRenderer[6];
     private SpriteRenderer[] quitButtSprites = new SpriteRenderer[6];
-    private SpriteRenderer[,] cubesSprites = new SpriteRenderer[12, 6];
+    private SpriteRenderer[,] cubesSprites = new SpriteRenderer[16, 6];
 
     private Color[] spritesColor = new Color[6];
 
@@ -189,6 +187,7 @@ public class PlayButton : MonoBehaviour
                     spritesColor[i].a -= fadeOutTime / 100;
                 }
                 playButtSprites[i].color = spritesColor[i];
+                levelButtSprites[i].color = spritesColor[i];
                 optionsButtSprites[i].color = spritesColor[i];
                 quitButtSprites[i].color = spritesColor[i];
                 for (int j = 0; j < cubesForReplacement.Length; j++)
@@ -206,6 +205,7 @@ public class PlayButton : MonoBehaviour
         {
 
             playButtSprites[i - 1] = playButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
+            levelButtSprites[i - 1] = levelButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
             optionsButtSprites[i - 1] = optionsButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
             quitButtSprites[i - 1] = quitButt.Find("New Sprite (" + i + ")").GetComponent<SpriteRenderer>();
             for (int j = 0; j < cubesForReplacement.Length; j++)
@@ -215,6 +215,7 @@ public class PlayButton : MonoBehaviour
             }
         }
         playButtSprites[5] = playButt.Find("light").GetComponent<SpriteRenderer>();
+        levelButtSprites[5] = levelButt.Find("light").GetComponent<SpriteRenderer>();
         optionsButtSprites[5] = optionsButt.Find("light").GetComponent<SpriteRenderer>();
         quitButtSprites[5] = quitButt.Find("light").GetComponent<SpriteRenderer>();
         for (int i = 0; i < cubesForReplacement.Length; i++)
@@ -239,6 +240,7 @@ public class PlayButton : MonoBehaviour
             if (i < cubesSprites.GetLength(1) - 1)
             {
                 playButtSprites[i].color = spritesColor[i];
+                levelButtSprites[i].color = spritesColor[i];
                 optionsButtSprites[i].color = spritesColor[i];
                 quitButtSprites[i].color = spritesColor[i];
             }
@@ -251,7 +253,7 @@ public class PlayButton : MonoBehaviour
                 }
             }
         }
-        if (cubesSprites[11, 4].color.a >= 1) cubesInPlace = true;
+        if (cubesSprites[15, 4].color.a >= 1) cubesInPlace = true;
     }
 
     private void ButtonsRise()
@@ -274,6 +276,8 @@ public class PlayButton : MonoBehaviour
             //Rise the buttons
             playButt.position = Vector3.MoveTowards(playButt.position,
                 new Vector3(playButt.position.x, 600, playButt.position.z), buttonsRiseSpeed * Time.deltaTime);
+            levelButt.position = Vector3.MoveTowards(levelButt.position,
+                new Vector3(levelButt.position.x, 600, levelButt.position.z), buttonsRiseSpeed * Time.deltaTime);
             optionsButt.position = Vector3.MoveTowards(optionsButt.position,
                 new Vector3(optionsButt.position.x, 600, optionsButt.position.z), buttonsRiseSpeed * Time.deltaTime);
             quitButt.position = Vector3.MoveTowards(quitButt.position,
@@ -285,7 +289,7 @@ public class PlayButton : MonoBehaviour
                     new Vector3(cubesForReplacement[i].position.x, 600, cubesForReplacement[i].position.z),
                     buttonsRiseSpeed * Time.deltaTime);
 
-            if (playButt.position.y == 600 && cubesForReplacement[11].position.y == 600) buttonGone = true;
+            if (playButt.position.y == 600 && cubesForReplacement[15].position.y == 600) buttonGone = true;
         }
     }
 
@@ -299,6 +303,13 @@ public class PlayButton : MonoBehaviour
             playButt.Find("New Sprite (3)").GetComponent<SpriteRenderer>().sprite = newSpritesForSides;
             playButt.Find("light").GetComponent<SpriteRenderer>().sprite = newSpritesForLight;
             playButt.GetComponent<BoxCollider>().size = new Vector3(32, 32, 32);
+
+            //Transform buttons into cubes again
+            levelButt.Find("New Sprite (1)").GetComponent<SpriteRenderer>().sprite = newSpritesForTop;
+            levelButt.Find("New Sprite (2)").GetComponent<SpriteRenderer>().sprite = newSpritesForSides;
+            levelButt.Find("New Sprite (3)").GetComponent<SpriteRenderer>().sprite = newSpritesForSides;
+            levelButt.Find("light").GetComponent<SpriteRenderer>().sprite = newSpritesForLight;
+            levelButt.GetComponent<BoxCollider>().size = new Vector3(32, 32, 32);
 
             optionsButt.Find("New Sprite (1)").GetComponent<SpriteRenderer>().sprite = newSpritesForTop;
             optionsButt.Find("New Sprite (2)").GetComponent<SpriteRenderer>().sprite = newSpritesForSides;
@@ -334,6 +345,8 @@ public class PlayButton : MonoBehaviour
             //Rise the buttons
             playButt.position = Vector3.MoveTowards(playButt.position,
                 new Vector3(playButt.position.x, 0, playButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
+            levelButt.position = Vector3.MoveTowards(levelButt.position,
+                new Vector3(levelButt.position.x, 0, levelButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
             optionsButt.position = Vector3.MoveTowards(optionsButt.position,
                 new Vector3(optionsButt.position.x, 0, optionsButt.position.z), cubesReplacementSpeed / 10 * Time.deltaTime);
             quitButt.position = Vector3.MoveTowards(quitButt.position,

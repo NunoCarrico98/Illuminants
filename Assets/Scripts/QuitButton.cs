@@ -17,7 +17,7 @@ public class QuitButton : MonoBehaviour
     {
         initPos = transform.position.y;
         newPos = initPos + 32;
-        playButt = GameObject.Find("Line (5)").transform.Find("MyCube (4)");
+        playButt = GameObject.Find("Line (5)").transform.Find("MyCube (5)");
         play = playButt.GetComponent<PlayButton>().play;
         noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
     }
