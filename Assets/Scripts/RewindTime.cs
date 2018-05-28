@@ -124,7 +124,7 @@ public class RewindTime : MonoBehaviour
 
     void Record()
     {
-        if (isMoving == true || isCanvasRotating == true)
+        if ((isMoving == true || isCanvasRotating == true) && Time.timeScale != 0)
         {
             pointsInTime.Insert(0, new PointInTime(transform, canvas,
                 myRigidBody.velocity, isGoingUp, isGoingDown, isGoingSideways, isSpriteActive));

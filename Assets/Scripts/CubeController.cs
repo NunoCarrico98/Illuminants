@@ -104,7 +104,7 @@ public class CubeController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position,
                  new Vector3(transform.position.x, 0, transform.position.z), speed * 10 * Time.deltaTime);
         }
-        if (timerForReset <= 0)
+        if (timerForReset <= 0 && velocity == 0)
         {
             reset = true;
         }

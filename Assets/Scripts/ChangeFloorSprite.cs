@@ -25,7 +25,7 @@ public class ChangeFloorSprite : MonoBehaviour {
 
         void ChangeLightAlpha()
     {
-        spriteColor.a = (transform.position.y - 31) * (0.03125f);
+        spriteColor.a = (transform.position.y - 32) * (0.03125f);
         spriteR.color = spriteColor;
     }
 }
