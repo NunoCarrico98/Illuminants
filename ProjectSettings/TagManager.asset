@@ -19,6 +19,7 @@ TagManager:
   - BlueStart
   - Bifrosts
   - CubeSheet
+  - SpaceButton
   layers:
   - Default
   - TransparentFX

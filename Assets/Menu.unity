@@ -47553,9 +47553,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
-  camMoveSpeed: 381.3
+  camMoveSpeed: 305
   camRotationSpeed: 40
-  minCamMoveSpeed: 50
+  minCamMoveSpeed: 40
   minCamRotationSpeed: 5.246
   buttonsRiseSpeed: 1000
   cubesReplacementSpeed: 1000
