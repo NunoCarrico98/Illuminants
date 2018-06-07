@@ -2919,19 +2919,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
         type: 2}
-      propertyPath: portalDestination
-      value: 
-      objectReference: {fileID: 2000994137}
-    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
-        type: 2}
       propertyPath: characterStopsOnPortal
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114011248219634804, guid: b7888d135fe71c143b3eec7e15186a51,
+    - target: {fileID: 114101158428989566, guid: b7888d135fe71c143b3eec7e15186a51,
         type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: portalDestination
+      value: 
+      objectReference: {fileID: 2000994137}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b7888d135fe71c143b3eec7e15186a51, type: 2}
   m_IsPrefabParent: 0
@@ -3799,11 +3794,6 @@ Prefab:
       propertyPath: portalDestination
       value: 
       objectReference: {fileID: 1313401459}
-    - target: {fileID: 114248201734063306, guid: ebb9da5e36a545d428ee6800927733eb,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebb9da5e36a545d428ee6800927733eb, type: 2}
   m_IsPrefabParent: 0
@@ -5047,11 +5037,6 @@ Prefab:
       propertyPath: portalDestination
       value: 
       objectReference: {fileID: 632620811}
-    - target: {fileID: 114511751583303398, guid: bfb367a7996631d4296c4014963d84f4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfb367a7996631d4296c4014963d84f4, type: 2}
   m_IsPrefabParent: 0
@@ -8988,6 +8973,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114856773371247066, guid: ac1d1a254eb1993469471e9d012087ea,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 1928377379190272, guid: 52c2cb2a6b7c80b478d174e1ed5f1a5a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
   m_IsPrefabParent: 0
@@ -9060,6 +9051,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114189845804892456, guid: 53f3270cbc73a374687a03dd363e5562,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 1928377379190272, guid: 52c2cb2a6b7c80b478d174e1ed5f1a5a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
   m_IsPrefabParent: 0
@@ -11414,7 +11411,7 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 2000994137}
+      objectReference: {fileID: 632620811}
     - target: {fileID: 114205246508871184, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
         type: 2}
       propertyPath: parent
@@ -11425,6 +11422,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114955824537167270, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 1027325077500470, guid: 4de007b047a3af247b52c66143470301,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
   m_IsPrefabParent: 0
@@ -12015,7 +12018,7 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 2000994137}
+      objectReference: {fileID: 1313401459}
     - target: {fileID: 114564594902449066, guid: 40287ccadd4cdc845856ed0a637ed431,
         type: 2}
       propertyPath: parent
@@ -12026,6 +12029,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114311306610078984, guid: 40287ccadd4cdc845856ed0a637ed431,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 1604139821852888, guid: 6ce686f674a595643a41f5c5a4165688,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
   m_IsPrefabParent: 0

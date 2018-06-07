@@ -138,6 +138,8 @@ MonoBehaviour:
   stopSpeed: 50
   myRigidBody: {fileID: 54310210108375086}
   portalDestination: {fileID: 0}
+  portalWalls: {fileID: 1928377379190272, guid: 52c2cb2a6b7c80b478d174e1ed5f1a5a,
+    type: 2}
   canvas: {fileID: 0}
   characterStopsOnPortal: 0
   activeHorizontal: 0

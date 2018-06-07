@@ -4,11 +4,11 @@ using System.Collections;
 public class MenuMouseScript : MonoBehaviour
 {
     public float cubesRiseSpeed = 200f;
+    public bool goUp = false;
 
+    private Transform playButt;
     private float initPos;
     private float newPos;
-    private bool goUp = false;
-    private Transform playButt;
     private bool play = false;
     private bool noMorePlayingAround = false;
 
@@ -20,10 +20,10 @@ public class MenuMouseScript : MonoBehaviour
         play = playButt.GetComponent<PlayButton>().play;
         noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
     }
-    public void OnMouseOver()
+    /*public void OnMouseOver()
     {
         goUp = true;
-    }
+    }*/
 
     private void Update()
     {

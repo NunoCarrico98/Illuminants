@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public float stopSpeed = 100f;
     public Rigidbody myRigidBody;
     public GameObject portalDestination;
+    public GameObject portalWalls;
     public GameObject canvas;
     public bool characterStopsOnPortal = true;
     public bool activeHorizontal = false;
@@ -22,6 +23,13 @@ public class Movement : MonoBehaviour
     private Vector3 backward;
     private Vector3 right;
     private Vector3 v3;
+    private GameObject newPortalWalls;
+    private GameObject characters;
+    private Animator myAnim;
+    private SpriteRenderer sprite;
+    private NextLevel nextLevel;
+    private SpawnScript spawnScript;
+
 
     private bool isCanvasRotating = false;
     private bool isRewinding = false;
@@ -32,15 +40,17 @@ public class Movement : MonoBehaviour
     private bool slowing;
     private bool stop = false;
     private bool cubesInPlace = false;
-    private bool activeFinalAnims = false;
-
+    private bool done = false;
+    private bool activateIntensity = false;
+    private float prisonSpeed = 0.2f;
+    private float reason = 0f;
     private float resetSpeed;
+    private float prisonTimer = 0f;
+    private float intensity = 0f;
+    private float range = 100f;
+    private int counter = 0;
 
-    private GameObject characters;
 
-    private Animator myAnim;
-
-    private SpriteRenderer sprite;
 
     internal bool moving = false;
     internal bool isGoingUp;
@@ -50,6 +60,8 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+        nextLevel = FindObjectOfType<NextLevel>();
+        spawnScript = FindObjectOfType<SpawnScript>();
 
         characters = GameObject.FindGameObjectWithTag("Characters");
 
@@ -72,8 +84,6 @@ public class Movement : MonoBehaviour
 
         isCanvasRotating = canvas.GetComponent<CanvasRotation>().isCanvasRotating;
 
-        activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
-
         isRewinding = transform.GetComponent<RewindTime>().isRewinding;
 
 
@@ -84,7 +94,7 @@ public class Movement : MonoBehaviour
         CheckIfSpriteOn();
 
         //Movement with WASD or Arrows
-        if (cubesInPlace == true && activeFinalAnims == false)
+        if (cubesInPlace == true && nextLevel.activeFinalAnims == false)
         {
             Move();
         }
@@ -105,6 +115,10 @@ public class Movement : MonoBehaviour
         }
 
         LockOnPortal();
+        if (spawnScript.charactersInPlace)
+        {
+            IncreaseIntensity();
+        }
 
         lastPos = transform.position;
     }
@@ -257,6 +271,7 @@ public class Movement : MonoBehaviour
                     && myRigidBody.transform.position.z == portalDestination.transform.position.z)
                 {
                     onPortal = true;
+                    LightPrison();
                 }
             }
         }
@@ -267,8 +282,123 @@ public class Movement : MonoBehaviour
             && myRigidBody.transform.position.z <= portalDestination.transform.position.z + 3
             && myRigidBody.transform.position.z >= portalDestination.transform.position.z - 3)
         {
-            if (characterStopsOnPortal == false) onPortal = true;
+            if (characterStopsOnPortal == false)
+            {
+                onPortal = true;
+            }
         }
+
+    }
+
+    private void IncreaseIntensity()
+    {
+        if (!characterStopsOnPortal)
+        {
+            /*if (onPortal)
+            {
+                portalDestination.transform.GetChild(0).GetChild(2).GetComponent<Light>().intensity = intensity + 2;
+                portalDestination.transform.GetChild(0).GetChild(2).GetComponent<Light>().range = range;
+                activateIntensity = true;
+            }
+            if (activateIntensity)
+            {
+                if (portalDestination.name == "Portal_Blue")
+                {
+                    if (intensity < 1)
+                    {
+
+                        intensity += 0.1f;
+                        range += 4.5f;
+                    }
+                    if (intensity >= 1) activateIntensity = false;
+                }
+                if (portalDestination.name != "Portal_Blue")
+                {
+                    if (intensity < 3)
+                    {
+                        intensity += 0.2f;
+                        range += 3;
+                    }
+                    if (intensity >= 3) activateIntensity = false;
+                }
+            }
+            if (activateIntensity == false || nextLevel.activeFinalAnims)
+            {
+                if (intensity > 0)
+                {
+                    intensity -= 0.2f;
+                    range -= 3;
+                }
+            }*/
+
+            if (counter == 0)
+            {
+                newPortalWalls = Instantiate(portalWalls, portalDestination.transform.position, canvas.transform.rotation, portalDestination.transform);
+                newPortalWalls.transform.localScale = new Vector3(1, 0, 1);
+                counter++;
+            }
+
+            if (nextLevel.activeFinalAnims && newPortalWalls.transform.localScale == new Vector3(1, 0.4f, 1))
+            {
+                done = true;
+            }
+
+            if (done || !onPortal)
+            {
+                if (reason >= 0)
+                {
+                    reason -= prisonSpeed / 5;
+                }
+                if (reason < 0) reason = 0;
+            }
+            if(!done && onPortal)
+            {
+                if (reason < 0.4f)
+                {
+                    reason += prisonSpeed / 5;
+                }
+                if (reason > 0.4f) reason = 0.4f;
+            }
+            newPortalWalls.transform.localScale = new Vector3(1, reason, 1);
+
+
+        }
+    }
+
+    private void LightPrison()
+    {
+        if (counter == 0)
+        {
+            newPortalWalls = Instantiate(portalWalls, portalDestination.transform.position, canvas.transform.rotation, portalDestination.transform);
+            newPortalWalls.transform.localScale = new Vector3(1, 0, 1);
+            counter++;
+        }
+
+        if (nextLevel.activeFinalAnims 
+            && (newPortalWalls.transform.localScale == new Vector3(1, 1, 1) 
+            || newPortalWalls.transform.localScale == new Vector3(1, 1, 1)))
+        {
+            done = true;
+        }
+
+        if (done)
+        {
+            if (reason >= 0)
+            {
+                reason -= prisonSpeed/2;
+            }
+            if (reason < 0) reason = 0;
+        }
+        else
+        {
+            if (reason < 1)
+            {
+                reason += prisonSpeed/2;
+            }
+            if (reason > 1) reason = 1;
+        }
+        newPortalWalls.transform.localScale = new Vector3(1, reason, 1);
+
 
     }
 

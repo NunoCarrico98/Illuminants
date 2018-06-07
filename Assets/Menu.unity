@@ -322,12 +322,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3793742}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &9775375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,8 +1269,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 39934202}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 128, z: -62}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 96, z: 66}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 964759477}
@@ -1281,8 +1282,8 @@ Transform:
   - {fileID: 236770496}
   - {fileID: 1723068391}
   - {fileID: 676059488}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 468805943}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &39934205
 MonoBehaviour:
@@ -1680,12 +1681,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 58686718}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &60472905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1885,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 72840282}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16, y: 16, z: 0}
+  m_LocalPosition: {x: 80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 1045609222}
@@ -2138,12 +2140,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 82192820}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &83190411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,12 +2369,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90434263}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &92467138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,12 +2522,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 98320497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &98649324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,12 +2846,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 119098684}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &127851912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,12 +2999,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129262635}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &132159352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3231,7 +3238,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300102, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300010, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6908,12 +6915,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 141404122}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &142856788
 GameObject:
   m_ObjectHideFlags: 0
@@ -7245,12 +7253,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 165763441}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &171129670
 GameObject:
   m_ObjectHideFlags: 0
@@ -7549,12 +7558,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 185343284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &189848550
 GameObject:
   m_ObjectHideFlags: 0
@@ -8962,12 +8972,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 242658654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &248956355
 GameObject:
   m_ObjectHideFlags: 0
@@ -9232,12 +9243,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 259388883}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &262781228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9339,7 +9351,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 263107202}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16, y: 16, z: 0}
+  m_LocalPosition: {x: -80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 1284049989}
@@ -9600,12 +9612,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 281743510}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &284060153
 GameObject:
   m_ObjectHideFlags: 0
@@ -9738,12 +9751,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 292945334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &294558387
 Transform:
   m_ObjectHideFlags: 0
@@ -10301,12 +10315,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 308529406}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &310983801
 GameObject:
   m_ObjectHideFlags: 0
@@ -11854,12 +11869,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 377565070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &379031358
 Transform:
   m_ObjectHideFlags: 0
@@ -11936,12 +11952,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 382489625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &385195520
 GameObject:
   m_ObjectHideFlags: 0
@@ -12412,12 +12429,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412922227}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &415749166 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4273242120209726, guid: 598f5739061c2074e99649ccd9b355be,
@@ -13342,6 +13360,10 @@ Transform:
   m_Children:
   - {fileID: 1079614283}
   - {fileID: 1825358296}
+  - {fileID: 1134365527}
+  - {fileID: 1985877063}
+  - {fileID: 39934204}
+  - {fileID: 1736053731}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13477,12 +13499,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472913770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &473508917
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,12 +13942,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 493469072}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &493638246
 GameObject:
   m_ObjectHideFlags: 0
@@ -14057,12 +14081,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 495118469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &496913447 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4386193564041960, guid: b433b3541f967714eb500b4d87f33350,
@@ -14093,7 +14118,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 497644102}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16, y: 16, z: 0}
+  m_LocalPosition: {x: -80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 1045609222}
@@ -14200,12 +14225,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 501820881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &504401323
 GameObject:
   m_ObjectHideFlags: 0
@@ -14842,6 +14868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &526760185
 GameObject:
   m_ObjectHideFlags: 0
@@ -15146,12 +15173,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535066662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &540334753
 GameObject:
   m_ObjectHideFlags: 0
@@ -15430,12 +15458,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546774740}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &547171044
 GameObject:
   m_ObjectHideFlags: 0
@@ -15770,7 +15799,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300126, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300016, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16302,12 +16331,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 580913190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &589684619
 GameObject:
   m_ObjectHideFlags: 0
@@ -17549,12 +17579,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642894623}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &644409056
 GameObject:
   m_ObjectHideFlags: 0
@@ -18456,12 +18487,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 686379654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &689799822
 GameObject:
   m_ObjectHideFlags: 0
@@ -18814,12 +18846,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 715124807}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &716161796
 GameObject:
   m_ObjectHideFlags: 0
@@ -21222,12 +21255,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 821889735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &822620051
 GameObject:
   m_ObjectHideFlags: 0
@@ -21374,12 +21408,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 832734919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &840026498
 GameObject:
   m_ObjectHideFlags: 0
@@ -22599,7 +22634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300086, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300006, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22665,12 +22700,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886415004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &888595720
 GameObject:
   m_ObjectHideFlags: 0
@@ -24388,12 +24424,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 963600150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &963781498
 GameObject:
   m_ObjectHideFlags: 0
@@ -24867,12 +24904,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 975127198}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &975231796
 GameObject:
   m_ObjectHideFlags: 0
@@ -24929,12 +24967,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 975231796}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &976144737
 GameObject:
   m_ObjectHideFlags: 0
@@ -25295,12 +25334,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1006393626}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1011549139
 GameObject:
   m_ObjectHideFlags: 0
@@ -25940,12 +25980,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1041446340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &1045609222
 Transform:
   m_ObjectHideFlags: 0
@@ -26235,12 +26276,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056370659}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1056482179
 GameObject:
   m_ObjectHideFlags: 0
@@ -26297,12 +26339,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056482179}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1056679419
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,12 +26530,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1061177525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1063019682
 GameObject:
   m_ObjectHideFlags: 0
@@ -27314,7 +27358,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300110, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300012, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -28227,6 +28271,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!224 &1134365527 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+    type: 2}
+  m_PrefabInternal: {fileID: 1357277494}
 --- !u!1 &1135422569
 GameObject:
   m_ObjectHideFlags: 0
@@ -28283,12 +28332,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135422569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1135964127
 GameObject:
   m_ObjectHideFlags: 0
@@ -28815,12 +28865,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1163092218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1165677980
 GameObject:
   m_ObjectHideFlags: 0
@@ -29305,12 +29356,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1189294120}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1191386153
 GameObject:
   m_ObjectHideFlags: 0
@@ -29680,7 +29732,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300118, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300014, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -29746,12 +29798,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1203759527}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1206543311
 GameObject:
   m_ObjectHideFlags: 0
@@ -29994,12 +30047,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1211443520}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1212219887
 GameObject:
   m_ObjectHideFlags: 0
@@ -31288,7 +31342,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273051925}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16, y: 16, z: 0}
+  m_LocalPosition: {x: -80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 2094685626}
@@ -31836,12 +31890,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316816894}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1317030573
 GameObject:
   m_ObjectHideFlags: 0
@@ -32599,7 +32654,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300078, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300004, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -32737,7 +32792,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 468805943}
     m_Modifications:
     - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
         type: 2}
@@ -32777,7 +32832,7 @@ Prefab:
     - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
         type: 2}
@@ -32829,7 +32884,8 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114022739403678310, guid: 5e74a90fb3fee26489a08c4adf6c7618, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5e74a90fb3fee26489a08c4adf6c7618, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1357427242
@@ -33040,12 +33096,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1369558412}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1373219027
 GameObject:
   m_ObjectHideFlags: 0
@@ -33420,12 +33477,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1385420551}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1390416598
 GameObject:
   m_ObjectHideFlags: 0
@@ -35298,12 +35356,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1461952902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &1464853307
 Transform:
   m_ObjectHideFlags: 0
@@ -35628,12 +35687,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469525929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1470554821
 GameObject:
   m_ObjectHideFlags: 0
@@ -36608,12 +36668,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1514195692}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!4 &1515140847
 Transform:
   m_ObjectHideFlags: 0
@@ -36862,6 +36923,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
+  quit: 0
 --- !u!1 &1532019497
 GameObject:
   m_ObjectHideFlags: 0
@@ -37250,12 +37313,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547483469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1547603156
 GameObject:
   m_ObjectHideFlags: 0
@@ -38313,12 +38377,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604755925}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1617061259
 GameObject:
   m_ObjectHideFlags: 0
@@ -38623,6 +38688,50 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1637054889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1637054891}
+  - component: {fileID: 1637054890}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637054890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637054889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68553e80b5a13d642a6031f94b5ea20e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playButton: {fileID: 907826474}
+  levelsButton: {fileID: 1045609222}
+  optionsButton: {fileID: 2094685626}
+  quitButton: {fileID: 1284049989}
+--- !u!4 &1637054891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637054889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.1676025, y: -74.09375, z: -55.234375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640435346
 GameObject:
   m_ObjectHideFlags: 0
@@ -39059,12 +39168,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1653713605}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1657646817
 GameObject:
   m_ObjectHideFlags: 0
@@ -39121,12 +39231,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657646817}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1666678978
 GameObject:
   m_ObjectHideFlags: 0
@@ -39792,12 +39903,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1688191612}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1688823963
 GameObject:
   m_ObjectHideFlags: 0
@@ -39854,12 +39966,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1688823963}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1689307174
 GameObject:
   m_ObjectHideFlags: 0
@@ -40226,6 +40339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1700866091
 GameObject:
   m_ObjectHideFlags: 0
@@ -40358,12 +40472,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1701524282}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1706187070
 GameObject:
   m_ObjectHideFlags: 0
@@ -40496,12 +40611,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1710132430}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1711266441
 GameObject:
   m_ObjectHideFlags: 0
@@ -40815,12 +40931,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1727416103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1728479003
 GameObject:
   m_ObjectHideFlags: 0
@@ -40877,12 +40994,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728479003}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1731742766
 GameObject:
   m_ObjectHideFlags: 0
@@ -41273,12 +41391,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1736053729}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 25.79265, y: 538, z: -100.4}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 25.79265, y: 506, z: 27.599998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 468805943}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1740657047
 GameObject:
@@ -41963,12 +42081,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1759680401}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1759983447
 GameObject:
   m_ObjectHideFlags: 0
@@ -42025,12 +42144,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1759983447}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1762762340
 GameObject:
   m_ObjectHideFlags: 0
@@ -42500,12 +42620,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1791777387}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1796711712
 GameObject:
   m_ObjectHideFlags: 0
@@ -42658,12 +42779,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1801817284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1807013936
 GameObject:
   m_ObjectHideFlags: 0
@@ -42952,7 +43074,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300094, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300008, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -43617,12 +43739,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1839520471}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1842808795
 GameObject:
   m_ObjectHideFlags: 0
@@ -43997,12 +44120,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1847625308}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1851733897
 GameObject:
   m_ObjectHideFlags: 0
@@ -44929,12 +45053,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1871526294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1877012432
 GameObject:
   m_ObjectHideFlags: 0
@@ -45295,12 +45420,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1887218445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1888651945
 GameObject:
   m_ObjectHideFlags: 0
@@ -45523,12 +45649,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1893441463}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1895526162
 GameObject:
   m_ObjectHideFlags: 0
@@ -46825,12 +46952,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1938601020}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1940781288
 GameObject:
   m_ObjectHideFlags: 0
@@ -46856,7 +46984,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940781288}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16, y: 16, z: 0}
+  m_LocalPosition: {x: -80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 907826474}
@@ -46932,7 +47060,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1942901860}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16, y: 16, z: 0}
+  m_LocalPosition: {x: 80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 907826474}
@@ -47125,7 +47253,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300070, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  m_Sprite: {fileID: 21300002, guid: b110b00a3570c3b499715d8a1bb17888, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -47552,16 +47680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b31c594e0fe593f4b9eaadb4f47c2156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubesRiseSpeed: 200
-  camMoveSpeed: 305
-  camRotationSpeed: 40
-  minCamMoveSpeed: 40
-  minCamRotationSpeed: 5.246
-  buttonsRiseSpeed: 1000
-  cubesReplacementSpeed: 1000
-  fadeInTime: 1.5
-  fadeOutTime: 1.5
-  timerToStartLevel: 0.5
   playButt: {fileID: 907826474}
   levelButt: {fileID: 1045609222}
   optionsButt: {fileID: 2094685626}
@@ -47586,6 +47704,18 @@ MonoBehaviour:
   newSpritesForTop: {fileID: 21300002, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
   newSpritesForSides: {fileID: 21300000, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
   newSpritesForLight: {fileID: 21300004, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
+  cubesRiseSpeed: 200
+  camMoveSpeed: 305
+  camRotationSpeed: 40
+  minCamMoveSpeed: 40
+  minCamRotationSpeed: 5.246
+  buttonsRiseSpeed: 1000
+  cubesReplacementSpeed: 1000
+  fadeInTime: 1.5
+  fadeOutTime: 1.5
+  timerToStartLevel: 0.5
+  goUp: 0
+  playWasPressed: 0
   play: 0
   noMorePlayingAround: 0
 --- !u!1 &1971611311
@@ -47831,12 +47961,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978117945}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1978457097
 GameObject:
   m_ObjectHideFlags: 0
@@ -48230,12 +48361,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1985877060}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -32, z: 128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 468805943}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986185477
 GameObject:
@@ -48293,12 +48424,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1986185477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &1987063768
 GameObject:
   m_ObjectHideFlags: 0
@@ -48746,12 +48878,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2010246715}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &2010595138
 GameObject:
   m_ObjectHideFlags: 0
@@ -48994,12 +49127,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020511232}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &2029693846
 GameObject:
   m_ObjectHideFlags: 0
@@ -49540,12 +49674,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041363373}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &2042442849
 GameObject:
   m_ObjectHideFlags: 0
@@ -49647,7 +49782,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043251479}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16, y: 16, z: 0}
+  m_LocalPosition: {x: 80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 2094685626}
@@ -50168,12 +50303,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2076323541}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &2076860052
 GameObject:
   m_ObjectHideFlags: 0
@@ -50382,12 +50518,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2082241897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6d5dae8871534d4ca9ac3ed9c922a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cubesRiseSpeed: 200
+  goUp: 0
 --- !u!1 &2086458379
 GameObject:
   m_ObjectHideFlags: 0
@@ -50489,7 +50626,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091017315}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16, y: 16, z: 0}
+  m_LocalPosition: {x: 80, y: 16, z: 0}
   m_LocalScale: {x: 32.00006, y: 32, z: 32.000057}
   m_Children: []
   m_Father: {fileID: 1284049989}

@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 public class QuitButton : MonoBehaviour
 {
     public float cubesRiseSpeed = 200f;
+    public bool goUp = false;
+    public bool quit = false;
 
+    private Transform playButt;
     private float initPos;
     private float newPos;
-    private bool goUp = false;
     private bool play = false;
     private bool noMorePlayingAround = false;
-    private Transform playButt;
+
 
     private void Start()
     {
@@ -21,15 +23,18 @@ public class QuitButton : MonoBehaviour
         play = playButt.GetComponent<PlayButton>().play;
         noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
     }
-    private void OnMouseOver()
+    /*private void OnMouseOver()
     {
         if(play == false) goUp = true;
     }
 
     private void OnMouseDown()
     {
-        if(play == false) Application.Quit();
-    }
+        if (play == false)
+        {
+            quit = true;
+        }
+    }*/
 
     private void Update()
     {
@@ -46,6 +51,11 @@ public class QuitButton : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position,
                 new Vector3(transform.position.x, initPos, transform.position.z), cubesRiseSpeed * Time.deltaTime);
+        }
+
+        if (quit)
+        {
+            Application.Quit();
         }
     }
 }

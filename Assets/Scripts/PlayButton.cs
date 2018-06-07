@@ -3,21 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour
 {
-
-    public float cubesRiseSpeed = 200f;
-    public float camMoveSpeed = 200f;
-    public float camRotationSpeed = 200f;
-    public float minCamMoveSpeed = 30f;
-    public float minCamRotationSpeed = 2f;
-
-    public float buttonsRiseSpeed = 100f;
-    public float cubesReplacementSpeed = 300f;
-
-    public float fadeInTime = 300f;
-    public float fadeOutTime = 300f;
-
-    public float timerToStartLevel = 2f;
-
     public Transform playButt;
     public Transform levelButt;
     public Transform optionsButt;
@@ -35,22 +20,35 @@ public class PlayButton : MonoBehaviour
     private SpriteRenderer[] quitButtSprites = new SpriteRenderer[6];
     private SpriteRenderer[,] cubesSprites = new SpriteRenderer[16, 6];
 
+    public float cubesRiseSpeed = 200f;
+    public float camMoveSpeed = 200f;
+    public float camRotationSpeed = 200f;
+    public float minCamMoveSpeed = 30f;
+    public float minCamRotationSpeed = 2f;
+    public float buttonsRiseSpeed = 100f;
+    public float cubesReplacementSpeed = 300f;
+    public float fadeInTime = 300f;
+    public float fadeOutTime = 300f;
+    public float timerToStartLevel = 2f;
+    public bool goUp = false;
+
+
     private Color[] spritesColor = new Color[6];
+    private Transform cam;
+    private Vector3 lookPos;
+    private Quaternion rotation;
 
     private float initPos;
     private float newPos;
     private float angle = 90f;
-    private bool goUp = false;
-    private bool playWasPressed = false;
+
+    public bool playWasPressed = false;
     public bool play = false;
     public bool noMorePlayingAround = false;
-
     private bool buttonGone = false;
     private bool spritesChanged = false;
     private bool cubesInPlace = false;
-    private Transform cam;
-    private Vector3 lookPos;
-    private Quaternion rotation;
+
     private float acceleration = 100;
     private float acceleration2 = 100;
     private float acceleration3 = 100;
@@ -61,7 +59,6 @@ public class PlayButton : MonoBehaviour
 
     private void Start()
     {
-        Cursor.visible = true;
         initPos = transform.position.y;
         newPos = initPos + 32;
         cam = Camera.main.transform;
@@ -74,14 +71,14 @@ public class PlayButton : MonoBehaviour
         initButtonsRiseSpeed = buttonsRiseSpeed;
         buttonsRiseSpeed = 0.5f;
     }
-    public void OnMouseOver()
+    /*public void OnMouseOver()
     {
         if (play == false) goUp = true;
     }
     private void OnMouseDown()
     {
         playWasPressed = true;
-    }
+    }*/
 
     private void Update()
     {
@@ -174,7 +171,7 @@ public class PlayButton : MonoBehaviour
         GetSprites();
         if (buttonGone == false)
         {
-            for (int i = 0; i < playButtSprites.Length; i++)
+            for (int i = 0; i < playButtSprites.Length - 1; i++)
             {
                 spritesColor[i] = playButtSprites[i].color;
 
@@ -223,11 +220,6 @@ public class PlayButton : MonoBehaviour
 
             cubesSprites[i, 5] = cubesForReplacement[i].Find("light").GetComponent<SpriteRenderer>();
         }
-    }
-
-    private void CubesAlphaDown()
-    {
-
     }
 
     private void CubesAlphaUp()

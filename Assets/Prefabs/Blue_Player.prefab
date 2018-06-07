@@ -73,7 +73,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1290805478507150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 144, y: 48, z: -32}
+  m_LocalPosition: {x: 112, y: 48, z: -160}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4766828419996016}
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1290805478507150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0292a022a48d94e498220148e5d61c7f, type: 3}
   m_Name: 
@@ -233,8 +233,10 @@ MonoBehaviour:
   stopSpeed: 50
   myRigidBody: {fileID: 54456061609699100}
   portalDestination: {fileID: 0}
+  portalWalls: {fileID: 1027325077500470, guid: 4de007b047a3af247b52c66143470301,
+    type: 2}
   canvas: {fileID: 0}
-  characterStopsOnPortal: 1
+  characterStopsOnPortal: 0
   activeHorizontal: 0
   activeVertical: 0
   onPortal: 0

@@ -333,10 +333,9 @@ public class SpawnScript : MonoBehaviour
                 blueIntensity += 0.05f;
             }
         }
-
-        if (blueSpriteColor.a >= 0.7) portalsInPlace = true;
         if (blueSpriteColor.a >= 1)
         {
+            portalsInPlace = true;
             portalSpawnTimer = 0;
         }
     }
