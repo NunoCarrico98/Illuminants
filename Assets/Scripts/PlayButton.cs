@@ -80,7 +80,7 @@ public class PlayButton : MonoBehaviour
         playWasPressed = true;
     }*/
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (playWasPressed == true /*&& cubesInPlace == false*/)
         {
@@ -114,9 +114,12 @@ public class PlayButton : MonoBehaviour
 
     private void CameraRotate()
     {
+        //Move the camera to the in-game playing position
         cam.position = Vector3.MoveTowards(cam.position, new Vector3(0, 677, -508), camMoveSpeed * Time.deltaTime);
         //cam.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * camRotationSpeed);
-        if (angle >= 60)
+
+        //Rotate the camera to the in-game playing angle
+        if (angle > 60)
         {
             angle -= camRotationSpeed / 100;
             if (angle < 60) angle = 60;
@@ -133,8 +136,8 @@ public class PlayButton : MonoBehaviour
         {
             camRotationSpeed -= camRotationSpeed / acceleration;
         }
-        if (acceleration > 50) acceleration -= 0.5f;
-        if (acceleration > 20 && acceleration <= 50) acceleration -= 1;
+        if (acceleration > 50) acceleration -= 1f;
+        if (acceleration > 20 && acceleration <= 50) acceleration -= 0.5f;
 
         if ((cam.position.x == 0 && cam.position.y == 677 && cam.position.z == -508) && angle == 60)
         {

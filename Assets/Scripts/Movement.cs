@@ -114,8 +114,14 @@ public class Movement : MonoBehaviour
             isGoingSideways = false;
         }
 
-        LockOnPortal();
-        if (spawnScript.charactersInPlace)
+        if (portalDestination != null)
+        {
+            LockOnPortal();
+        }
+
+        if (spawnScript.charactersInPlace
+            && portalWalls != null
+            && transform.GetChild(0).GetComponent<SpriteRenderer>().enabled == true)
         {
             IncreaseIntensity();
         }
@@ -271,7 +277,10 @@ public class Movement : MonoBehaviour
                     && myRigidBody.transform.position.z == portalDestination.transform.position.z)
                 {
                     onPortal = true;
-                    LightPrison();
+                    if (transform.GetChild(0).GetComponent<SpriteRenderer>().enabled == true)
+                    {
+                        LightPrison();
+                    }
                 }
             }
         }

@@ -795,55 +795,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9971db486e803004ab8ec2362a60eef3, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &98649324
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 98649326}
-  - component: {fileID: 98649325}
-  m_Layer: 0
-  m_Name: CanvasCenterPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &98649325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 98649324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f25cac30e0456a44d85065d0358ffcf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  myGO: {fileID: 98649324}
-  speed: 10
-  timer: 0.5
-  isCanvasRotating: 0
---- !u!4 &98649326
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 98649324}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -128}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1219579033}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &99185616 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
@@ -1379,7 +1330,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4328134114595806, guid: 2263358801305934c94a22dfa10bf535, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4328134114595806, guid: 2263358801305934c94a22dfa10bf535, type: 2}
       propertyPath: m_LocalScale.z
@@ -2750,7 +2701,7 @@ Transform:
   - {fileID: 1079614283}
   - {fileID: 1825358296}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &470934026
 Prefab:
@@ -3211,13 +3162,12 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 205923578}
+      objectReference: {fileID: 0}
     - target: {fileID: 114311306610078984, guid: 40287ccadd4cdc845856ed0a637ed431,
         type: 2}
       propertyPath: portalWalls
       value: 
-      objectReference: {fileID: 1604139821852888, guid: 6ce686f674a595643a41f5c5a4165688,
-        type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40287ccadd4cdc845856ed0a637ed431, type: 2}
   m_IsPrefabParent: 0
@@ -6361,13 +6311,12 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 205923578}
+      objectReference: {fileID: 0}
     - target: {fileID: 114955824537167270, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0,
         type: 2}
       propertyPath: portalWalls
       value: 
-      objectReference: {fileID: 1027325077500470, guid: 4de007b047a3af247b52c66143470301,
-        type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1fd835f22b9b69b4a9590d7ceed0b0e0, type: 2}
   m_IsPrefabParent: 0
@@ -6987,87 +6936,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
     type: 2}
   m_PrefabInternal: {fileID: 1106088812}
---- !u!1 &1219579032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1219579033}
-  - component: {fileID: 1219579036}
-  - component: {fileID: 1219579035}
-  - component: {fileID: 1219579034}
-  m_Layer: 0
-  m_Name: cam2
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1219579033
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219579032}
-  m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 165, z: -86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 98649326}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
---- !u!81 &1219579034
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219579032}
-  m_Enabled: 1
---- !u!124 &1219579035
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219579032}
-  m_Enabled: 1
---- !u!20 &1219579036
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219579032}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 148.94952
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1 &1226006836 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1953363627623564, guid: ebb9da5e36a545d428ee6800927733eb,
@@ -9430,7 +9298,12 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 205923578}
+      objectReference: {fileID: 0}
+    - target: {fileID: 114856773371247066, guid: ac1d1a254eb1993469471e9d012087ea,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac1d1a254eb1993469471e9d012087ea, type: 2}
   m_IsPrefabParent: 0
@@ -11377,7 +11250,12 @@ Prefab:
         type: 2}
       propertyPath: portalDestination
       value: 
-      objectReference: {fileID: 205923578}
+      objectReference: {fileID: 0}
+    - target: {fileID: 114189845804892456, guid: 53f3270cbc73a374687a03dd363e5562,
+        type: 2}
+      propertyPath: portalWalls
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53f3270cbc73a374687a03dd363e5562, type: 2}
   m_IsPrefabParent: 0
