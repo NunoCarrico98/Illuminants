@@ -354,7 +354,7 @@ public class Movement : MonoBehaviour
 
             if (done || !onPortal)
             {
-                if (reason >= 0)
+                if (reason > 0)
                 {
                     reason -= prisonSpeed / 5;
                 }
@@ -392,7 +392,7 @@ public class Movement : MonoBehaviour
 
         if (done)
         {
-            if (reason >= 0)
+            if (reason > 0)
             {
                 reason -= prisonSpeed/2;
             }
