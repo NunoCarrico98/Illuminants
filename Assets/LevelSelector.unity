@@ -39538,6 +39538,32 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114635368346149618, guid: 5c06ae05459ecdc4d9532fdeb97040bb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -164
+      objectReference: {fileID: 0}
+    - target: {fileID: 212724345201727116, guid: 5c06ae05459ecdc4d9532fdeb97040bb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
   m_IsPrefabParent: 0
@@ -40103,6 +40129,11 @@ Prefab:
     - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114443959756090886, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -47384,7 +47415,7 @@ MonoBehaviour:
   fadeInTime: 20
   fadeOutTime: 10
   timerToStartLevel: 0.5
-  unlockedLevels: 20
+  unlockedLevels: 15
   unlockLevelsForTesting: 0
   newSpritesForTop: {fileID: 21300002, guid: 1f0b56f915cea40459fab152536c876e, type: 3}
   newSpritesForLight: {fileID: 21300004, guid: 1f0b56f915cea40459fab152536c876e, type: 3}

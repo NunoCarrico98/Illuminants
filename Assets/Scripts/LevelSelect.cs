@@ -46,7 +46,6 @@ public class LevelSelect : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        buttonNumber = 1;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         cam = Camera.main.transform;
@@ -59,6 +58,7 @@ public class LevelSelect : MonoBehaviour
 
 
         if (unlockLevelsForTesting) NextLevel.unlockedLevels = unlockedLevels;
+        buttonNumber = NextLevel.unlockedLevels;
 
         for (int i = 0; i < NextLevel.unlockedLevels; i++)
         {
@@ -71,15 +71,16 @@ public class LevelSelect : MonoBehaviour
     void Update()
     {
         RiseCube();
-
         if (!play)
         {
             CheckInput();
         }
+
     }
 
     private void FixedUpdate()
     {
+
         if (play)
         {
             CameraRotate();
@@ -202,16 +203,15 @@ public class LevelSelect : MonoBehaviour
     private void CheckInput()
     {
 
-        if (Input.anyKey)
-        {
-            Debug.Log(buttonNumber);
-        }
-
         if (Input.GetKey(KeyCode.Return))
         {
             play = true;
         }
 
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
 
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
         {
@@ -265,7 +265,7 @@ public class LevelSelect : MonoBehaviour
 
             if (buttonNumber == NextLevel.unlockedLevels + 1)
             {
-                if(NextLevel.unlockedLevels == 81)
+                if (NextLevel.unlockedLevels == 81)
                 {
                     buttonNumber = 1;
                 }

@@ -7,11 +7,12 @@ public class MenuManager : MonoBehaviour
 {
 
     public Transform playButton;
-    public Transform levelsButton;
     public Transform optionsButton;
+    public Transform creditsButton;
     public Transform quitButton;
+    public bool resetLevels = false;
 
-    private bool firstTrigger = false;
+    private int firstTrigger = 0;
     private bool allow = true;
     private int buttonNumber = 0;
 
@@ -21,7 +22,19 @@ public class MenuManager : MonoBehaviour
         buttonNumber = 0;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        //Reset saved levels
+        if (resetLevels == true)
+        {
+            PlayerPrefs.SetInt("UnlockedLevels", 0);
+            PlayerPrefs.SetInt("FirstTrigger", 0);
+        }
+
+        //Load unlocked levels stored in player's computer data
         NextLevel.unlockedLevels = PlayerPrefs.GetInt("UnlockedLevels");
+        //Use a variable to check if it's the first time the player hits "Play"
+        firstTrigger = PlayerPrefs.GetInt("FirstTrigger");
+
         if (NextLevel.unlockedLevels == 0) NextLevel.unlockedLevels = 1;
     }
 
@@ -42,38 +55,45 @@ public class MenuManager : MonoBehaviour
                 case 0:
                     playButton.GetComponent<PlayButton>().goUp = true;
 
-                    levelsButton.GetComponent<MenuMouseScript>().goUp = false;
+                    creditsButton.GetComponent<MenuMouseScript>().goUp = false;
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
 
                     if (Input.GetKeyDown(KeyCode.Return))
                     {
-                        playButton.GetComponent<PlayButton>().playWasPressed = true;
+                        if (firstTrigger == 0)
+                        {
+                            playButton.GetComponent<PlayButton>().playWasPressed = true;
+                            PlayerPrefs.SetInt("FirstTrigger", 1);
+                        }
+                        else
+                        {
+                            SceneManager.LoadScene("LevelSelector");
+                        }
                     }
-                    break;
-
-                //LEVELS
-                case 1:
-                    levelsButton.GetComponent<MenuMouseScript>().goUp = true;
-
-                    playButton.GetComponent<PlayButton>().goUp = false;
-                    optionsButton.GetComponent<MenuMouseScript>().goUp = false;
-                    quitButton.GetComponent<QuitButton>().goUp = false;
-                    if (Input.GetKeyDown(KeyCode.Return))
-                    {
-                        SceneManager.LoadScene("LevelSelector");
-                    }
-
                     break;
 
                 //OPTIONS
-                case 2:
+                case 1:
                     optionsButton.GetComponent<MenuMouseScript>().goUp = true;
 
                     playButton.GetComponent<PlayButton>().goUp = false;
-                    levelsButton.GetComponent<MenuMouseScript>().goUp = false;
+                    creditsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
 
+                    if (Input.GetKeyDown(KeyCode.Return))
+                    {
+                        SceneManager.LoadScene("OptionsMenu");
+                    }
+                        break;
+
+                //CREDITS
+                case 2:
+                    creditsButton.GetComponent<MenuMouseScript>().goUp = true;
+
+                    playButton.GetComponent<PlayButton>().goUp = false;
+                    optionsButton.GetComponent<MenuMouseScript>().goUp = false;
+                    quitButton.GetComponent<QuitButton>().goUp = false;
                     break;
 
                 //QUIT
@@ -81,7 +101,7 @@ public class MenuManager : MonoBehaviour
                     quitButton.GetComponent<QuitButton>().goUp = true;
 
                     playButton.GetComponent<PlayButton>().goUp = false;
-                    levelsButton.GetComponent<MenuMouseScript>().goUp = false;
+                    creditsButton.GetComponent<MenuMouseScript>().goUp = false;
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
 
                     if (Input.GetKeyDown(KeyCode.Return))

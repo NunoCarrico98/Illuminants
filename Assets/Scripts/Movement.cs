@@ -114,11 +114,6 @@ public class Movement : MonoBehaviour
             isGoingSideways = false;
         }
 
-        if (portalDestination != null)
-        {
-            LockOnPortal();
-        }
-
         if (spawnScript.charactersInPlace
             && portalWalls != null
             && transform.GetChild(0).GetComponent<SpriteRenderer>().enabled == true)
@@ -127,6 +122,14 @@ public class Movement : MonoBehaviour
         }
 
         lastPos = transform.position;
+    }
+
+    private void FixedUpdate()
+    {
+        if (portalDestination != null)
+        {
+            LockOnPortal();
+        }
     }
 
     void Move()

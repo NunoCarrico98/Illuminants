@@ -75,6 +75,7 @@ public class PlayButton : MonoBehaviour
         sprites = new SpriteRenderer[newCubes.childCount];
         spritesColor = new Color[newCubes.childCount];
     }
+
     /*public void OnMouseOver()
     {
         if (play == false) goUp = true;

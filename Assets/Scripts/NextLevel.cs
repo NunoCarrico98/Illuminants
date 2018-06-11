@@ -20,6 +20,7 @@ public class NextLevel : MonoBehaviour
     private Transform greenPortal;
     private Transform bluePortal;
 
+    private int counter = 0;
     private int currentSceneNumber;
 
     private void Start()
@@ -27,6 +28,7 @@ public class NextLevel : MonoBehaviour
         redPortal = GameObject.FindGameObjectWithTag("RedPortal").transform;
         greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
         bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
+        counter = 0;
     }
 
     private void Update()
@@ -65,9 +67,10 @@ public class NextLevel : MonoBehaviour
                 new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
 
             //Unlock next level on the Level Select
-            if (unlockedLevels < 80)
+            if (unlockedLevels < 81 && counter == 0)
             {
                 unlockedLevels++;
+                counter++;
                 PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
             }
         }

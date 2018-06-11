@@ -13,6 +13,14 @@ TextureImporter:
     21300012: NewButtons_6
     21300014: NewButtons_7
     21300016: NewButtons_8
+    21300018: NewButtons_9
+    21300020: NewButtons_10
+    21300022: NewButtons_11
+    21300024: NewButtons_12
+    21300026: NewButtons_13
+    21300028: NewButtons_14
+    21300030: NewButtons_15
+    21300032: NewButtons_16
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -50,8 +58,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -143,7 +151,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2560
+        y: 5120
         width: 1600
         height: 320
       alignment: 0
@@ -157,7 +165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2240
+        y: 4800
         width: 1600
         height: 320
       alignment: 0
@@ -171,7 +179,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1920
+        y: 4480
         width: 1600
         height: 320
       alignment: 0
@@ -185,7 +193,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1600
+        y: 4160
         width: 1600
         height: 320
       alignment: 0
@@ -199,7 +207,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
+        y: 3840
         width: 1600
         height: 320
       alignment: 0
@@ -213,7 +221,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
+        y: 3520
         width: 1600
         height: 320
       alignment: 0
@@ -227,7 +235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 640
+        y: 3200
         width: 1600
         height: 320
       alignment: 0
@@ -241,7 +249,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
+        y: 2880
         width: 1600
         height: 320
       alignment: 0
@@ -252,6 +260,118 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: NewButtons_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 1600
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NewButtons_16
       rect:
         serializedVersion: 2
         x: 0

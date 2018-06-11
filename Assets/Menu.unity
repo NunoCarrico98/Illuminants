@@ -38725,6 +38725,27 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 212724345201727116, guid: 5c06ae05459ecdc4d9532fdeb97040bb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516793694877576, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -164
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
   m_IsPrefabParent: 0
@@ -39882,9 +39903,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 907826474}
-  levelsButton: {fileID: 1045609222}
-  optionsButton: {fileID: 2094685626}
+  optionsButton: {fileID: 1045609222}
+  creditsButton: {fileID: 2094685626}
   quitButton: {fileID: 1284049989}
+  resetLevels: 0
 --- !u!4 &1637054891
 Transform:
   m_ObjectHideFlags: 0
