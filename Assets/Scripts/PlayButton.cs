@@ -32,8 +32,9 @@ public class PlayButton : MonoBehaviour
     public float timerToStartLevel = 2f;
     public bool goUp = false;
 
-
-    private Color[] spritesColor = new Color[6];
+    private SpriteRenderer[] sprites;
+    private Color[] spritesColor;
+    private Transform newCubes;
     private Transform cam;
     private Vector3 lookPos;
     private Quaternion rotation;
@@ -70,6 +71,9 @@ public class PlayButton : MonoBehaviour
 
         initButtonsRiseSpeed = buttonsRiseSpeed;
         buttonsRiseSpeed = 0.5f;
+        newCubes = GameObject.Find("NewCubes").transform;
+        sprites = new SpriteRenderer[newCubes.childCount];
+        spritesColor = new Color[newCubes.childCount];
     }
     /*public void OnMouseOver()
     {
@@ -96,7 +100,8 @@ public class PlayButton : MonoBehaviour
         {
             Cursor.visible = false;
             CameraRotate();
-            ChangeButtonsForCubes();
+            EnableNewCubes();
+            //ChangeButtonsForCubes();
         }
 
         if (goUp == true)
@@ -109,6 +114,18 @@ public class PlayButton : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position,
                 new Vector3(transform.position.x, initPos, transform.position.z), cubesRiseSpeed * Time.deltaTime);
+        }
+    }
+
+    private void EnableNewCubes()
+    {
+        for (int i = 0; i < newCubes.childCount; i++)
+        {
+            sprites[i] = newCubes.GetChild(i).GetComponent<SpriteRenderer>();
+            spritesColor[i] = sprites[i].color;
+            spritesColor[i].a += fadeInTime / 1000;
+            sprites[i].color = spritesColor[i];
+            if (i == newCubes.childCount - 1) cubesInPlace = true;
         }
     }
 
@@ -148,7 +165,7 @@ public class PlayButton : MonoBehaviour
                 {
                     noMorePlayingAround = true;
                 }
-                if (timerToStartLevel <= 0) SceneManager.LoadScene("Level1");
+                if (timerToStartLevel <= 0) SceneManager.LoadScene("Level" + NextLevel.unlockedLevels);
             }
         }
     }

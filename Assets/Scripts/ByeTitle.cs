@@ -19,7 +19,7 @@ public class ByeTitle : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		
         if(playButton.play == true)
         {
@@ -31,14 +31,14 @@ public class ByeTitle : MonoBehaviour {
     private void FadeOutTitle()
     {
         titleSprite.color = color;
-        color.a -= fadeOutTime/100;
+        color.a -= fadeOutTime/1000;
     }
 
     private void FadeOutLights()
     {
         for(int i = 0; i < lights.Length; i++)
         {
-            lights[i].intensity -= fadeOutTime / 50;
+            lights[i].intensity -= fadeOutTime / 500;
         }
     }
 }

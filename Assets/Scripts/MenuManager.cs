@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class MenuManager : MonoBehaviour
         buttonNumber = 0;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        NextLevel.unlockedLevels = PlayerPrefs.GetInt("UnlockedLevels");
+        if (NextLevel.unlockedLevels == 0) NextLevel.unlockedLevels = 1;
     }
 
     // Update is called once per frame
@@ -56,6 +59,10 @@ public class MenuManager : MonoBehaviour
                     playButton.GetComponent<PlayButton>().goUp = false;
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
+                    if (Input.GetKeyDown(KeyCode.Return))
+                    {
+                        SceneManager.LoadScene("LevelSelector");
+                    }
 
                     break;
 

@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 223071814617069254}
   - component: {fileID: 114794322117894764}
   - component: {fileID: 114391905723025720}
-  - component: {fileID: 114022739403678310}
+  - component: {fileID: 114443959756090886}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -64,20 +64,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &114022739403678310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1709602233687466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75458e5d151ccae48a1c10087c61dbde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popUpTime: 0
-  fadeInTime: 4
-  fadeOutTime: 4
 --- !u!114 &114391905723025720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,6 +80,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114443959756090886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709602233687466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75458e5d151ccae48a1c10087c61dbde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popUpTime: 0.1
+  fadeInTime: 1
+  fadeOutTime: 0.5
 --- !u!114 &114493706358333386
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -5,18 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
+    public static int unlockedLevels = 1;
+
     public bool activeFinalAnims = false;
     public Rigidbody myRigidBody_Red;
     public Rigidbody myRigidBody_Green;
     public Rigidbody myRigidBody_Blue;
     public float timerToChangeLevel = 4f;
-    public bool playTransitionAnim = false;
+    public bool playTransitionAnim = false;  //Check this boolean as true in Inspector to test this level's ending animations
     public float timeBetweenTransitions = 1f;
     public string loadLevel;
 
     private Transform redPortal;
     private Transform greenPortal;
     private Transform bluePortal;
+
+    private int currentSceneNumber;
 
     private void Start()
     {
@@ -60,7 +64,12 @@ public class NextLevel : MonoBehaviour
             myRigidBody_Blue.position = Vector3.MoveTowards(myRigidBody_Blue.position,
                 new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
 
-
+            //Unlock next level on the Level Select
+            if (unlockedLevels < 80)
+            {
+                unlockedLevels++;
+                PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
+            }
         }
         if(activeFinalAnims == true && playTransitionAnim == false)
         {
@@ -68,9 +77,12 @@ public class NextLevel : MonoBehaviour
             if (timerToChangeLevel <= 0)
             {
                 activeFinalAnims = false;
+
+                //Load next level
                 SceneManager.LoadScene(loadLevel);
             }
         }
+
         if (playTransitionAnim == true)
         {
             activeFinalAnims = true;

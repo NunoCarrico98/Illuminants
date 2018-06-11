@@ -9,16 +9,16 @@ public class MenuMouseScript : MonoBehaviour
     private Transform playButt;
     private float initPos;
     private float newPos;
-    private bool play = false;
-    private bool noMorePlayingAround = false;
+    //private bool play = false;
+    //private bool noMorePlayingAround = false;
 
     private void Start()
     {
         initPos = transform.position.y;
         newPos = initPos + 32;
-        playButt = GameObject.Find("Line (5)").transform.Find("MyCube (5)");
-        play = playButt.GetComponent<PlayButton>().play;
-        noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
+        //playButt = GameObject.Find("Line (5)").transform.Find("MyCube (5)");
+        //play = playButt.GetComponent<PlayButton>().play;
+        //noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
     }
     /*public void OnMouseOver()
     {
@@ -27,9 +27,9 @@ public class MenuMouseScript : MonoBehaviour
 
     private void Update()
     {
-        noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
+        //noMorePlayingAround = playButt.GetComponent<PlayButton>().noMorePlayingAround;
 
-        if (goUp == true && noMorePlayingAround == false)
+        if (goUp == true /*&& noMorePlayingAround == false*/)
         {
             transform.position = Vector3.MoveTowards(transform.position,
                 new Vector3(transform.position.x, newPos, transform.position.z), cubesRiseSpeed * Time.deltaTime);
