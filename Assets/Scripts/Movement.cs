@@ -121,6 +121,7 @@ public class Movement : MonoBehaviour
             IncreaseIntensity();
         }
 
+
         lastPos = transform.position;
     }
 
@@ -130,6 +131,7 @@ public class Movement : MonoBehaviour
         {
             LockOnPortal();
         }
+
     }
 
     void Move()
@@ -306,43 +308,6 @@ public class Movement : MonoBehaviour
     {
         if (!characterStopsOnPortal)
         {
-            /*if (onPortal)
-            {
-                portalDestination.transform.GetChild(0).GetChild(2).GetComponent<Light>().intensity = intensity + 2;
-                portalDestination.transform.GetChild(0).GetChild(2).GetComponent<Light>().range = range;
-                activateIntensity = true;
-            }
-            if (activateIntensity)
-            {
-                if (portalDestination.name == "Portal_Blue")
-                {
-                    if (intensity < 1)
-                    {
-
-                        intensity += 0.1f;
-                        range += 4.5f;
-                    }
-                    if (intensity >= 1) activateIntensity = false;
-                }
-                if (portalDestination.name != "Portal_Blue")
-                {
-                    if (intensity < 3)
-                    {
-                        intensity += 0.2f;
-                        range += 3;
-                    }
-                    if (intensity >= 3) activateIntensity = false;
-                }
-            }
-            if (activateIntensity == false || nextLevel.activeFinalAnims)
-            {
-                if (intensity > 0)
-                {
-                    intensity -= 0.2f;
-                    range -= 3;
-                }
-            }*/
-
             if (counter == 0)
             {
                 newPortalWalls = Instantiate(portalWalls, portalDestination.transform.position, canvas.transform.rotation, portalDestination.transform);
@@ -363,7 +328,7 @@ public class Movement : MonoBehaviour
                 }
                 if (reason < 0) reason = 0;
             }
-            if(!done && onPortal)
+            if (!done && onPortal)
             {
                 if (reason < 0.4f)
                 {
@@ -372,8 +337,6 @@ public class Movement : MonoBehaviour
                 if (reason > 0.4f) reason = 0.4f;
             }
             newPortalWalls.transform.localScale = new Vector3(1, reason, 1);
-
-
         }
     }
 
@@ -386,8 +349,8 @@ public class Movement : MonoBehaviour
             counter++;
         }
 
-        if (nextLevel.activeFinalAnims 
-            && (newPortalWalls.transform.localScale == new Vector3(1, 1, 1) 
+        if (nextLevel.activeFinalAnims
+            && (newPortalWalls.transform.localScale == new Vector3(1, 1, 1)
             || newPortalWalls.transform.localScale == new Vector3(1, 1, 1)))
         {
             done = true;
@@ -397,7 +360,7 @@ public class Movement : MonoBehaviour
         {
             if (reason > 0)
             {
-                reason -= prisonSpeed/2;
+                reason -= prisonSpeed / 2;
             }
             if (reason < 0) reason = 0;
         }
@@ -405,7 +368,7 @@ public class Movement : MonoBehaviour
         {
             if (reason < 1)
             {
-                reason += prisonSpeed/2;
+                reason += prisonSpeed / 2;
             }
             if (reason > 1) reason = 1;
         }

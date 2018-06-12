@@ -52951,7 +52951,8 @@ AudioSource:
   m_GameObject: {fileID: 2134486911}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 213896034b841a643b8c9f5a70c41def,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 0866d0d9edd00f54297a41f29b43690f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
@@ -53010,7 +53011,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:

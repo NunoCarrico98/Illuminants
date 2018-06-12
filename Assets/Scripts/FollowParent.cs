@@ -25,11 +25,30 @@ public class FollowParent : MonoBehaviour
         //sprite = transform.Find("Face").GetComponent<SpriteRenderer>();
         //if (sprite.enabled == false)
         //{
-        if (blend.isWhite == false || rewind.isRewinding)
+        if ((blend.isWhite == false
+            && blend.isMagent == false
+            && blend.isYellow == false
+            && blend.isCyan == false) || rewind.isRewinding)
         {
             newParent = parent;
         }
-        else
+
+        /*if (blend.isMagent && !rewind.isRewinding)
+        {
+            newParent = GameObject.Find("Magent_Player");
+        }
+
+        if (blend.isYellow && !rewind.isRewinding)
+        {
+            newParent = GameObject.Find("Yellow_Player");
+        }
+
+        if (blend.isCyan && !rewind.isRewinding)
+        {
+            newParent = GameObject.Find("Cyan_Player");
+        }*/
+
+        if (blend.isWhite && !rewind.isRewinding)
         {
             newParent = GameObject.Find("Whitey_Player");
         }

@@ -104,7 +104,10 @@ public class PlayButton : MonoBehaviour
             EnableNewCubes();
             //ChangeButtonsForCubes();
         }
+    }
 
+    private void Update()
+    {
         if (goUp == true)
         {
             transform.position = Vector3.MoveTowards(transform.position,

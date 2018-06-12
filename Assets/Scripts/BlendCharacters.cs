@@ -7,6 +7,10 @@ public class BlendCharacters : MonoBehaviour
 
     public static int playerBlended = 0;
     public GameObject[] characters = new GameObject[7];
+
+    public bool isMagent = false;
+    public bool isYellow = false;
+    public bool isCyan = false;
     public bool isWhite = false;
 
 
@@ -50,8 +54,11 @@ public class BlendCharacters : MonoBehaviour
             VerifyPositions();
         }
 
-        if(isRewinding)
+        if (isRewinding)
         {
+            isMagent = false;
+            isYellow = false;
+            isCyan = false;
             isWhite = false;
         }
     }
@@ -130,64 +137,76 @@ public class BlendCharacters : MonoBehaviour
         }
     }
 
-        private void DontBlend()
-        {
-            ahrSprite.enabled = true;
-            geeSprite.enabled = true;
-            beeSprite.enabled = true;
-            magentSprite.enabled = false;
-            yellowSprite.enabled = false;
-            cyanSprite.enabled = false;
-            whiteySprite.enabled = false;
-            isBlended = false;
-            isWhite = false;
-        }
-
-        private void BlendMagent()
-        {
-            magentSprite.enabled = true;
-            ahrSprite.enabled = false;
-            beeSprite.enabled = false;
-            isBlended = true;
-            isWhite = false;
-
-            if (playerBlended == 0) playerBlended++;
-        }
-
-        private void BlendYellow()
-        {
-            yellowSprite.enabled = true;
-            ahrSprite.enabled = false;
-            geeSprite.enabled = false;
-            isBlended = true;
-            isWhite = false;
-
-            if (playerBlended == 0) playerBlended++;
-        }
-
-        private void BlendCyan()
-        {
-            cyanSprite.enabled = true;
-            beeSprite.enabled = false;
-            geeSprite.enabled = false;
-            isBlended = true;
-            isWhite = false;
-
-            if (playerBlended == 0) playerBlended++;
-        }
-
-        private void BlendWhitey()
-        {
-            whiteySprite.enabled = true;
-            ahrSprite.enabled = false;
-            geeSprite.enabled = false;
-            beeSprite.enabled = false;
-            magentSprite.enabled = false;
-            yellowSprite.enabled = false;
-            cyanSprite.enabled = false;
-            isBlended = true;
-            isWhite = true;
-
-            if (playerBlended == 0) playerBlended++;
-        }
+    private void DontBlend()
+    {
+        ahrSprite.enabled = true;
+        geeSprite.enabled = true;
+        beeSprite.enabled = true;
+        magentSprite.enabled = false;
+        yellowSprite.enabled = false;
+        cyanSprite.enabled = false;
+        whiteySprite.enabled = false;
+        isBlended = false;
+        isMagent = false;
+        isYellow = false;
+        isCyan = false;
+        isWhite = false;
     }
+
+    private void BlendMagent()
+    {
+        magentSprite.enabled = true;
+        ahrSprite.enabled = false;
+        beeSprite.enabled = false;
+        isBlended = true;
+        isMagent = true;
+        isYellow = false;
+        isCyan = false;
+        isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
+    }
+
+    private void BlendYellow()
+    {
+        yellowSprite.enabled = true;
+        ahrSprite.enabled = false;
+        geeSprite.enabled = false;
+        isBlended = true;
+        isMagent = false;
+        isYellow = true;
+        isCyan = false;
+        isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
+    }
+
+    private void BlendCyan()
+    {
+        cyanSprite.enabled = true;
+        beeSprite.enabled = false;
+        geeSprite.enabled = false;
+        isBlended = true;
+        isMagent = false;
+        isYellow = false;
+        isCyan = true;
+        isWhite = false;
+
+        if (playerBlended == 0) playerBlended++;
+    }
+
+    private void BlendWhitey()
+    {
+        whiteySprite.enabled = true;
+        ahrSprite.enabled = false;
+        geeSprite.enabled = false;
+        beeSprite.enabled = false;
+        magentSprite.enabled = false;
+        yellowSprite.enabled = false;
+        cyanSprite.enabled = false;
+        isBlended = true;
+        isWhite = true;
+
+        if (playerBlended == 0) playerBlended++;
+    }
+}

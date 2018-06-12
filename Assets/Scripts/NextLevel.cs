@@ -67,7 +67,7 @@ public class NextLevel : MonoBehaviour
                 new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
 
             //Unlock next level on the Level Select
-            if (unlockedLevels < 81 && counter == 0)
+            if (unlockedLevels < 25 && counter == 0)
             {
                 unlockedLevels++;
                 counter++;

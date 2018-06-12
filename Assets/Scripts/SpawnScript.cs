@@ -38,6 +38,7 @@ public class SpawnScript : MonoBehaviour
     public bool charactersInPlace = false;
     public bool portalsGone = false;
     public bool bifrostActive = false;
+    private int bifrostCounter = 0;
 
     private float timer = 0;
     private float redPortalInitHeight;
@@ -140,6 +141,16 @@ public class SpawnScript : MonoBehaviour
 
         //Inicial intensity goes to a variable called initIntensity
         initIntensity = redPortalLight.intensity;
+
+        if(initIntensity == 0)
+        {
+            initIntensity = greenPortalLight.intensity;
+        }
+
+        if (initIntensity == 0)
+        {
+            initIntensity = bluePortalLight.intensity;
+        }
 
         //Portals and spawn points inicial light's intensity is set to 0
         redPortalLight.intensity = 0;
@@ -251,10 +262,24 @@ public class SpawnScript : MonoBehaviour
 
     private void ActiveBifrost()
     {
+        int counter = 0;
         bifrostActive = true;
-        redBifrost.position = new Vector3(redChar.position.x, redBifrost.position.y, redChar.position.z);
-        greenBifrost.position = new Vector3(greenChar.position.x, greenBifrost.position.y, greenChar.position.z);
-        blueBifrost.position = new Vector3(blueChar.position.x, blueBifrost.position.y, blueChar.position.z);
+
+        if (!activeFinalAnims)
+        {
+            redBifrost.position = new Vector3(redChar.position.x, redBifrost.position.y, redChar.position.z);
+            greenBifrost.position = new Vector3(greenChar.position.x, greenBifrost.position.y, greenChar.position.z);
+            blueBifrost.position = new Vector3(blueChar.position.x, blueBifrost.position.y, blueChar.position.z);
+            bifrostCounter = 1;
+            counter = 1;
+        }
+
+        if(activeFinalAnims)
+        {
+            redBifrost.position = new Vector3(redPortal.position.x, redBifrost.position.y, redPortal.position.z);
+            greenBifrost.position = new Vector3(greenPortal.position.x, greenBifrost.position.y, greenPortal.position.z);
+            blueBifrost.position = new Vector3(bluePortal.position.x, blueBifrost.position.y, bluePortal.position.z);
+        }
 
         if (adder <= 32)
         {
@@ -351,6 +376,7 @@ public class SpawnScript : MonoBehaviour
             spriteRed.color = redSpriteColor;
             spriteRSP.color = redSpriteColor;
             spriteRSP2.color = redSpriteColor;
+
 
             //Change light's intensity
             redPortalLight.intensity = redIntensity;
@@ -487,7 +513,6 @@ public class SpawnScript : MonoBehaviour
 
     private void CharactersGoToHeaven()
     {
-        //if (timer >= 0.1)
 
         //Move the players to this position
         characters.position = Vector3.MoveTowards(characters.position,

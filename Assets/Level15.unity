@@ -9547,6 +9547,9 @@ MonoBehaviour:
   - {fileID: 614982112}
   - {fileID: 2059224134}
   - {fileID: 190024121}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &1662913955
 MonoBehaviour:
@@ -9567,7 +9570,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Menu
+  loadLevel: Level16
 --- !u!4 &1668275209 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,
