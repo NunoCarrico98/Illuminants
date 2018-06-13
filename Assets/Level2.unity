@@ -2606,6 +2606,9 @@ MonoBehaviour:
   - {fileID: 2105452415}
   - {fileID: 2005780416}
   - {fileID: 1676040971}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &476004899
 MonoBehaviour:

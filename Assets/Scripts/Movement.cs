@@ -306,7 +306,7 @@ public class Movement : MonoBehaviour
 
     private void IncreaseIntensity()
     {
-        if (!characterStopsOnPortal)
+        if (!characterStopsOnPortal && portalDestination != null)
         {
             if (counter == 0)
             {

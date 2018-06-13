@@ -5,7 +5,6 @@ using UnityEngine;
 public class BlendCharacters : MonoBehaviour
 {
 
-    public static int playerBlended = 0;
     public GameObject[] characters = new GameObject[7];
 
     public bool isMagent = false;
@@ -40,6 +39,9 @@ public class BlendCharacters : MonoBehaviour
         yellowSprite = yellow.transform.Find("Face").GetComponent<SpriteRenderer>();
         cyanSprite = cyan.transform.Find("Face").GetComponent<SpriteRenderer>();
         whiteySprite = whitey.transform.Find("Face").GetComponent<SpriteRenderer>();
+
+
+        PlayerPrefs.GetInt("FirstBlend", 0);
 
     }
 
@@ -164,7 +166,7 @@ public class BlendCharacters : MonoBehaviour
         isCyan = false;
         isWhite = false;
 
-        if (playerBlended == 0) playerBlended++;
+        if (PlayerPrefs.GetInt("FirstBlend") == 0) PlayerPrefs.SetInt("FirstBlend", 1);
     }
 
     private void BlendYellow()
@@ -178,7 +180,7 @@ public class BlendCharacters : MonoBehaviour
         isCyan = false;
         isWhite = false;
 
-        if (playerBlended == 0) playerBlended++;
+        if (PlayerPrefs.GetInt("FirstBlend") == 0) PlayerPrefs.SetInt("FirstBlend", 1);
     }
 
     private void BlendCyan()
@@ -192,7 +194,7 @@ public class BlendCharacters : MonoBehaviour
         isCyan = true;
         isWhite = false;
 
-        if (playerBlended == 0) playerBlended++;
+        if (PlayerPrefs.GetInt("FirstBlend") == 0) PlayerPrefs.SetInt("FirstBlend", 1);
     }
 
     private void BlendWhitey()
@@ -207,6 +209,6 @@ public class BlendCharacters : MonoBehaviour
         isBlended = true;
         isWhite = true;
 
-        if (playerBlended == 0) playerBlended++;
+        if (PlayerPrefs.GetInt("FirstBlend") == 0) PlayerPrefs.SetInt("FirstBlend", 1);
     }
 }

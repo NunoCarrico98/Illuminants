@@ -28,6 +28,7 @@ public class MenuManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("UnlockedLevels", 0);
             PlayerPrefs.SetInt("FirstTrigger", 0);
+            PlayerPrefs.SetInt("FirstBlend", 0);
         }
 
         //Load unlocked levels stored in player's computer data

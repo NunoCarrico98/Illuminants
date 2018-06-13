@@ -9726,7 +9726,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Menu
+  loadLevel: Level19
 --- !u!4 &1668275209 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,

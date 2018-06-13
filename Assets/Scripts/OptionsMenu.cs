@@ -392,7 +392,8 @@ public class OptionsMenu : MonoBehaviour
     {
         PlayerPrefs.SetInt("UnlockedLevels", 0);
         PlayerPrefs.SetInt("FirstTrigger", 0);
-        PlayerPrefs.SetInt("Volume", 12);
+                    PlayerPrefs.SetInt("FirstBlend", 0);
+        PlayerPrefs.SetInt("Volume", 11);
         volumeNumber = PlayerPrefs.GetInt("Volume");
     }
 }

@@ -59,12 +59,15 @@ public class NextLevel : MonoBehaviour
             myRigidBody_Green.velocity = new Vector3(0, 0, 0);
             myRigidBody_Blue.velocity = new Vector3(0, 0, 0);
 
-            myRigidBody_Red.position = Vector3.MoveTowards(myRigidBody_Red.position, 
-                new Vector3(redPortal.position.x, myRigidBody_Red.position.y, redPortal.position.z), 50 * Time.deltaTime);
-            myRigidBody_Green.position = Vector3.MoveTowards(myRigidBody_Green.position,
-                new Vector3(greenPortal.position.x, myRigidBody_Green.position.y, greenPortal.position.z), 50 * Time.deltaTime);
-            myRigidBody_Blue.position = Vector3.MoveTowards(myRigidBody_Blue.position,
-                new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
+            if (redPortal != null && greenPortal != null && bluePortal != null)
+            {
+                myRigidBody_Red.position = Vector3.MoveTowards(myRigidBody_Red.position,
+                    new Vector3(redPortal.position.x, myRigidBody_Red.position.y, redPortal.position.z), 50 * Time.deltaTime);
+                myRigidBody_Green.position = Vector3.MoveTowards(myRigidBody_Green.position,
+                    new Vector3(greenPortal.position.x, myRigidBody_Green.position.y, greenPortal.position.z), 50 * Time.deltaTime);
+                myRigidBody_Blue.position = Vector3.MoveTowards(myRigidBody_Blue.position,
+                    new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
+            }
 
             //Unlock next level on the Level Select
             if (unlockedLevels < 25 && counter == 0)

@@ -24,15 +24,22 @@ public class FirstBlendPopUp : MonoBehaviour
         sColor = sprite.color;
         sColor.a = 0;
         sprite.color = sColor;
+
+        if (PlayerPrefs.GetInt("FirstBlend") == 2)
+        {
+            sprite.enabled = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (BlendCharacters.playerBlended == 1)
+        if (PlayerPrefs.GetInt("FirstBlend") == 1)
         {
             PopUp();
         }
+
+        if (Input.GetKeyDown(KeyCode.Return)) Debug.Log(PlayerPrefs.GetInt("FirstBlend"));
     }
 
     private void PopUp()
@@ -43,7 +50,7 @@ public class FirstBlendPopUp : MonoBehaviour
         {
             //Time.timeScale = 1f;
             sprite.enabled = true;
-            if(!goAway) FadeEffect();
+            if (!goAway) FadeEffect();
 
             if (Input.GetKeyUp(KeyCode.Space) || FindObjectOfType<NextLevel>().activeFinalAnims)
             {
@@ -84,7 +91,7 @@ public class FirstBlendPopUp : MonoBehaviour
             {
                 //Time.timeScale = 1f;
                 sprite.enabled = false;
-                BlendCharacters.playerBlended = 2;
+                PlayerPrefs.SetInt("FirstBlend", 2);
             }
         }
 

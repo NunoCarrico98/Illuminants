@@ -45,6 +45,7 @@ public class SpawnScript : MonoBehaviour
     private float greenPortalInitHeight;
     private float bluePortalInitHeight;
     private bool activeFinalAnims;
+    private bool destroyed = false;
 
     private SpriteRenderer spriteRed;
     private SpriteRenderer spriteGreen;
@@ -183,6 +184,7 @@ public class SpawnScript : MonoBehaviour
         greenChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
         blueChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
 
+        destroyed = false;
     }
 
     // Update is called once per frame
@@ -262,7 +264,6 @@ public class SpawnScript : MonoBehaviour
 
     private void ActiveBifrost()
     {
-        int counter = 0;
         bifrostActive = true;
 
         if (!activeFinalAnims)
@@ -271,7 +272,6 @@ public class SpawnScript : MonoBehaviour
             greenBifrost.position = new Vector3(greenChar.position.x, greenBifrost.position.y, greenChar.position.z);
             blueBifrost.position = new Vector3(blueChar.position.x, blueBifrost.position.y, blueChar.position.z);
             bifrostCounter = 1;
-            counter = 1;
         }
 
         if(activeFinalAnims)
@@ -367,52 +367,62 @@ public class SpawnScript : MonoBehaviour
 
     private void FadeOutPortals()
     {
-        portalSpawnTimer += Time.deltaTime;
-        if (portalSpawnTimer >= redPortalTimer)
+        if (!portalsGone)
         {
-            //Change sprite's opacity
-            redSpriteColor = spriteRed.color;
-            redSpriteColor.a -= fadeInTime / 100;
-            spriteRed.color = redSpriteColor;
-            spriteRSP.color = redSpriteColor;
-            spriteRSP2.color = redSpriteColor;
+            portalSpawnTimer += Time.deltaTime;
+            if (portalSpawnTimer >= redPortalTimer)
+            {
+                //Change sprite's opacity
+                redSpriteColor = spriteRed.color;
+                redSpriteColor.a -= fadeInTime / 100;
+                spriteRed.color = redSpriteColor;
+                spriteRSP.color = redSpriteColor;
+                spriteRSP2.color = redSpriteColor;
 
 
-            //Change light's intensity
-            redPortalLight.intensity = redIntensity;
-            redSPLight.intensity = redIntensity;
-            redIntensity -= 0.05f;
+                //Change light's intensity
+                redPortalLight.intensity = redIntensity;
+                redSPLight.intensity = redIntensity;
+                redIntensity -= 0.05f;
+            }
+            if (portalSpawnTimer >= greenPortalTimer)
+            {
+                //Change sprite's opacity
+                greenSpriteColor = spriteGreen.color;
+                greenSpriteColor.a -= fadeInTime / 100;
+                spriteGreen.color = greenSpriteColor;
+                spriteGSP.color = greenSpriteColor;
+                spriteGSP2.color = greenSpriteColor;
+
+                //Change light's intensity
+                greenPortalLight.intensity = greenIntensity;
+                greenSPLight.intensity = greenIntensity;
+                greenIntensity -= 0.05f;
+            }
+            if (portalSpawnTimer >= bluePortalTimer)
+            {
+                //Change sprite's opacity
+                blueSpriteColor = spriteBlue.color;
+                blueSpriteColor.a -= fadeInTime / 100;
+                spriteBlue.color = blueSpriteColor;
+                spriteBSP.color = blueSpriteColor;
+                spriteBSP2.color = blueSpriteColor;
+
+                //Change light's intensity
+                bluePortalLight.intensity = blueIntensity;
+                blueSPLight.intensity = blueIntensity;
+                blueIntensity -= 0.05f;
+            }
         }
-        if (portalSpawnTimer >= greenPortalTimer)
-        {
-            //Change sprite's opacity
-            greenSpriteColor = spriteGreen.color;
-            greenSpriteColor.a -= fadeInTime / 100;
-            spriteGreen.color = greenSpriteColor;
-            spriteGSP.color = greenSpriteColor;
-            spriteGSP2.color = greenSpriteColor;
-
-            //Change light's intensity
-            greenPortalLight.intensity = greenIntensity;
-            greenSPLight.intensity = greenIntensity;
-            greenIntensity -= 0.05f;
-        }
-        if (portalSpawnTimer >= bluePortalTimer)
-        {
-            //Change sprite's opacity
-            blueSpriteColor = spriteBlue.color;
-            blueSpriteColor.a -= fadeInTime / 100;
-            spriteBlue.color = blueSpriteColor;
-            spriteBSP.color = blueSpriteColor;
-            spriteBSP2.color = blueSpriteColor;
-
-            //Change light's intensity
-            bluePortalLight.intensity = blueIntensity;
-            blueSPLight.intensity = blueIntensity;
-            blueIntensity -= 0.05f;
-        }
-
         if (blueSpriteColor.a <= 0) portalsGone = true;
+
+        if(portalsGone && !destroyed)
+        {
+            Destroy(redPortal.gameObject);
+            Destroy(greenPortal.gameObject);
+            Destroy(bluePortal.gameObject);
+            destroyed = true;
+        }
     }
 
     private void TransparentPortals()
