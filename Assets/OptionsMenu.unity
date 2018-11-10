@@ -15991,6 +15991,9 @@ MonoBehaviour:
   - {fileID: 890694337}
   - {fileID: 1766383463}
   - {fileID: 1975287130}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &508472154
 MonoBehaviour:
@@ -16011,7 +16014,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Level2
+  loadLevel: OptionsMenu
 --- !u!1 &511390876
 GameObject:
   m_ObjectHideFlags: 0

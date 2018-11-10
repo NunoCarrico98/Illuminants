@@ -38,7 +38,7 @@ public class FirstBlendPopUp : MonoBehaviour
         {
             PopUp();
         }
-
+        //Press Enter to check if FirstBlend's value
         if (Input.GetKeyDown(KeyCode.Return)) Debug.Log(PlayerPrefs.GetInt("FirstBlend"));
     }
 

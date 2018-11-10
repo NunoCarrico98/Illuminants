@@ -17385,7 +17385,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Level2
+  loadLevel: SelectionLevels
 --- !u!1 &511390876
 GameObject:
   m_ObjectHideFlags: 0

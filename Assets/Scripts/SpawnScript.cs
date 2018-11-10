@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnScript : MonoBehaviour
 {
@@ -81,6 +82,8 @@ public class SpawnScript : MonoBehaviour
     private Transform greenChar;
     private Transform blueChar;
     private bool charactersInHeaven = false;
+
+    private GameObject levelNumberObject;
 
     public float fadeInTime = 2f;
 
@@ -184,15 +187,23 @@ public class SpawnScript : MonoBehaviour
         greenChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
         blueChar.Find("Face").GetComponent<SpriteRenderer>().sortingOrder = 10;
 
+        levelNumberObject = GameObject.Find("LevelNumber");
+
         destroyed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        levelNumberObject.GetComponent<GetLevelNumber>().LevelNumber();
+
+        levelNumberObject.GetComponent<GetLevelNumber>().StartAnimation();
+
         activeFinalAnims = characters.GetComponent<NextLevel>().activeFinalAnims;
+
         if (activeFinalAnims == false && objectsInPlace == false)
         {
+            
             beginSpawnTimer -= Time.deltaTime;
             if (beginSpawnTimer <= 0)
             {
