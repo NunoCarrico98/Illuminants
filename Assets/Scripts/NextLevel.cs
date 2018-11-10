@@ -55,7 +55,7 @@ public class NextLevel : MonoBehaviour
         {
             activeFinalAnims = true;
 
-            myRigidBody_Red.velocity = new Vector3(0,0,0);
+            myRigidBody_Red.velocity = new Vector3(0, 0, 0);
             myRigidBody_Green.velocity = new Vector3(0, 0, 0);
             myRigidBody_Blue.velocity = new Vector3(0, 0, 0);
 
@@ -77,7 +77,7 @@ public class NextLevel : MonoBehaviour
                 PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
             }
         }
-        if(activeFinalAnims == true && playTransitionAnim == false)
+        if (activeFinalAnims == true && playTransitionAnim == false)
         {
             timerToChangeLevel -= Time.deltaTime;
             if (timerToChangeLevel <= 0)

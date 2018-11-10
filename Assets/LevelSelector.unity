@@ -17362,6 +17362,9 @@ MonoBehaviour:
   - {fileID: 890694337}
   - {fileID: 1766383463}
   - {fileID: 1975287130}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &508472154
 MonoBehaviour:
@@ -40134,6 +40137,19 @@ Prefab:
     - target: {fileID: 114443959756090886, guid: 5e74a90fb3fee26489a08c4adf6c7618,
         type: 2}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114794322117894764, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709602233687466, guid: 5e74a90fb3fee26489a08c4adf6c7618, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580199329779968, guid: 5e74a90fb3fee26489a08c4adf6c7618, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
