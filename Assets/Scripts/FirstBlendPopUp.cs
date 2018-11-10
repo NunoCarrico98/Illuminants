@@ -20,14 +20,17 @@ public class FirstBlendPopUp : MonoBehaviour
     void Start()
     {
         spaceButton = GameObject.FindGameObjectWithTag("SpaceButton");
-        sprite = spaceButton.GetComponent<SpriteRenderer>();
-        sColor = sprite.color;
-        sColor.a = 0;
-        sprite.color = sColor;
-
-        if (PlayerPrefs.GetInt("FirstBlend") == 2)
+        if (spaceButton != null)
         {
-            sprite.enabled = false;
+            sprite = spaceButton.GetComponent<SpriteRenderer>();
+            sColor = sprite.color;
+            sColor.a = 0;
+            sprite.color = sColor;
+
+            if (PlayerPrefs.GetInt("FirstBlend") == 2)
+            {
+                sprite.enabled = false;
+            }
         }
     }
 
@@ -49,14 +52,17 @@ public class FirstBlendPopUp : MonoBehaviour
         if (timer >= popUpTime)
         {
             //Time.timeScale = 1f;
-            sprite.enabled = true;
-            if (!goAway) FadeEffect();
-
-            if (Input.GetKeyUp(KeyCode.Space) || FindObjectOfType<NextLevel>().activeFinalAnims)
+            if (spaceButton != null)
             {
-                goAway = true;
+                sprite.enabled = true;
+                if (!goAway) FadeEffect();
+
+                if (Input.GetKeyUp(KeyCode.Space) || FindObjectOfType<NextLevel>().activeFinalAnims)
+                {
+                    goAway = true;
+                }
+                if (goAway) StopPopUp();
             }
-            if (goAway) StopPopUp();
         }
     }
 

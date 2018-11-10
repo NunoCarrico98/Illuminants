@@ -6281,6 +6281,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdc5982fc93ffb549b1f818cb0aaf8ed, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1053252263 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1052045165113902, guid: 5c06ae05459ecdc4d9532fdeb97040bb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1366128675}
+--- !u!95 &1053252265
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053252263}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 501b9a4cccd1c0e4a87f95e3a219d5a2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1055703838
 Prefab:
   m_ObjectHideFlags: 0
@@ -8022,6 +8044,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4519785195666614, guid: 5c06ae05459ecdc4d9532fdeb97040bb, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212788834533102740, guid: 5c06ae05459ecdc4d9532fdeb97040bb,
+        type: 2}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9768,7 +9795,7 @@ MonoBehaviour:
   timerToChangeLevel: 4.2
   playTransitionAnim: 0
   timeBetweenTransitions: 1.8
-  loadLevel: Menu
+  loadLevel: Level22
 --- !u!4 &1668275209 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4307189471650208, guid: 9971db486e803004ab8ec2362a60eef3,

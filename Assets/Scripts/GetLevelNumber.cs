@@ -8,10 +8,11 @@ public class GetLevelNumber : MonoBehaviour
 
     [SerializeField] private Sprite[] sprites;
 
+    internal int levelNumber;
+
     private Image imageComponent;
     private string sceneName;
     private string fiveFirstLetters;
-    private int levelNumber;
     private float timerToChangeLevel;
     private float animationTime;
     private float timeToStartAnim = 1;

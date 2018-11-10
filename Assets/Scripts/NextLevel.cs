@@ -21,6 +21,7 @@ public class NextLevel : MonoBehaviour
     private Transform bluePortal;
 
     private int counter = 0;
+    private int maxLevelsInCurrentBuild;
     private int currentSceneNumber;
 
     private void Start()
@@ -29,6 +30,8 @@ public class NextLevel : MonoBehaviour
         greenPortal = GameObject.FindGameObjectWithTag("GreenPortal").transform;
         bluePortal = GameObject.FindGameObjectWithTag("BluePortal").transform;
         counter = 0;
+
+        maxLevelsInCurrentBuild = GameObject.Find("GameManager").GetComponent<GameManagement>().maxNumberOfLevels;
     }
 
     private void Update()
@@ -69,23 +72,36 @@ public class NextLevel : MonoBehaviour
                     new Vector3(bluePortal.position.x, myRigidBody_Blue.position.y, bluePortal.position.z), 50 * Time.deltaTime);
             }
 
-            //Unlock next level on the Level Select
-            if (unlockedLevels < 21 && counter == 0)
+            if (GameObject.Find("GameManager").GetComponent<GameManagement>().currentLevel
+                != GameObject.Find("GameManager").GetComponent<GameManagement>().maxNumberOfLevels + 1)
             {
-                unlockedLevels++;
-                counter++;
-                PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
+
+                //Unlock next level on the Level Select except if player has reached the last level
+                if (unlockedLevels < maxLevelsInCurrentBuild && counter == 0)
+                {
+                    unlockedLevels++;
+                    counter++;
+                    PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
+                }
             }
         }
+
         if (activeFinalAnims == true && playTransitionAnim == false)
         {
             timerToChangeLevel -= Time.deltaTime;
             if (timerToChangeLevel <= 0)
             {
                 activeFinalAnims = false;
-
-                //Load next level
-                SceneManager.LoadScene(loadLevel);
+                if (GameObject.Find("GameManager").GetComponent<GameManagement>().currentLevel
+                    != GameObject.Find("GameManager").GetComponent<GameManagement>().maxNumberOfLevels + 1)
+                {
+                    //Load next level
+                    SceneManager.LoadScene(loadLevel);
+                }
+                else
+                {
+                    SceneManager.LoadScene("CreditsScene");
+                }
             }
         }
 

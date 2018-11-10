@@ -12199,6 +12199,9 @@ MonoBehaviour:
   - {fileID: 1784428680}
   - {fileID: 1545155314}
   - {fileID: 251243228}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &2133338416
 MonoBehaviour:

@@ -83,7 +83,6 @@ public class OptionsMenu : MonoBehaviour
     {
         CheckInput();
         RiseVolume();
-
     }
 
     private void FixedUpdate()

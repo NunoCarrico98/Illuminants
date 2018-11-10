@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public static bool toCreditsFromMenu;
 
     public Transform playButton;
     public Transform optionsButton;
@@ -95,6 +96,12 @@ public class MenuManager : MonoBehaviour
                     playButton.GetComponent<PlayButton>().goUp = false;
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
+
+                    if (Input.GetKeyDown(KeyCode.Return))
+                    {
+                        toCreditsFromMenu = true;
+                        SceneManager.LoadScene("CreditsScene");
+                    }
                     break;
 
                 //QUIT
