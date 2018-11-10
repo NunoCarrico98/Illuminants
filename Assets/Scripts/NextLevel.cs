@@ -70,7 +70,7 @@ public class NextLevel : MonoBehaviour
             }
 
             //Unlock next level on the Level Select
-            if (unlockedLevels < 25 && counter == 0)
+            if (unlockedLevels < 21 && counter == 0)
             {
                 unlockedLevels++;
                 counter++;
