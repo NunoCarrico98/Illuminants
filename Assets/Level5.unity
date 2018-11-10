@@ -1997,6 +1997,106 @@ Transform:
   m_PrefabParentObject: {fileID: 4428433963543720, guid: ac1d1a254eb1993469471e9d012087ea,
     type: 2}
   m_PrefabInternal: {fileID: 1680415048}
+--- !u!1001 &368581458
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224314549583533446, guid: 5e74a90fb3fee26489a08c4adf6c7618,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5e74a90fb3fee26489a08c4adf6c7618, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &375929331
 Prefab:
   m_ObjectHideFlags: 0
@@ -3055,6 +3155,9 @@ MonoBehaviour:
   - {fileID: 890694337}
   - {fileID: 1766383463}
   - {fileID: 1975287130}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &508472154
 MonoBehaviour:

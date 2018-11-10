@@ -14,6 +14,8 @@ public class CubeController : MonoBehaviour
 
     public static bool cubesInPlace = false;
 
+    internal bool reset = false;
+
     private float height;
     private float initHeight;
     private int firstCheck = 0;
@@ -29,7 +31,6 @@ public class CubeController : MonoBehaviour
     private float timeBetweenTransitions;
     private float resetTransitionTimer;
     private int resetRepsNum;
-    private bool reset = false;
     private bool noReps = false;
     private bool up = true;
     private bool down = false;

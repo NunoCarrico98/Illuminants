@@ -6815,6 +6815,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 212141910093403714, guid: 07a453f1cea134f4e9ad30e2e3df3c6f,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07a453f1cea134f4e9ad30e2e3df3c6f, type: 2}
   m_IsPrefabParent: 0
@@ -7429,6 +7434,9 @@ MonoBehaviour:
   - {fileID: 874846876}
   - {fileID: 49827505}
   - {fileID: 1601889372}
+  isMagent: 0
+  isYellow: 0
+  isCyan: 0
   isWhite: 0
 --- !u!114 &1343060720
 MonoBehaviour:

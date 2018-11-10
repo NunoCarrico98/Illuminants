@@ -20,6 +20,7 @@ TagManager:
   - Bifrosts
   - CubeSheet
   - SpaceButton
+  - UI
   layers:
   - Default
   - TransparentFX

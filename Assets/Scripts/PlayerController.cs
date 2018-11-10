@@ -24,10 +24,6 @@ public class PlayerController : MonoBehaviour
         //}
     }
 
-    private void FixedUpdate()
-    {
-    }
-
     private void TurnToCamera()
     {
         transform.rotation = Quaternion.AngleAxis(Camera.main.transform.rotation.y, Vector3.up);
