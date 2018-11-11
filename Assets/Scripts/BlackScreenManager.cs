@@ -29,6 +29,5 @@ public class BlackScreenManager : MonoBehaviour
     public void PlayAnimation()
     {
         GetComponent<Animator>().SetTrigger("Fade");
-        Debug.Log("Worked2");
     }
 }

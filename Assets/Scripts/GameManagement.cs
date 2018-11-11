@@ -23,7 +23,14 @@ public class GameManagement : MonoBehaviour
     {
         if(CreditsManager.firstVerification)
         {
-            MenuManager.toCreditsFromMenu = false;
+            if (SceneManager.GetActiveScene().name == "Menu")
+            {
+                MenuManager.toCreditsFromMenu = true;
+            }
+            else
+            {
+                MenuManager.toCreditsFromMenu = false;
+            }
         }
         activeFinalAnims = GameObject.FindGameObjectWithTag("Characters").GetComponent<NextLevel>().activeFinalAnims;
         currentLevel = GameObject.Find("LevelNumber").GetComponent<GetLevelNumber>().levelNumber;

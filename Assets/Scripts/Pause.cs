@@ -11,34 +11,37 @@ public class Pause : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetKeyDown(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().name != "Menu")
         {
-            int counter = 0;
-
-            if (!isPaused)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                isPaused = true;
-                transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
-                Time.timeScale = 0f;
-                counter++;
+                int counter = 0;
+
+                if (!isPaused)
+                {
+                    isPaused = true;
+                    transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+                    Time.timeScale = 0f;
+                    counter++;
+                }
+
+                if (isPaused && counter == 0)
+                {
+                    transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
+                    Time.timeScale = 1f;
+                    isPaused = false;
+                }
             }
 
-            if(isPaused && counter == 0)
+            if (Input.GetKeyDown(KeyCode.Return))
             {
-                transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
-                Time.timeScale = 1f;
-                isPaused = false;
-            }
-        }
 
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-
-            if (isPaused)
-            {
-                isPaused = false;
-                Time.timeScale = 1f;
-                SceneManager.LoadScene("Menu");
+                if (isPaused)
+                {
+                    isPaused = false;
+                    Time.timeScale = 1f;
+                    SceneManager.LoadScene("Menu");
+                }
             }
         }
     }
