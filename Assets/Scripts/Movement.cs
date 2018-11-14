@@ -136,9 +136,12 @@ public class Movement : MonoBehaviour
 
     void Move()
     {
-        //Movement with WASD or Arrows v2
 
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) && stop == false && isCanvasRotating == false)
+        //Movement with WASD or Arrows v2
+        if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)
+            || Input.GetAxis("LeftJoystickVertical") >= 0.8
+            || Input.GetAxis("ArrowsVertical") >= 0.8) 
+            && stop == false && isCanvasRotating == false)
         {
             moving = true;
 
@@ -154,7 +157,9 @@ public class Movement : MonoBehaviour
         {
             v3 += Vector3.forward * 32;
 
-            if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)) slowing = true;
+            if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)
+                || (Input.GetAxis("LeftJoystickVertical") < 0.8
+                && Input.GetAxis("ArrowsVertical") < 0.8)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -169,7 +174,10 @@ public class Movement : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow) && stop == false && isCanvasRotating == false)
+        if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)
+            || Input.GetAxis("LeftJoystickVertical") <= -0.8
+            || Input.GetAxis("ArrowsVertical") <= -0.8)
+            && stop == false && isCanvasRotating == false)
         {
             moving = true;
 
@@ -184,7 +192,9 @@ public class Movement : MonoBehaviour
         {
             v3 += Vector3.back * 32;
 
-            if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)) slowing = true;
+            if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)
+                || (Input.GetAxis("LeftJoystickVertical") > -0.8
+                && Input.GetAxis("ArrowsVertical") > -0.8)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -198,7 +208,10 @@ public class Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) && stop == false && isCanvasRotating == false)
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)
+            || Input.GetAxis("LeftJoystickHorizontal") <= -0.8
+            || Input.GetAxis("ArrowsHorizontal") <= -0.8)
+                && stop == false && isCanvasRotating == false)
         {
             moving = true;
 
@@ -213,7 +226,9 @@ public class Movement : MonoBehaviour
         {
             v3 += Vector3.left * 32;
 
-            if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)) slowing = true;
+            if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)
+                || (Input.GetAxis("LeftJoystickHorizontal") > -0.8
+                && Input.GetAxis("ArrowsHorizontal") > -0.8)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -227,7 +242,10 @@ public class Movement : MonoBehaviour
             }
         }
 
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) && stop == false && isCanvasRotating == false)
+        else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)
+            || Input.GetAxis("LeftJoystickHorizontal") >= 0.8
+            || Input.GetAxis("ArrowsHorizontal") >= 0.8)
+                && stop == false && isCanvasRotating == false)
         {
             moving = true;
 
@@ -242,7 +260,9 @@ public class Movement : MonoBehaviour
         {
             v3 += Vector3.right * 32;
 
-            if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)) slowing = true;
+            if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)
+                || (Input.GetAxis("LeftJoystickHorizontal") < 0.8
+                && Input.GetAxis("ArrowsHorizontal") < 0.8)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;

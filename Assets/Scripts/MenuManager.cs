@@ -15,7 +15,11 @@ public class MenuManager : MonoBehaviour
 
     private int firstTrigger = 0;
     private bool allow = true;
+    private bool hasPressed = false;
+    private bool hasPressed2 = false;
     private int buttonNumber = 0;
+    private float counter = 0;
+    private float counter2 = 0;
 
     // Use this for initialization
     void Start()
@@ -61,7 +65,7 @@ public class MenuManager : MonoBehaviour
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
 
-                    if (Input.GetKeyDown(KeyCode.Return))
+                    if (Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
                     {
                         if (firstTrigger == 0)
                         {
@@ -83,11 +87,11 @@ public class MenuManager : MonoBehaviour
                     creditsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
 
-                    if (Input.GetKeyDown(KeyCode.Return))
+                    if (Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
                     {
                         SceneManager.LoadScene("OptionsMenu");
                     }
-                        break;
+                    break;
 
                 //CREDITS
                 case 2:
@@ -97,7 +101,7 @@ public class MenuManager : MonoBehaviour
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
                     quitButton.GetComponent<QuitButton>().goUp = false;
 
-                    if (Input.GetKeyDown(KeyCode.Return))
+                    if (Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
                     {
                         toCreditsFromMenu = true;
                         SceneManager.LoadScene("CreditsScene");
@@ -112,7 +116,7 @@ public class MenuManager : MonoBehaviour
                     creditsButton.GetComponent<MenuMouseScript>().goUp = false;
                     optionsButton.GetComponent<MenuMouseScript>().goUp = false;
 
-                    if (Input.GetKeyDown(KeyCode.Return))
+                    if (Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
                     {
                         quitButton.GetComponent<QuitButton>().quit = true;
                     }
@@ -136,9 +140,37 @@ public class MenuManager : MonoBehaviour
             {
                 buttonNumber = 0;
             }
-
-
         }
+
+        if ((Input.GetAxis("LeftJoystickVertical") <= -0.8
+            || Input.GetAxis("ArrowsVertical") <= -0.8) && (!hasPressed || counter > 12f))
+        {
+            hasPressed = true;
+            counter = 0;
+
+            if (buttonNumber < 4)
+            {
+                buttonNumber++;
+            }
+
+            if (buttonNumber == 4)
+            {
+                buttonNumber = 0;
+            }
+        }
+
+        if (Input.GetAxis("LeftJoystickVertical") > -0.8
+                && Input.GetAxis("ArrowsVertical") > -0.8)
+        {
+            hasPressed = false;
+        }
+
+        if (hasPressed)
+        {
+            counter++;
+        }
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
 
@@ -151,6 +183,33 @@ public class MenuManager : MonoBehaviour
                 buttonNumber = 3;
             }
 
+        }
+
+        if ((Input.GetAxis("LeftJoystickVertical") >= 0.8
+        || Input.GetAxis("ArrowsVertical") >= 0.8) && (!hasPressed2 || counter2 > 12f))
+        {
+            hasPressed2 = true;
+            counter2 = 0;
+
+            if (buttonNumber > -1)
+            {
+                buttonNumber--;
+            }
+            if (buttonNumber == -1)
+            {
+                buttonNumber = 3;
+            }
+        }
+
+        if (Input.GetAxis("LeftJoystickVertical") < 0.8
+                && Input.GetAxis("ArrowsVertical") < 0.8)
+        {
+            hasPressed2 = false;
+        }
+
+        if (hasPressed2)
+        {
+            counter2++;
         }
     }
 }

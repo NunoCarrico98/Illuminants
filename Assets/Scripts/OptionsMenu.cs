@@ -39,6 +39,14 @@ public class OptionsMenu : MonoBehaviour
     private float acceleration = 100;
     private float initPos;
     private float[] newPos;
+    private bool hasPressed = false;
+    private bool hasPressed2 = false;
+    private bool hasPressed3 = false;
+    private bool hasPressed4 = false;
+    private float counter1 = 0;
+    private float counter2 = 0;
+    private float counter3 = 0;
+    private float counter4 = 0;
 
 
 
@@ -285,7 +293,8 @@ public class OptionsMenu : MonoBehaviour
         {
             PlayerPrefs.SetInt("Volume", volumeNumber);
 
-            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Escape)
+                || Input.GetButtonDown("AButton") || Input.GetButtonDown("BButton"))
             {
                 changeVolume = false;
                 buttonNumber = 1;
@@ -293,7 +302,8 @@ public class OptionsMenu : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Return) && counter == 0)
+        if ((Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
+            && counter == 0)
         {
             if (buttonNumber == 1 && !changeVolume)
             {
@@ -321,7 +331,8 @@ public class OptionsMenu : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && counter == 0)
+        if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("BButton"))
+            && counter == 0)
         {
             int counter2 = 0;
 
@@ -344,6 +355,7 @@ public class OptionsMenu : MonoBehaviour
 
             if (!changeVolume)
             {
+                //Down
                 if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
                 {
                     buttonNumber++;
@@ -351,10 +363,55 @@ public class OptionsMenu : MonoBehaviour
 
                 }
 
+
+                if ((Input.GetAxis("LeftJoystickVertical") <= -0.8
+                    || Input.GetAxis("ArrowsVertical") <= -0.8) && (!hasPressed || counter1 > 12f))
+                {
+                    hasPressed = true;
+                    counter1 = 0;
+
+                    buttonNumber++;
+                    if (buttonNumber > 2) buttonNumber = 1;
+
+                }
+
+                if (Input.GetAxis("LeftJoystickVertical") > -0.8
+                        && Input.GetAxis("ArrowsVertical") > -0.8)
+                {
+                    hasPressed = false;
+                }
+
+                if (hasPressed)
+                {
+                    counter1++;
+                }
+
+                //Up
                 if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
                 {
                     buttonNumber--;
                     if (buttonNumber < 1) buttonNumber = 2;
+                }
+
+                if ((Input.GetAxis("LeftJoystickVertical") >= 0.8
+                    || Input.GetAxis("ArrowsVertical") >= 0.8) && (!hasPressed2 || counter2 > 12f))
+                {
+                    hasPressed2 = true;
+                    counter2 = 0;
+
+                    buttonNumber--;
+                    if (buttonNumber < 1) buttonNumber = 2;
+                }
+
+                if (Input.GetAxis("LeftJoystickVertical") < 0.8
+                        && Input.GetAxis("ArrowsVertical") < 0.8)
+                {
+                    hasPressed2 = false;
+                }
+
+                if (hasPressed2)
+                {
+                    counter2++;
                 }
             }
 
@@ -369,6 +426,31 @@ public class OptionsMenu : MonoBehaviour
 
             }
 
+            if ((Input.GetAxis("LeftJoystickHorizontal") >= 0.8
+                || Input.GetAxis("ArrowsHorizontal") >= 0.8) && (!hasPressed3 || counter3 > 12f))
+            {
+                hasPressed3 = true;
+                counter3 = 0;
+
+                if (changeVolume)
+                {
+                    buttonNumber++;
+                    if (buttonNumber > 11) buttonNumber = 11;
+                }
+            }
+
+            if (Input.GetAxis("LeftJoystickHorizontal") < 0.8
+                    && Input.GetAxis("ArrowsHorizontal") < 0.8)
+            {
+                hasPressed3 = false;
+            }
+
+            if (hasPressed3)
+            {
+                counter3++;
+            }
+
+
             if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             {
                 if (changeVolume)
@@ -376,6 +458,30 @@ public class OptionsMenu : MonoBehaviour
                     buttonNumber--;
                     if (buttonNumber < 3) buttonNumber = 3;
                 }
+            }
+
+            if ((Input.GetAxis("LeftJoystickHorizontal") <= -0.8
+                || Input.GetAxis("ArrowsHorizontal") <= -0.8) && (!hasPressed4 || counter4 > 12f))
+            {
+                hasPressed4 = true;
+                counter4 = 0;
+
+                if (changeVolume)
+                {
+                    buttonNumber--;
+                    if (buttonNumber < 3) buttonNumber = 3;
+                }
+            }
+
+            if (Input.GetAxis("LeftJoystickHorizontal") > -0.8
+                    && Input.GetAxis("ArrowsHorizontal") > -0.8)
+            {
+                hasPressed4 = false;
+            }
+
+            if (hasPressed4)
+            {
+                counter4++;
             }
         }
 

@@ -51,11 +51,11 @@ public class RewindTime : MonoBehaviour
 
         cubesInPlace = CubeController.cubesInPlace;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("AButton"))
         {
             StartRewind();
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("AButton"))
         {
             StopRewind();
         }

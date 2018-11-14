@@ -13,7 +13,7 @@ public class Pause : MonoBehaviour {
 
         if (SceneManager.GetActiveScene().name != "Menu")
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Start"))
             {
                 int counter = 0;
 
@@ -33,7 +33,17 @@ public class Pause : MonoBehaviour {
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Return))
+            if(Input.GetButtonDown("BButton"))
+            {
+                if (isPaused)
+                {
+                    transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
+                    Time.timeScale = 1f;
+                    isPaused = false;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("AButton"))
             {
 
                 if (isPaused)

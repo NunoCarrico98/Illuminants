@@ -38,6 +38,14 @@ public class LevelSelect : MonoBehaviour
     private int buttonNumber = 0;
     private float angle = 90f;
     private float acceleration = 100;
+    private bool hasPressed = false;
+    private bool hasPressed2 = false;
+    private bool hasPressed3 = false;
+    private bool hasPressed4 = false;
+    private float counter = 0;
+    private float counter2 = 0;
+    private float counter3 = 0;
+    private float counter4 = 0;
 
 
     private Transform cam;
@@ -203,12 +211,12 @@ public class LevelSelect : MonoBehaviour
     private void CheckInput()
     {
 
-        if (Input.GetKey(KeyCode.Return))
+        if (Input.GetKey(KeyCode.Return) || Input.GetButton("AButton"))
         {
             play = true;
         }
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape) || Input.GetButton("BButton"))
         {
             SceneManager.LoadScene("Menu");
         }
@@ -233,6 +241,42 @@ public class LevelSelect : MonoBehaviour
             }
         }
 
+        if ((Input.GetAxis("LeftJoystickVertical") <= -0.8
+            || Input.GetAxis("ArrowsVertical") <= -0.8) && (!hasPressed || counter > 12f))
+        {
+            hasPressed = true;
+            counter = 0;
+
+            if (buttonNumber < NextLevel.unlockedLevels + 1)
+            {
+                buttonNumber = buttonNumber + 9;
+            }
+            if (buttonNumber > NextLevel.unlockedLevels)
+            {
+                if (NextLevel.unlockedLevels == 81)
+                {
+                    buttonNumber = 0 + (buttonNumber - NextLevel.unlockedLevels);
+                }
+                else
+                {
+                    buttonNumber = buttonNumber - 9;
+                }
+            }
+        }
+
+        if (Input.GetAxis("LeftJoystickVertical") > -0.8
+                && Input.GetAxis("ArrowsVertical") > -0.8)
+        {
+            hasPressed = false;
+        }
+
+        if (hasPressed)
+        {
+            counter++;
+        }
+
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             if (buttonNumber > 0)
@@ -251,8 +295,44 @@ public class LevelSelect : MonoBehaviour
                     buttonNumber = buttonNumber + 9;
                 }
             }
-
         }
+
+        if ((Input.GetAxis("LeftJoystickVertical") >= 0.8
+            || Input.GetAxis("ArrowsVertical") >= 0.8) && (!hasPressed2 || counter2 > 12f))
+        {
+            hasPressed2 = true;
+            counter2 = 0;
+
+            if (buttonNumber > 0)
+            {
+                buttonNumber = buttonNumber - 9;
+
+            }
+            if (buttonNumber < 1)
+            {
+                if (NextLevel.unlockedLevels == 81)
+                {
+                    buttonNumber = NextLevel.unlockedLevels - (0 - buttonNumber);
+                }
+                else
+                {
+                    buttonNumber = buttonNumber + 9;
+                }
+            }
+        }
+
+        if (Input.GetAxis("LeftJoystickVertical") < 0.8
+                && Input.GetAxis("ArrowsVertical") < 0.8)
+        {
+            hasPressed2 = false;
+        }
+
+        if (hasPressed2)
+        {
+            counter2++;
+        }
+
+
 
         //Left and Right
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
@@ -274,9 +354,43 @@ public class LevelSelect : MonoBehaviour
                     buttonNumber--;
                 }
             }
-
-
         }
+
+        if ((Input.GetAxis("LeftJoystickHorizontal") >= 0.8
+            || Input.GetAxis("ArrowsHorizontal") >= 0.8) && (!hasPressed3 || counter3 > 12f))
+        {
+            hasPressed3 = true;
+            counter3 = 0;
+
+            if (buttonNumber < NextLevel.unlockedLevels + 1)
+            {
+                buttonNumber++;
+            }
+
+            if (buttonNumber == NextLevel.unlockedLevels + 1)
+            {
+                if (NextLevel.unlockedLevels == 81)
+                {
+                    buttonNumber = 1;
+                }
+                else
+                {
+                    buttonNumber--;
+                }
+            }
+        }
+
+        if (Input.GetAxis("LeftJoystickHorizontal") < 0.8
+                && Input.GetAxis("ArrowsHorizontal") < 0.8)
+        {
+            hasPressed3 = false;
+        }
+
+        if (hasPressed3)
+        {
+            counter3++;
+        }
+
 
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
@@ -297,109 +411,41 @@ public class LevelSelect : MonoBehaviour
                     buttonNumber++;
                 }
             }
-
         }
 
-
-
-
-
-        /*if (Input.GetKey(KeyCode.Escape))
+        if ((Input.GetAxis("LeftJoystickHorizontal") <= -0.8
+            || Input.GetAxis("ArrowsHorizontal") <= -0.8) && (!hasPressed4 || counter4 > 12f))
         {
-            SceneManager.LoadScene("Menu");
-        }
-
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-
-            if (buttonNumber < 82)
-            {
-                buttonNumber = buttonNumber + 9;
-
-                if (buttonNumber < 82)
-                {
-                    if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                        buttonNumber = buttonNumber - 9;
-                }
-            }
-
-            if (buttonNumber > 81)
-            {
-                buttonNumber = 0 + (buttonNumber - 81);
-
-                if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                    buttonNumber = buttonNumber + 81 - 9;
-            }
-
-
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-        {
-            if (buttonNumber > 0)
-            {
-                buttonNumber = buttonNumber - 9;
-
-                if (buttonNumber > 0)
-                {
-                    if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                        buttonNumber = buttonNumber + 9;
-                }
-            }
-            if (buttonNumber < 1)
-            {
-                buttonNumber = 81 - (0 - buttonNumber);
-
-                if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                    buttonNumber = (81 - 9 - buttonNumber) * -1;
-            }
-        }
-
-        //Left and Right
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
-        {
-
-            if (buttonNumber < 82)
-            {
-                buttonNumber++;
-
-                if (buttonNumber < 82)
-                {
-                    if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                        buttonNumber--;
-                }
-            }
-
-            if (buttonNumber == 82)
-            {
-                buttonNumber = 1;
-            }
-
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
-        {
+            hasPressed4 = true;
+            counter4 = 0;
 
             if (buttonNumber > 0)
             {
                 buttonNumber--;
 
-                if (buttonNumber > 0)
-                {
-                    if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                        buttonNumber++;
-                }
             }
             if (buttonNumber == 0)
             {
-                buttonNumber = 81;
-
-                if (cubes[buttonNumber - 1].GetChild(0).GetComponent<SpriteRenderer>().sprite.name == "LevelSelector_324")
-                    buttonNumber = 1;
+                if (NextLevel.unlockedLevels == 81)
+                {
+                    buttonNumber = NextLevel.unlockedLevels;
+                }
+                else
+                {
+                    buttonNumber++;
+                }
             }
+        }
 
-        }*/
+        if (Input.GetAxis("LeftJoystickHorizontal") > -0.8
+                && Input.GetAxis("ArrowsHorizontal") > -0.8)
+        {
+            hasPressed4 = false;
+        }
+
+        if (hasPressed4)
+        {
+            counter4++;
+        }
     }
 }

@@ -39,7 +39,8 @@ public class CanvasRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Q) && timer == resetTimer && !Input.anyKey)
+        if ((Input.GetKeyUp(KeyCode.Q) || Input.GetButtonUp("LB") || Input.GetAxis("RightJoystickHorizontal") < -0.8)
+            && timer == resetTimer && !Input.anyKey)
         {
             lookPos = myTransform.position - transform.position;
             lookPos.y = 0;
@@ -52,7 +53,8 @@ public class CanvasRotation : MonoBehaviour
             RotateRight();
 
         }
-        if (Input.GetKeyUp(KeyCode.E) && timer == resetTimer && !Input.anyKey)
+        if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("RB") || Input.GetAxis("RightJoystickHorizontal") > 0.8)
+            && timer == resetTimer && !Input.anyKey)
         {
             lookPos = myTransform.position - transform.position;
             lookPos.y = 0;
