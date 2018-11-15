@@ -158,8 +158,9 @@ public class Movement : MonoBehaviour
             v3 += Vector3.forward * 32;
 
             if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)
-                || (Input.GetAxis("LeftJoystickVertical") < 0.8
-                && Input.GetAxis("ArrowsVertical") < 0.8)) slowing = true;
+                || ((Input.GetAxis("LeftJoystickVertical") < 0.8
+                && Input.GetAxis("ArrowsVertical") < 0.8) 
+                && !Input.anyKey)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -193,8 +194,9 @@ public class Movement : MonoBehaviour
             v3 += Vector3.back * 32;
 
             if (Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)
-                || (Input.GetAxis("LeftJoystickVertical") > -0.8
-                && Input.GetAxis("ArrowsVertical") > -0.8)) slowing = true;
+                || ((Input.GetAxis("LeftJoystickVertical") > -0.8
+                && Input.GetAxis("ArrowsVertical") > -0.8)
+                && !Input.anyKey)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -227,8 +229,9 @@ public class Movement : MonoBehaviour
             v3 += Vector3.left * 32;
 
             if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow)
-                || (Input.GetAxis("LeftJoystickHorizontal") > -0.8
-                && Input.GetAxis("ArrowsHorizontal") > -0.8)) slowing = true;
+                || ((Input.GetAxis("LeftJoystickHorizontal") > -0.8
+                && Input.GetAxis("ArrowsHorizontal") > -0.8)
+                && !Input.anyKey)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;
@@ -261,8 +264,9 @@ public class Movement : MonoBehaviour
             v3 += Vector3.right * 32;
 
             if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow)
-                || (Input.GetAxis("LeftJoystickHorizontal") < 0.8
-                && Input.GetAxis("ArrowsHorizontal") < 0.8)) slowing = true;
+                || ((Input.GetAxis("LeftJoystickHorizontal") < 0.8
+                && Input.GetAxis("ArrowsHorizontal") < 0.8)
+                && !Input.anyKey)) slowing = true;
             if (slowing == true)
             {
                 speed -= stopSpeed * Time.deltaTime;

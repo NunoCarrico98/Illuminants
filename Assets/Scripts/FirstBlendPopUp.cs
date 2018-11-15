@@ -57,7 +57,8 @@ public class FirstBlendPopUp : MonoBehaviour
                 sprite.enabled = true;
                 if (!goAway) FadeEffect();
 
-                if (Input.GetKeyUp(KeyCode.Space) || FindObjectOfType<NextLevel>().activeFinalAnims)
+                if (Input.GetKeyUp(KeyCode.Space) || Input.GetButtonDown("AButton") 
+                    || FindObjectOfType<NextLevel>().activeFinalAnims)
                 {
                     goAway = true;
                 }
